@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBE9E"
+    tools:context=".Home">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/profileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="36dp"
+                android:layout_marginEnd="36dp"
+                android:background="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/profilebutton" />
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@font/londrina_solid"
+                android:letterSpacing="0.05"
+                android:text="ECOEXPLORA"
+                android:textColor="#1B485F"
+                android:textSize="36sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/subtitulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/amaranth"
+                android:text="É um prazer tê-lo aqui (Nome)"
+                android:textColor="#1B455B"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/titulo" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardTop"
+                android:layout_width="339dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="50dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/subtitulo">
+
+                <ImageView
+                    android:id="@+id/fundoTop1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/image1" />
+
+                <ImageButton
+                    android:id="@+id/fundoTop2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.8"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/image2" />
+
+                <TextView
+                    android:id="@+id/textCardTop"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/londrina_solid"
+                    android:text="O que são espécies ameçadas?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/cardTopSeta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:paddingRight="5dp"
+                    android:paddingBottom="5dp"
+                    android:text="➜"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardPlantas"
+                android:layout_width="339dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="35dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardTop">
+
+                <ImageButton
+                    android:id="@+id/imagePlantas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/plantas" />
+
+                <TextView
+                    android:id="@+id/textPlantas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:text="Plantas e Insetos"
+                    android:textColor="#FAD465"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardAnfibios"
+                android:layout_width="147dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="10dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/cardMamiferos"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardPlantas">
+
+                <ImageButton
+                    android:id="@+id/imageAnfibios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/anfibios" />
+
+                <TextView
+                    android:id="@+id/textAnfibios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingTop="5dp"
+                    android:text="Anfíbios"
+                    android:textColor="#FAD465"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardMamiferos"
+                android:layout_width="147dp"
+                android:layout_height="228dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="40dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cardAnfibios"
+                app:layout_constraintTop_toBottomOf="@+id/cardPlantas">
+
+                <ImageButton
+                    android:id="@+id/imageMamiferos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/mamiferos" />
+
+                <TextView
+                    android:id="@+id/textMamiferos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingTop="5dp"
+                    android:text="Mamíferos"
+                    android:textColor="#FAD465"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardAves"
+                android:layout_width="147dp"
+                android:layout_height="228dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="25dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toStartOf="@+id/cardMamiferos"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardAnfibios">
+
+                <ImageButton
+                    android:id="@+id/imageAves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/aves" />
+
+                <TextView
+                    android:id="@+id/textAves"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|bottom"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingBottom="5dp"
+                    android:text="Aves"
+                    android:textColor="#FAD465"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardRepteis"
+                android:layout_width="147dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="39dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="44dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/cardAves"
+                app:layout_constraintTop_toBottomOf="@+id/cardMamiferos">
+
+                <ImageButton
+                    android:id="@+id/imageRepteis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/repteis" />
+
+                <TextView
+                    android:id="@+id/textRepteis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingTop="5dp"
+                    android:text="Répteis"
+                    android:textColor="#FAD465"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/carPeixes"
+                android:layout_width="339dp"
+                android:layout_height="102dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="18dp"
+                android:layout_marginEnd="35dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardAves">
+
+                <ImageButton
+                    android:id="@+id/imagePeixes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/peixes" />
+
+                <TextView
+                    android:id="@+id/textPeixes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="5dp"
+                    android:text="Peixes"
+                    android:textColor="#FAD465"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardDevLogin"
+                android:layout_width="339dp"
+                android:layout_height="51dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="19dp"
+                android:layout_marginEnd="35dp"
+                android:layout_marginBottom="5dp"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/carPeixes"
+                app:layout_constraintVertical_bias="1.0">
+
+                <ImageView
+                    android:id="@+id/fundoBottom1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/image1" />
+
+                <ImageButton
+                    android:id="@+id/fundoBottom2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.8"
+                    android:background="@null"
+                    android:scaleType="centerCrop"
+                    app:srcCompat="@drawable/image2" />
+
+                <TextView
+                    android:id="@+id/textBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/londrina_solid"
+                    android:text="Desenvolvedores"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+
+                <TextView
+                    android:id="@+id/textSetaBottom"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|right"
+                    android:paddingRight="5dp"
+                    android:text="➜"
+                    android:textColor="#FFFFFF"
+                    android:textSize="24sp" />
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

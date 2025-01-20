@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBE9E"
+    tools:context=".Desenvolvedores">
+
+    <TextView
+        android:id="@+id/tituloDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/londrina_solid"
+        android:letterSpacing="0.05"
+        android:text="ECOEXPLORA"
+        android:textColor="#1B485F"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/setaDev"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/setaDev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="55dp"
+        android:rotation="180"
+        android:text="➜"
+        android:textColor="#1B485F"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageDev"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:background="@null"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardEspecies"
+        android:layout_width="333dp"
+        android:layout_height="209dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginEnd="39dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageDev">
+
+        <ImageView
+            android:id="@+id/fundoDev1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/image1" />
+
+        <ImageView
+            android:id="@+id/fundoDev2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/image2" />
+
+        <TextView
+            android:id="@+id/textCardEsp1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:fontFamily="@font/londrina_solid"
+            android:paddingTop="10dp"
+            android:text="Sobre nosso projeto"
+            android:textColor="#FFFFFF"
+            android:textSize="26sp" />
+
+        <TextView
+            android:id="@+id/textCardEsp2"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:fontFamily="@font/amiko"
+            android:paddingLeft="15dp"
+            android:paddingTop="40dp"
+            android:text="Este aplicativo visa conscientizar sobre as espécies ameaçadas no Rio Grande do Sul. Ele organiza animais por tipo, trazendo para cada espécie informações sobre seu estado de conservação, estimativas populacionais e curiosidades, além de permitir o relato de avistamentos. Com uma página educativa, o app promove a preservação e o conhecimento da fauna local."
+            android:textAlignment="gravity"
+            android:textColor="#FAFAFA"
+            android:textSize="12sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textDevs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="207dp"
+        android:fontFamily="@font/londrina_solid"
+        android:text="Desenvolvedores"
+        android:textColor="#1B485F"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toTopOf="@+id/perfilDev1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardEspecies" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/perfilDev1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/perfilDev2"
+        app:layout_constraintEnd_toStartOf="@+id/textPerfil1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textDevs">
+
+        <ImageView
+            android:id="@+id/imgPerfilDev1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/guara" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/perfilDev2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/perfilDev3"
+        app:layout_constraintEnd_toStartOf="@+id/textPerfil2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perfilDev1">
+
+        <ImageView
+            android:id="@+id/imgPerfilDev2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/baleia" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/perfilDev3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="19dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textPerfil3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perfilDev2">
+
+        <ImageView
+            android:id="@+id/imgPerfilDev3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/penguin" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textPerfil1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="216dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Ellen Vargas"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toTopOf="@+id/textPerfil4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev1"
+        app:layout_constraintTop_toBottomOf="@+id/textDevs" />
+
+    <TextView
+        android:id="@+id/textPerfil2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="203dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Pedro Santana"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toTopOf="@+id/textPerfil5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev2"
+        app:layout_constraintTop_toBottomOf="@+id/textPerfil7" />
+
+    <TextView
+        android:id="@+id/textPerfil3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="188dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Raphael Barcelos"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toTopOf="@+id/textPerfil6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev3"
+        app:layout_constraintTop_toBottomOf="@+id/textPerfil8" />
+
+    <TextView
+        android:id="@+id/textPerfil4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="236dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Designer"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toTopOf="@+id/textPerfil7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev1"
+        app:layout_constraintTop_toBottomOf="@+id/textPerfil1" />
+
+    <TextView
+        android:id="@+id/textPerfil5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="210dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Programador"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toTopOf="@+id/textPerfil8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev2"
+        app:layout_constraintTop_toBottomOf="@+id/textPerfil2" />
+
+    <TextView
+        android:id="@+id/textPerfil6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="210dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Programador"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toTopOf="@+id/textPerfil9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev3"
+        app:layout_constraintTop_toBottomOf="@+id/textPerfil3" />
+
+    <TextView
+        android:id="@+id/textPerfil7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginEnd="269dp"
+        android:layout_marginBottom="37dp"
+        android:text="git:"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toTopOf="@+id/textPerfil2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev1"
+        app:layout_constraintTop_toBottomOf="@+id/textPerfil4"
+        tools:fontFamily="@font/amaranth" />
+
+    <TextView
+        android:id="@+id/textPerfil8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="20dp"
+        android:text="git:"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toTopOf="@+id/textPerfil3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev2"
+        app:layout_constraintTop_toBottomOf="@+id/textPerfil5" />
+
+    <TextView
+        android:id="@+id/textPerfil9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="270dp"
+        android:layout_marginBottom="39dp"
+        android:fontFamily="@font/amaranth"
+        android:text="git:"
+        android:textColor="#1B485F"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/perfilDev3"
+        app:layout_constraintTop_toBottomOf="@+id/textPerfil6" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
