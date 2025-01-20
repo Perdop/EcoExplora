@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBE9E"
+    tools:context=".Infopage">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/titulo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="52dp"
+                android:fontFamily="@font/londrina_solid"
+                android:letterSpacing="0.05"
+                android:text="ECOEXPLORA"
+                android:textColor="#1B485F"
+                android:textSize="36sp"
+                app:layout_constraintStart_toEndOf="@+id/setaInfopage"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/setaInfopage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="55dp"
+                android:rotation="180"
+                android:text="➜"
+                android:textColor="#1B485F"
+                android:textSize="32sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageButton
+                android:id="@+id/imgPerfilInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="44dp"
+                android:layout_marginEnd="36dp"
+                android:background="@null"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/profilebutton" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardEspecies"
+                android:layout_width="333dp"
+                android:layout_height="209dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="34dp"
+                android:layout_marginEnd="39dp"
+                android:backgroundTint="#1B485F"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/setaInfopage">
+
+                <TextView
+                    android:id="@+id/textCardEsp1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingTop="10dp"
+                    android:text="O que são espécies ameçadas?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/textCardEsp2"
+                    android:layout_width="305dp"
+                    android:layout_height="158dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/amiko"
+                    android:paddingTop="30dp"
+                    android:text="São aquelas em risco de extinção devido a fatores naturais ou ações humanas. Elas são classificadas em categorias de acordo com o grau de ameaça: vulneráveis (risco alto), em perigo (risco muito alto), criticamente em perigo (risco extremamente alto), extintas na natureza (existem apenas em cativeiro ou fora de seus habitats naturais) e extintas (sem indivíduos vivos conhecidos)."
+                    android:textAlignment="gravity"
+                    android:textColor="#FAFAFA"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardCausas"
+                android:layout_width="333dp"
+                android:layout_height="293dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="27dp"
+                android:layout_marginEnd="39dp"
+                android:backgroundTint="#9CA548"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardEspecies" >
+
+                <TextView
+                    android:id="@+id/textCausas1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingTop="10dp"
+                    android:text="Quais são as causas?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/textCausas2"
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="@font/amaranth"
+                    android:justificationMode="inter_word"
+                    android:paddingBottom="30dp"
+                    android:text="As principais causas incluem a destruição de habitat, que ocorre devido ao desmatamento, à expansão urbana e à agricultura; a caça e a pesca excessiva, que exploram as espécies acima de sua capacidade natural de reposição; a introdução de espécies invasoras, que competem com as espécies locais; a poluição, como resíduos, produtos químicos e plásticos que afetam a saúde dos ecossistemas; e as mudanças climáticas, que alteram habitats e condições ambientais, dificultando a sobrevivência de diversas espécies. Esses fatores, geralmente intensificados por atividades humanas, têm um impacto significativo na biodiversidade."
+                    android:textColor="#FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardAmbiente"
+                android:layout_width="333dp"
+                android:layout_height="231dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="39dp"
+                android:backgroundTint="#B56D15"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardCausas" >
+
+                <TextView
+                    android:id="@+id/textAmbiente1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingTop="10dp"
+                    android:text="No que isso afeta o ambiente?"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/textAmbiente2"
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="@font/amaranth"
+                    android:justificationMode="inter_word"
+                    android:paddingBottom="10dp"
+                    android:text="A extinção de espécies afeta o ambiente  desestabilizando o equilíbrio natural. Quando uma espécie desaparece, outras que dependiam dela também são impactadas,  levando-as ao declínio. Além disso, a perda de biodiversidade diminui a resiliência dos ecossistemas, tornando-os mais vulneráveis a mudanças climáticas e outros impactos ambientais. Isso pode afetar a produção de alimentos e a qualidade da água, aumentando os riscos para a saúde e o bem-estar humanos."
+                    android:textColor="#FFFFFF" />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardConserv"
+                android:layout_width="333dp"
+                android:layout_height="241dp"
+                android:layout_marginStart="37dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="39dp"
+                android:backgroundTint="#BA901D"
+                app:cardCornerRadius="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardAmbiente">
+
+                <TextView
+                    android:id="@+id/textConserv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingTop="10dp"
+                    android:text="Esforços de conservação"
+                    android:textColor="#FFFFFF"
+                    android:textSize="26sp" />
+
+                <TextView
+                    android:id="@+id/textConserv2"
+                    android:layout_width="305dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|center"
+                    android:fontFamily="@font/amaranth"
+                    android:justificationMode="inter_word"
+                    android:paddingBottom="10dp"
+                    android:text="No Rio Grande do Sul, esforços de conservação focam na proteção de espécies ameaçadas e ecossistemas locais, como pampas e mata atlântica. Áreas protegidas, como o Parque Nacional de Aparados da Serra, abrigam espécies em risco, enquanto projetos específicos cuidam de animais vulneráveis, como o cervo-do-pantanal e o papagaio-charão. Além disso, campanhas de conscientização e programas de pesquisa ajudam a manter o equilíbrio e a biodiversidade nos ecossistemas gaúchos."
+                    android:textColor="#FFFFFF" />
+
+            </androidx.cardview.widget.CardView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
