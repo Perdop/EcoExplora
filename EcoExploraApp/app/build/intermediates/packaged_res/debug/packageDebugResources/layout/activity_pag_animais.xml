@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8FBE9E"
+    tools:context=".PagAnimais">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Substituindo o ConstraintLayout por um FrameLayout -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/animalImage"
+                android:layout_width="411dp"
+                android:layout_height="293dp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="-30dp"
+                app:srcCompat="@drawable/exemploanimal" />
+
+            <TextView
+                android:id="@+id/setaAnimais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="55dp"
+                android:rotation="180"
+                android:text="➜"
+                android:textColor="#1B485F"
+                android:textSize="32sp" />
+
+            <ImageButton
+                android:id="@+id/profileButtonAnimais"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginTop="45dp"
+                android:layout_marginEnd="36dp"
+                android:background="@null"
+                app:srcCompat="@drawable/profilebutton" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardAnimais"
+                android:layout_width="411dp"
+                android:layout_height="800dp"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="220dp"
+                android:backgroundTint="#8FBE9E"
+                app:cardCornerRadius="30dp">
+
+                <TextView
+                    android:id="@+id/animalName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center|top"
+                    android:fontFamily="@font/londrina_solid"
+                    android:paddingTop="15dp"
+                    android:text="Tamanduá-bandeira"
+                    android:textColor="#1B485F"
+                    android:textSize="32sp" />
+
+                <TextView
+                    android:id="@+id/textQts"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:fontFamily="@font/amaranth"
+                    android:paddingLeft="50dp"
+                    android:paddingTop="95dp"
+                    android:text="Quantos existem"
+                    android:textColor="#1B455B"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/textEstado"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:fontFamily="@font/amaranth"
+                    android:paddingTop="95dp"
+                    android:paddingRight="40dp"
+                    android:text="Estado de conservação"
+                    android:textColor="#1B455B"
+                    android:textSize="16sp" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardQts"
+                    android:layout_width="154dp"
+                    android:layout_height="29dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="125dp"
+                    app:cardBackgroundColor="#FFF5D1"
+                    app:cardCornerRadius="10dp" >
+
+                    <TextView
+                        android:id="@+id/animalExistentes"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/amaranth"
+                        android:paddingTop="3dp"
+                        android:text="Texto1"
+                        android:textAlignment="center"
+                        android:textColor="#E17C39"
+                        android:textSize="16sp" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardEstado"
+                    android:layout_width="154dp"
+                    android:layout_height="29dp"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="125dp"
+                    android:layout_marginRight="40dp"
+                    app:cardBackgroundColor="#FFF5D1"
+                    app:cardCornerRadius="10dp" >
+
+                    <TextView
+                        android:id="@+id/animalEstado"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/amaranth"
+                        android:paddingTop="3dp"
+                        android:text="Texto2"
+                        android:textAlignment="center"
+                        android:textColor="#E17C39"
+                        android:textSize="16sp" />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/tituloSobreAnimais"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="200dp"
+                    android:fontFamily="@font/londrina_solid"
+                    android:text="SOBRE:"
+                    android:textColor="#1B455B"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/animalDescricao"
+                    android:layout_width="329dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|left"
+                    android:layout_marginLeft="45dp"
+                    android:layout_marginTop="230dp"
+                    android:justificationMode="inter_word"
+                    android:text="Sed ut perspiciatis unde omnis iste natus error sit  voluptatem accusantium doloremque laudantium,   rem aperiam, eaque ipsa quae ab illo inventore verit  quasi architecto beatae vitae dicta sunt explicabo, ipsam voluptatem quia voluptas sit aspernatur auteaque ipsa quae ab illo inventore."
+                    android:textColor="#151817" />
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/cardFotos"
+                    android:layout_width="411dp"
+                    android:layout_height="400dp"
+                    android:layout_gravity="bottom"
+                    android:backgroundTint="#B3E3C2"
+                    app:cardCornerRadius="40dp">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </TableLayout>
+                </androidx.cardview.widget.CardView>
+
+            </androidx.cardview.widget.CardView>
+
+        </FrameLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

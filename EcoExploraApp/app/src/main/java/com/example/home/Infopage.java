@@ -30,19 +30,11 @@ public class Infopage extends AppCompatActivity {
             return insets;
         });
         TextView voltarInfo = findViewById(R.id.setaInfopage);
-        ImageButton perfilInfo = findViewById(R.id.imgPerfilInfo);
 
         voltarInfo.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Infopage.this, Home.class);
-                startActivity(intent);
-            }
-        });
-        perfilInfo.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Infopage.this, Cadastro.class);
                 startActivity(intent);
             }
         });

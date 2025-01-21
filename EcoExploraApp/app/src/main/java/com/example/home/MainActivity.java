@@ -33,17 +33,22 @@ public class MainActivity extends AppCompatActivity {
         tryToLoadData();
 
         // Configurar o listener para o botão
-        button.setOnClickListener(v -> {
-            if (animaisList != null && !animaisList.isEmpty()) {
-                // Passar a lista de animais para a HomeActivity
-                Intent intent = new Intent(MainActivity.this, Home.class);
-                intent.putParcelableArrayListExtra("ANIMAIS_LIST", new java.util.ArrayList<>(animaisList));
-                startActivity(intent);
-            } else {
-                // Caso a lista ainda não tenha sido carregada corretamente
-                Toast.makeText(MainActivity.this, "Nenhum animal encontrado", Toast.LENGTH_SHORT).show();
-            }
-        });
+            button.setOnClickListener(v -> {
+                    Intent intent = new Intent(MainActivity.this, Home.class);
+                    startActivity(intent);
+            });
+
+//        button.setOnClickListener(v -> {
+//            if (animaisList != null && !animaisList.isEmpty()) {
+//                // Passar a lista de animais para a HomeActivity
+//                Intent intent = new Intent(MainActivity.this, Home.class);
+//                intent.putParcelableArrayListExtra("ANIMAIS_LIST", new java.util.ArrayList<>(animaisList));
+//                startActivity(intent);
+//            } else {
+//                // Caso a lista ainda não tenha sido carregada corretamente
+//                Toast.makeText(MainActivity.this, "Nenhum animal encontrado", Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
 
     // Método que tenta carregar os dados repetidamente até conseguir
