@@ -24,6 +24,10 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/drawable/ic_launcher_foreground.xml"
     },
     {
+        "merged": "com.example.home.app-debug-31:/layout_activity_logado.xml.flat",
+        "source": "com.example.home.app-main-33:/layout/activity_logado.xml"
+    },
+    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-31:/layout_activity_mamiferos.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/layout/activity_mamiferos.xml"
     },
@@ -152,6 +156,10 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/layout/activity_infopage.xml"
     },
     {
+        "merged": "com.example.home.app-debug-31:/layout_activity_login.xml.flat",
+        "source": "com.example.home.app-main-33:/layout/activity_login.xml"
+    },
+    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-31:/drawable_pato.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/drawable/pato.png"
     },
@@ -208,12 +216,12 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/drawable/image2.png"
     },
     {
-        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-31:/layout_activity_home.xml.flat",
-        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/layout/activity_home.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-31:/layout_activity_repteis.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/layout/activity_repteis.xml"
+    },
+    {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-31:/layout_activity_home.xml.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/layout/activity_home.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-31:/drawable_penguin.jpg.flat",
@@ -222,10 +230,6 @@
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-31:/drawable_rounded_corners3.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-33:/drawable/rounded_corners3.xml"
-    },
-    {
-        "merged": "com.example.home.app-debug-31:/layout_activity_desenvolvedores.xml.flat",
-        "source": "com.example.home.app-main-33:/layout/activity_desenvolvedores.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-31:/drawable_fundo2.png.flat",

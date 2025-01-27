@@ -49,17 +49,16 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardLoginPag1"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="318dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="5dp"
         android:backgroundTint="#1B485F"
         app:cardCornerRadius="15dp"
         app:layout_constraintBottom_toTopOf="@+id/cardDevLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/setaAnimais">
 
@@ -80,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|start"
-            android:layout_marginLeft="45dp"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="-70dp"
             android:fontFamily="@font/amaranth"
             android:text="Nome de usuário:"
@@ -93,7 +92,8 @@
             android:layout_height="31dp"
             android:layout_gravity="center"
             android:layout_marginTop="-35dp"
-            android:background="#E4EEF3"
+            android:background="@drawable/rounded_corners1"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:inputType="text"
             android:textColor="#000000" />
@@ -103,7 +103,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|start"
-            android:layout_marginLeft="45dp"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/amaranth"
             android:text="Senha:"
@@ -116,7 +116,8 @@
             android:layout_height="31dp"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:background="#E4EEF3"
+            android:background="@drawable/rounded_corners1"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:inputType="textPassword"
             android:textColor="#000000" />
@@ -139,17 +140,15 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardDevLogin1"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="51dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="170dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="25dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardLoginPag1">
+        app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/fundoBottom11"
@@ -190,20 +189,17 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardConta1"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="44dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
         android:backgroundTint="#1B485F"
         app:cardCornerRadius="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardDevLogin1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardLoginPag1"
-        app:layout_constraintVertical_bias="0.112">
+        app:layout_constraintTop_toBottomOf="@+id/cardLoginPag1">
 
         <TextView
             android:id="@+id/textConta1"

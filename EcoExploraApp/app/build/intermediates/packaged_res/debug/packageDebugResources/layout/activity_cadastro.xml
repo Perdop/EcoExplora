@@ -49,17 +49,14 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardLoginPag"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="450dp"
-        android:layout_marginStart="25dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="30dp"
         android:backgroundTint="#1B485F"
         app:cardCornerRadius="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardDevLogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/setaAnimais">
 
@@ -80,7 +77,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|start"
-            android:layout_marginLeft="45dp"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="-130dp"
             android:fontFamily="@font/amaranth"
             android:text="Nome de usuário:"
@@ -93,7 +90,8 @@
             android:layout_height="31dp"
             android:layout_gravity="center"
             android:layout_marginTop="-95dp"
-            android:background="#E4EEF3"
+            android:background="@drawable/rounded_corners1"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:inputType="text"
             android:textColor="#000000" />
@@ -103,7 +101,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center|start"
-            android:layout_marginLeft="45dp"
+            android:layout_marginLeft="40dp"
             android:layout_marginTop="-50dp"
             android:fontFamily="@font/amaranth"
             android:text="Senha:"
@@ -116,7 +114,8 @@
             android:layout_height="31dp"
             android:layout_gravity="center"
             android:layout_marginTop="-15dp"
-            android:background="#E4EEF3"
+            android:background="@drawable/rounded_corners1"
+            android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:inputType="textPassword"
             android:textColor="#000000" />
@@ -204,17 +203,18 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardDevLogin"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="51dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="25dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardLoginPag">
+        app:layout_constraintTop_toBottomOf="@+id/cardConta"
+        app:layout_constraintVertical_bias="1.0">
 
         <ImageView
             android:id="@+id/fundoBottom1"
@@ -255,15 +255,13 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardConta"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="44dp"
-        android:layout_marginStart="36dp"
+        android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="30dp"
         android:backgroundTint="#1B485F"
         app:cardCornerRadius="10dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardDevLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cardLoginPag">

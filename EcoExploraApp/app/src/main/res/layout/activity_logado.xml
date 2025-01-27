@@ -49,15 +49,13 @@
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardLoginPag1"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="318dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="30dp"
-        android:layout_marginBottom="5dp"
         android:backgroundTint="#1B485F"
         app:cardCornerRadius="15dp"
-        app:layout_constraintBottom_toTopOf="@+id/cardDevLogado"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +77,8 @@
             android:id="@+id/textNomeLogado"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
             android:fontFamily="@font/amaranth"
             android:text="Você está conectado!"
             android:textColor="#EFF8FD"
@@ -99,21 +98,33 @@
             android:textSize="24dp"
             app:cornerRadius="15dp" />
 
+        <Button
+            android:id="@+id/acessarButtonLogado2"
+            android:layout_width="287dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="65dp"
+            android:backgroundTint="#E4EEF3"
+            android:fontFamily="@font/londrina_solid"
+            android:text="TROCAR USUÁRIO"
+            android:textAlignment="center"
+            android:textColor="#1B485F"
+            android:textSize="24dp"
+            app:cornerRadius="15dp" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardDevLogado"
-        android:layout_width="339dp"
+        android:layout_width="0dp"
         android:layout_height="51dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="170dp"
-        android:layout_marginEnd="36dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="25dp"
         app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cardLoginPag1">
+        app:layout_constraintStart_toStartOf="parent">
 
         <ImageView
             android:id="@+id/fundoBottomLogado"
