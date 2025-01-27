@@ -20,10 +20,6 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/urso.png"
     },
     {
-        "merged": "com.example.home.app-debug-32:/drawable_btn_animaltype_extinctanimals.xml.flat",
-        "source": "com.example.home.app-main-34:/drawable/btn_animaltype_extinctanimals.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_ic_launcher_background.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/ic_launcher_background.xml"
     },

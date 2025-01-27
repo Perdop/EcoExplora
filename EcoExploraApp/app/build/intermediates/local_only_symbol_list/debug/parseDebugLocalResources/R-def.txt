@@ -52,7 +52,6 @@ id animalEstado
 id animalExistentes
 id animalImage
 id animalName
-id button2
 id carPeixes
 id cardAmbiente
 id cardAnfibios
