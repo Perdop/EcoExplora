@@ -3271,6 +3271,7 @@ int id cardQts 0x7f0a0084
 int id cardRepteis 0x7f0a0085
 int id cardTop 0x7f0a0086
 int id cardTopSeta 0x7f0a0087
+int id cardView 0x7f0a0290
 int id carryVelocity 0x7f0a0088
 int id center 0x7f0a0089
 int id centerCrop 0x7f0a008a
@@ -3418,6 +3419,7 @@ int id imageProfile1 0x7f0a0115
 int id imageProfile2 0x7f0a0116
 int id imageProfile3 0x7f0a0117
 int id imageRepteis 0x7f0a0118
+int id imageView 0x7f0a0293
 int id imageView2 0x7f0a0119
 int id imgPerfilDev1 0x7f0a011a
 int id imgPerfilDev2 0x7f0a011b
@@ -3722,6 +3724,7 @@ int id textSpacerNoButtons 0x7f0a0245
 int id textSpacerNoTitle 0x7f0a0246
 int id textStart 0x7f0a0247
 int id textTop 0x7f0a0248
+int id textView 0x7f0a0291
 int id text_input_end_icon 0x7f0a0249
 int id text_input_error_icon 0x7f0a024a
 int id text_input_start_icon 0x7f0a024b

@@ -3272,6 +3272,7 @@ id cardQts
 id cardRepteis
 id cardTop
 id cardTopSeta
+id cardView
 id carryVelocity
 id center
 id centerCrop
@@ -3419,6 +3420,7 @@ id imageProfile1
 id imageProfile2
 id imageProfile3
 id imageRepteis
+id imageView
 id imageView2
 id imgPerfilDev1
 id imgPerfilDev2
@@ -3723,6 +3725,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

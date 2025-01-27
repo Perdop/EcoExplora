@@ -78,6 +78,7 @@ id cardQts
 id cardRepteis
 id cardTop
 id cardTopSeta
+id cardView
 id constraintLayout
 id constraintLayout1
 id constraintLayout2
@@ -105,6 +106,7 @@ id imageProfile1
 id imageProfile2
 id imageProfile3
 id imageRepteis
+id imageView
 id imageView2
 id imgPerfilDev1
 id imgPerfilDev2
@@ -181,6 +183,7 @@ id textSenha1
 id textSetaBottom
 id textSetaBottom1
 id textSetaBottomLogado
+id textView
 id titulo
 id titulo2
 id titulo3
