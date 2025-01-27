@@ -8,6 +8,7 @@ MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/c
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/perdop/.gradle/caches/transforms-4/b84ae970fce4774e3416c512c72b4d0a/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.appcompat:appcompat:1.7.0] /home/perdop/.gradle/caches/transforms-4/325410e8cc28ed840be8d7b8f17cbe27/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/perdop/.gradle/caches/transforms-4/7635154af1b7d5af8a2266b283768df7/transformed/glide-4.15.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/transforms-4/d575685bd2e90f8f33376196829bdc67/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment:1.5.4] /home/perdop/.gradle/caches/transforms-4/e7fe6cfbfa5e58547537b259f9918f2a/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.activity:activity:1.9.2] /home/perdop/.gradle/caches/transforms-4/39f09359524612efe0a2acf578071693/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
@@ -39,6 +40,8 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gra
 MERGED from [androidx.cardview:cardview:1.0.0] /home/perdop/.gradle/caches/transforms-4/c20effe805a199dde8f1eda53d78a70e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] /home/perdop/.gradle/caches/transforms-4/3783b21466f6c246cbf0fc92dd9a588b/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /home/perdop/.gradle/caches/transforms-4/5a65a9c4dea5698f58823eab4f41a7f5/transformed/gifdecoder-4.15.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/perdop/.gradle/caches/transforms-4/821209080afbf54e8b1a73d395c1e6c4/transformed/exifinterface-1.3.3/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/perdop/.gradle/caches/transforms-4/fc539df52e6ff9624d79cfc77218f26c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/perdop/.gradle/caches/transforms-4/f38cdf0bf8e6bc9a3c1e6e478aa9bd2f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
@@ -68,6 +71,8 @@ MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/c
 MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/caches/transforms-4/7a9aae6d8e9d27cf6e88168f6c33d267/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/perdop/.gradle/caches/transforms-4/7635154af1b7d5af8a2266b283768df7/transformed/glide-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/perdop/.gradle/caches/transforms-4/7635154af1b7d5af8a2266b283768df7/transformed/glide-4.15.1/AndroidManifest.xml:9:5-20
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
@@ -80,6 +85,8 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gra
 MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /home/perdop/.gradle/caches/transforms-4/5a65a9c4dea5698f58823eab4f41a7f5/transformed/gifdecoder-4.15.1/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /home/perdop/.gradle/caches/transforms-4/5a65a9c4dea5698f58823eab4f41a7f5/transformed/gifdecoder-4.15.1/AndroidManifest.xml:9:5-20
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
 	android:extractNativeLibs
@@ -222,6 +229,8 @@ MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/perdop/.gradle/
 MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/perdop/.gradle/caches/transforms-4/b84ae970fce4774e3416c512c72b4d0a/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] /home/perdop/.gradle/caches/transforms-4/325410e8cc28ed840be8d7b8f17cbe27/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
 MERGED from [androidx.appcompat:appcompat:1.7.0] /home/perdop/.gradle/caches/transforms-4/325410e8cc28ed840be8d7b8f17cbe27/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/perdop/.gradle/caches/transforms-4/7635154af1b7d5af8a2266b283768df7/transformed/glide-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.15.1] /home/perdop/.gradle/caches/transforms-4/7635154af1b7d5af8a2266b283768df7/transformed/glide-4.15.1/AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/transforms-4/d575685bd2e90f8f33376196829bdc67/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/transforms-4/d575685bd2e90f8f33376196829bdc67/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.5.4] /home/perdop/.gradle/caches/transforms-4/e7fe6cfbfa5e58547537b259f9918f2a/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
@@ -284,6 +293,10 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches
 MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
 MERGED from [androidx.tracing:tracing:1.0.0] /home/perdop/.gradle/caches/transforms-4/3783b21466f6c246cbf0fc92dd9a588b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.tracing:tracing:1.0.0] /home/perdop/.gradle/caches/transforms-4/3783b21466f6c246cbf0fc92dd9a588b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /home/perdop/.gradle/caches/transforms-4/5a65a9c4dea5698f58823eab4f41a7f5/transformed/gifdecoder-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.15.1] /home/perdop/.gradle/caches/transforms-4/5a65a9c4dea5698f58823eab4f41a7f5/transformed/gifdecoder-4.15.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/perdop/.gradle/caches/transforms-4/821209080afbf54e8b1a73d395c1e6c4/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.3] /home/perdop/.gradle/caches/transforms-4/821209080afbf54e8b1a73d395c1e6c4/transformed/exifinterface-1.3.3/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/perdop/.gradle/caches/transforms-4/fc539df52e6ff9624d79cfc77218f26c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.interpolator:interpolator:1.0.0] /home/perdop/.gradle/caches/transforms-4/fc539df52e6ff9624d79cfc77218f26c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41

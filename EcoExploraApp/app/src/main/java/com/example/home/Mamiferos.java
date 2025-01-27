@@ -1,6 +1,7 @@
 package com.example.home;
 
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -12,15 +13,24 @@ import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
+import androidx.core.content.ContextCompat;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.bumptech.glide.Glide;
+import com.bumptech.glide.request.target.CustomViewTarget;
+import com.bumptech.glide.request.transition.Transition;
 import com.example.home.model.AnimaisExtintosModel;
 
 import java.util.List;
 
 public class Mamiferos extends AppCompatActivity {
+
+    private int dpToPx(int dp) {
+        return (int) (dp * getResources().getDisplayMetrics().density);
+    }
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,7 +70,7 @@ public class Mamiferos extends AppCompatActivity {
         // Configuração do botão de perfil (Login)
         perfilAnimais.setOnClickListener(v -> {
             Intent intentPerfil = new Intent(Mamiferos.this, Cadastro.class);
-            startActivity(intentPerfil) ;
+            startActivity(intentPerfil);
         });
 
         // Se a lista de animais não estiver vazia, começa a criar os botões
@@ -72,15 +82,22 @@ public class Mamiferos extends AppCompatActivity {
                 AnimaisExtintosModel animal = animaisList.get(i);
 
                 // Verifica se o animal é um mamífero (classe 1)
-                if (animal.getClasse() == 1) {
-                    Log.d("Mamiferos", "Adicionando mamífero: " + animal.getNome());
+                if (animal.getAnimalType() == 1) {
+                    Log.d("Mamiferos", "Adicionando mamífero: " + animal.getName());
 
+
+                    
                     // Cria um novo botão programaticamente
                     Button button = new Button(Mamiferos.this);
                     button.setId(View.generateViewId());
-                    button.setText(animal.getNome());
-                    button.setBackgroundColor(getResources().getColor(android.R.color.white));
-                    button.setTextColor(getResources().getColor(android.R.color.black));
+                    button.setText(animal.getName());
+                    button.setTextColor(getResources().getColor(android.R.color.white));
+                    button.setTextSize(14); // Ajusta o tamanho do texto
+                    button.setAllCaps(false); // Texto normal, sem letras maiúsculas
+                    button.setBackground(ContextCompat.getDrawable(Mamiferos.this, R.drawable.btn_animaltype_extinctanimals));
+                    button.setPadding(0,0,0,16);
+
+
 
                     // Define o layout do botão
                     ConstraintLayout.LayoutParams layoutParams = new ConstraintLayout.LayoutParams(
@@ -89,6 +106,26 @@ public class Mamiferos extends AppCompatActivity {
                     );
                     layoutParams.setMargins(20, topMargin, 20, 20);
                     button.setLayoutParams(layoutParams);
+
+                    // Carrega a imagem no botão usando Glide
+                    Glide.with(Mamiferos.this)
+                            .load(animal.getAnimalPhoto()) // URL ou recurso da imagem
+                            .into(new CustomViewTarget<Button, Drawable>(button) {
+                                @Override
+                                protected void onResourceCleared(Drawable placeholder) {
+                                    button.setCompoundDrawablesWithIntrinsicBounds(null, placeholder, null, null);
+                                }
+
+                                @Override
+                                public void onLoadFailed(Drawable errorDrawable) {
+                                    button.setCompoundDrawablesWithIntrinsicBounds(null, errorDrawable, null, null);
+                                }
+
+                                @Override
+                                public void onResourceReady(Drawable resource, Transition<? super Drawable> transition) {
+                                    button.setCompoundDrawablesWithIntrinsicBounds(null, resource, null, null);
+                                }
+                            });
 
                     // Seleciona qual ConstraintLayout vai adicionar o botão (alternando entre constraintLayout1 e constraintLayout2)
                     ConstraintLayout targetLayout = (i % 2 == 0) ? constraintLayout1 : constraintLayout2;
@@ -115,20 +152,19 @@ public class Mamiferos extends AppCompatActivity {
 
                     // Configura o OnClickListener para abrir os detalhes do animal
                     button.setOnClickListener(v -> {
-                        Log.d("Mamiferos", "Botão clicado para o animal: " + animal.getNome());
+                        Log.d("Mamiferos", "Botão clicado para o animal: " + animal.getName());
 
                         // Passa os dados para a PagAnimaisActivity (detalhes do animal)
                         Intent detailIntent = new Intent(Mamiferos.this, PagAnimais.class);
-                        detailIntent.putExtra("NOME_ANIMAL", animal.getNome());
-                        detailIntent.putExtra("DESCRICAO_ANIMAL", animal.getSobre());
-                        detailIntent.putExtra("ESTADO_ANIMAL", animal.getEstado());
-                        detailIntent.putExtra("EXISTENTES_ANIMAL", animal.getExistentes());
-                        detailIntent.putExtra("IMG_ANIMAL", animal.getImg());
+                        detailIntent.putExtra("NOME_ANIMAL", animal.getName());
+                        detailIntent.putExtra("DESCRICAO_ANIMAL", animal.getAbout());
+                        detailIntent.putExtra("ESTADO_ANIMAL", animal.getState());
+                        detailIntent.putExtra("EXISTENTES_ANIMAL", animal.getLiving());
+                        detailIntent.putExtra("IMG_ANIMAL", animal.getAnimalPhoto());
                         startActivity(detailIntent);
                     });
                 }
             }
         }
     }
-
 }

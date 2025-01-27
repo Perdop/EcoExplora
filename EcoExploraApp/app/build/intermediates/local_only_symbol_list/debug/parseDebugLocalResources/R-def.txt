@@ -10,6 +10,7 @@ drawable anfibios
 drawable aves
 drawable baleia
 drawable border
+drawable btn_animaltype_extinctanimals
 drawable cajo
 drawable card_border
 drawable ecoexploralogo
@@ -51,6 +52,7 @@ id animalEstado
 id animalExistentes
 id animalImage
 id animalName
+id button2
 id carPeixes
 id cardAmbiente
 id cardAnfibios

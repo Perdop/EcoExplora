@@ -6,12 +6,12 @@ import android.util.Log;
 
 public class AnimaisExtintosModel implements Parcelable {
     private int id;            // ID do animal extinto
-    private String nome;       // Nome do animal extinto
-    private String sobre;      // Descrição sobre o animal extinto
-    private int classe;        // Classe do animal (como mamífero, réptil, etc.)
-    private int existentes;    // Número de animais existentes
-    private String estado;     // Estado do animal (extinto, em extinção, etc.)
-    private String img;
+    private String name;       // Nome do animal extinto
+    private String about;      // Descrição sobre o animal extinto
+    private int animalType;        // Classe do animal (como mamífero, réptil, etc.)
+    private int living;    // Número de animais existentes
+    private String state;     // Estado do animal (extinto, em extinção, etc.)
+    private String animalPhoto;
 
     // Construtor padrão
     public AnimaisExtintosModel() {
@@ -20,12 +20,12 @@ public class AnimaisExtintosModel implements Parcelable {
     // Construtor com todos os campos
     public AnimaisExtintosModel(int id, String nome, String sobre, int classe, int existentes, String estado, String img) {
         this.id = id;
-        this.nome = nome;
-        this.sobre = sobre;
-        this.classe = classe;
-        this.existentes = existentes;
-        this.estado = estado;
-        this.img = img;
+        this.name = nome;
+        this.about = sobre;
+        this.animalType = classe;
+        this.living = existentes;
+        this.state = estado;
+        this.animalPhoto = img;
     }
 
     // Getters e Setters
@@ -34,51 +34,51 @@ public class AnimaisExtintosModel implements Parcelable {
         return id;
     }
 
-    public String getNome() {
-        return nome;
+    public String getName() {
+        return name;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public String getSobre() {
-        return sobre;
+    public String getAbout() {
+        return about;
     }
 
-    public void setSobre(String sobre) {
-        this.sobre = sobre;
+    public void setAbout(String about) {
+        this.about = about;
     }
 
-    public int getClasse() {
-        return classe;
+    public int getAnimalType() {
+        return animalType;
     }
 
-    public void setClasse(int classe) {
-        this.classe = classe;
+    public void setAnimalType(int animalType) {
+        this.animalType = animalType;
     }
 
-    public int getExistentes() {
-        return existentes;
+    public int getLiving() {
+        return living;
     }
 
-    public void setExistentes(int existentes) {
-        this.existentes = existentes;
+    public void setLiving(int living) {
+        this.living = living;
     }
 
-    public String getEstado() {
-        return estado;
+    public String getState() {
+        return state;
     }
 
-    public void setEstado(String estado) {
-        this.estado = estado;
+    public void setState(String state) {
+        this.state = state;
     }
-    public String getImg() {
-        return img;
+    public String getAnimalPhoto() {
+        return animalPhoto;
     }
 
-    public void setImg(String img) {
-        this.img = img;
+    public void setAnimalPhoto(String animalPhoto) {
+        this.animalPhoto = animalPhoto;
     }
 
     // Implementação do Parcelable
@@ -86,13 +86,13 @@ public class AnimaisExtintosModel implements Parcelable {
     // Método que cria o objeto a partir do Parcel
     protected AnimaisExtintosModel(Parcel in) {
         id = in.readInt();
-        nome = in.readString();
-        sobre = in.readString();
-        classe = in.readInt();
-        existentes = in.readInt();
-        estado = in.readString();
-        img = in.readString();
-        Log.d("Teste", "Img no Parcel: " + img);  // Log para verificar o valor de 'img' no Parcel
+        name = in.readString();
+        about = in.readString();
+        animalType = in.readInt();
+        living = in.readInt();
+        state = in.readString();
+        animalPhoto = in.readString();
+        Log.d("Teste", "Img no Parcel: " + animalPhoto);  // Log para verificar o valor de 'img' no Parcel
     }
 
 
@@ -118,12 +118,12 @@ public class AnimaisExtintosModel implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(id);
-        dest.writeString(nome);
-        dest.writeString(sobre);
-        dest.writeInt(classe);
-        dest.writeInt(existentes);
-        dest.writeString(estado);
-        dest.writeString(img);
+        dest.writeString(name);
+        dest.writeString(about);
+        dest.writeInt(animalType);
+        dest.writeInt(living);
+        dest.writeString(state);
+        dest.writeString(animalPhoto);
     }
 
 }

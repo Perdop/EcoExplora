@@ -2995,6 +2995,7 @@ drawable avd_show_password
 drawable aves
 drawable baleia
 drawable border
+drawable btn_animaltype_extinctanimals
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
@@ -3241,6 +3242,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button2
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -3388,6 +3390,7 @@ id fundoTop1
 id fundoTop2
 id ghost_view
 id ghost_view_holder
+id glide_custom_view_target_tag
 id gone
 id graph
 id graph_wrap

@@ -25,7 +25,7 @@ public class NetworkUtilAnimaisExtintos {
 
         // Criando a requisição com a URL desejada
         Request request = new Request.Builder()
-                .url("https://testspring-g2nh.onrender.com/getAllAnimais")  // Substitua pela URL da sua API
+                .url("https://ecoexplora.onrender.com/getAllExtinctAnimals")  // Substitua pela URL da sua API
                 .build();
 
         // Executando a requisição de forma assíncrona em uma nova thread
@@ -48,12 +48,12 @@ public class NetworkUtilAnimaisExtintos {
                     // Exemplo de log
                     for (AnimaisExtintosModel animal : animaisList) {
                         Log.d("Animais Data", "ID: " + animal.getId() +
-                                ", Nome: " + animal.getNome() +
-                                ", Sobre: " + animal.getSobre() +
-                                ", Classe: " + animal.getClasse() +
-                                ", Existentes: " + animal.getExistentes() +
-                                ", Estado: " + animal.getEstado() +
-                                ", Imagem: " + animal.getImg());
+                                ", Nome: " + animal.getName() +
+                                ", Sobre: " + animal.getAbout() +
+                                ", Classe: " + animal.getAnimalType() +
+                                ", Existentes: " + animal.getLiving() +
+                                ", Estado: " + animal.getState() +
+                                ", Imagem: " + animal.getAnimalPhoto());
                     }
 
                     // Se você precisar atualizar a UI, use Handler para rodar na thread principal

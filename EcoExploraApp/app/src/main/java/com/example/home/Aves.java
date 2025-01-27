@@ -72,13 +72,13 @@ public class Aves extends AppCompatActivity {
                 AnimaisExtintosModel animal = animaisList.get(i);
 
                 // Verifica se o animal é uma ave (classe 3)
-                if (animal.getClasse() == 3) {
-                    Log.d("Aves", "Adicionando ave: " + animal.getNome());
+                if (animal.getAnimalType() == 3) {
+                    Log.d("Aves", "Adicionando ave: " + animal.getName());
 
                     // Cria um novo botão programaticamente
                     Button button = new Button(Aves.this);
                     button.setId(View.generateViewId());
-                    button.setText(animal.getNome());
+                    button.setText(animal.getName());
                     button.setBackgroundColor(getResources().getColor(android.R.color.white));
                     button.setTextColor(getResources().getColor(android.R.color.black));
 
@@ -115,15 +115,15 @@ public class Aves extends AppCompatActivity {
 
                     // Configura o OnClickListener para abrir os detalhes do animal
                     button.setOnClickListener(v -> {
-                        Log.d("Aves", "Botão clicado para o animal: " + animal.getNome());
+                        Log.d("Aves", "Botão clicado para o animal: " + animal.getName());
 
                         // Passa os dados para a PagAnimaisActivity (detalhes do animal)
                         Intent detailIntent = new Intent(Aves.this, PagAnimais.class);
-                        detailIntent.putExtra("NOME_ANIMAL", animal.getNome());
-                        detailIntent.putExtra("DESCRICAO_ANIMAL", animal.getSobre());
-                        detailIntent.putExtra("ESTADO_ANIMAL", animal.getEstado());
-                        detailIntent.putExtra("EXISTENTES_ANIMAL", animal.getExistentes());
-                        detailIntent.putExtra("IMG_ANIMAL", animal.getImg());
+                        detailIntent.putExtra("NOME_ANIMAL", animal.getName());
+                        detailIntent.putExtra("DESCRICAO_ANIMAL", animal.getAbout());
+                        detailIntent.putExtra("ESTADO_ANIMAL", animal.getState());
+                        detailIntent.putExtra("EXISTENTES_ANIMAL", animal.getLiving());
+                        detailIntent.putExtra("IMG_ANIMAL", animal.getAnimalPhoto());
                         startActivity(detailIntent);
                     });
                 }
