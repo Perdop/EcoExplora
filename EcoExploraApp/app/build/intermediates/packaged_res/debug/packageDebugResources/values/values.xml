@@ -19,12 +19,18 @@
         <item>@font/amiko</item>
         <item>@font/londrina_solid</item>
     </array>
+    <color name="background_color">#8FBE9E</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <string name="app_name">home</string>
     <style name="Base.Theme.Home" parent="Theme.Material3.DayNight.NoActionBar">
         
         
+
+        <item name="colorPrimary">@color/background_color</item>
+        <item name="colorPrimaryContainer">@color/background_color</item>
+        <item name="android:statusBarColor">@color/background_color</item>
+        <item name="colorSurface">@color/background_color</item>
     </style>
     <style name="Theme.Home" parent="Base.Theme.Home"/>
 </resources>

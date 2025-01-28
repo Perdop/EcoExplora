@@ -25,13 +25,6 @@ public class Home extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_home);
 
-        // Configuração das barras do sistema
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
-
         // Recuperando a lista de animais passada pela MainActivity
         Intent intent = getIntent();
         animaisList = intent.getParcelableArrayListExtra("ANIMAIS_LIST");

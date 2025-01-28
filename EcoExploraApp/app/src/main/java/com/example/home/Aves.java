@@ -1,26 +1,32 @@
 package com.example.home;
 
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.constraintlayout.widget.ConstraintSet;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
+import androidx.core.content.res.ResourcesCompat;
 
+import com.bumptech.glide.Glide;
 import com.example.home.model.AnimaisExtintosModel;
 
 import java.util.List;
 
 public class Aves extends AppCompatActivity {
+
+    private int dpToPx(int dp) { // Converte dp to pixel
+        return (int) (dp * getResources().getDisplayMetrics().density);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,96 +34,66 @@ public class Aves extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_aves);
 
-        // Configuração das barras do sistema
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
-            Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
-            return insets;
-        });
-
-        // Encontrando os elementos do layout
         TextView voltar = findViewById(R.id.setaAnimais);
-        ImageButton perfilAnimais = findViewById(R.id.profileButtonAves);
-        ConstraintLayout constraintLayout1 = findViewById(R.id.constraintLayout1); // ConstraintLayout onde os botões serão adicionados
-        ConstraintLayout constraintLayout2 = findViewById(R.id.constraintLayout2); // Segundo ConstraintLayout
+        ImageButton perfilAnimais = findViewById(R.id.profileButton);
+        ConstraintLayout constraintLayout1 = findViewById(R.id.constraintLayout1);
+        ConstraintLayout constraintLayout2 = findViewById(R.id.constraintLayout2);
 
-        // Obtendo a lista de animais da HomeActivity
-        Intent intent = getIntent();
+        Intent intent = getIntent(); // Obtem lista de animais extintos
         List<AnimaisExtintosModel> animaisList = intent.getParcelableArrayListExtra("ANIMAIS_LIST");
 
-        // Verificando se a lista foi recebida corretamente
-        if (animaisList != null && !animaisList.isEmpty()) {
-            Log.d("Aves", "Número de animais recebidos: " + animaisList.size());
-        } else {
-            Log.e("Aves", "A lista de animais está vazia ou a requisição falhou.");
-        }
-
-        // Configuração do botão voltar
-        voltar.setOnClickListener(v -> {
+        voltar.setOnClickListener(v -> { // Configura o botao de voltar
             onBackPressed();
         });
 
-        // Configuração do botão de perfil (Login)
-        perfilAnimais.setOnClickListener(v -> {
+        perfilAnimais.setOnClickListener(v -> { // Configuracao do botao de perfil
             Intent intentPerfil = new Intent(Aves.this, Cadastro.class);
             startActivity(intentPerfil);
         });
-
-        // Se a lista de animais não estiver vazia, começa a criar os botões para aves
-        if (animaisList != null) {
-            int topMargin = 20; // Inicializa a margem superior para o primeiro botão
-
-            // Filtra e cria botões para as aves (classe 3)
+        int aves = 0;
+        if (animaisList != null) { // Cria botoes
             for (int i = 0; i < animaisList.size(); i++) {
                 AnimaisExtintosModel animal = animaisList.get(i);
 
-                // Verifica se o animal é uma ave (classe 3)
-                if (animal.getAnimalType() == 3) {
-                    Log.d("Aves", "Adicionando ave: " + animal.getName());
+                if (animal.getAnimalType() == 3) { // Filtra aves
+                    aves++; // Contador de aves
+                    Log.d("TAG", "onCreate: "+ aves);
+                    // Cria e configura cardView
+                    CardView cardView = new CardView(Aves.this);
+                    cardView.setId(View.generateViewId());
+                    cardView.setCardBackgroundColor(Color.parseColor("#1B485F"));
+                    cardView.setRadius(dpToPx(10));
 
-                    // Cria um novo botão programaticamente
-                    Button button = new Button(Aves.this);
-                    button.setId(View.generateViewId());
-                    button.setText(animal.getName());
-                    button.setBackgroundColor(getResources().getColor(android.R.color.white));
-                    button.setTextColor(getResources().getColor(android.R.color.black));
-
-                    // Define o layout do botão
                     ConstraintLayout.LayoutParams layoutParams = new ConstraintLayout.LayoutParams(
                             ConstraintLayout.LayoutParams.MATCH_PARENT,
-                            ConstraintLayout.LayoutParams.WRAP_CONTENT
+                            0
                     );
-                    layoutParams.setMargins(20, topMargin, 20, 20);
-                    button.setLayoutParams(layoutParams);
+                    layoutParams.setMarginEnd(dpToPx(10));
+                    cardView.setLayoutParams(layoutParams);
 
-                    // Seleciona qual ConstraintLayout vai adicionar o botão (alternando entre constraintLayout1 e constraintLayout2)
-                    ConstraintLayout targetLayout = (i % 2 == 0) ? constraintLayout1 : constraintLayout2;
-                    targetLayout.addView(button);
+                    ConstraintLayout targetLayout = (aves % 2 == 0) ? constraintLayout2 : constraintLayout1; // Define qual constraint o botao sera adicionado
+                    targetLayout.addView(cardView);
 
-                    // Define as constraints do botão
+                    // Configura cardView ao constraintLayout
                     ConstraintSet constraintSet = new ConstraintSet();
                     constraintSet.clone(targetLayout);
 
+                    constraintSet.setDimensionRatio(cardView.getId(), "1:1");
+                    constraintSet.connect(cardView.getId(), ConstraintSet.START, targetLayout.getId(), ConstraintSet.START, 0);
+                    constraintSet.connect(cardView.getId(), ConstraintSet.END, targetLayout.getId(), ConstraintSet.END, 0);
+
                     // Configura as constraints do botão de acordo com a posição
                     if (targetLayout.getChildCount() == 1) {
-                        constraintSet.connect(button.getId(), ConstraintSet.TOP, targetLayout.getId(), ConstraintSet.TOP, 100);
+                        constraintSet.connect(cardView.getId(), ConstraintSet.TOP, targetLayout.getId(), ConstraintSet.TOP, 0);
                     } else {
-                        Button previousButton = (Button) targetLayout.getChildAt(targetLayout.getChildCount() - 2);
-                        constraintSet.connect(button.getId(), ConstraintSet.TOP, previousButton.getId(), ConstraintSet.BOTTOM, 20);
+                        CardView previousButton = (CardView) targetLayout.getChildAt(targetLayout.getChildCount() - 2);
+                        constraintSet.connect(cardView.getId(), ConstraintSet.TOP, previousButton.getId(), ConstraintSet.BOTTOM, dpToPx(16));
                     }
 
-                    // Alinha os botões ao centro (horizontalmente)
-                    constraintSet.connect(button.getId(), ConstraintSet.START, targetLayout.getId(), ConstraintSet.START, 20);
-                    constraintSet.connect(button.getId(), ConstraintSet.END, targetLayout.getId(), ConstraintSet.END, 20);
-
-                    // Aplica as constraints ao layout
                     constraintSet.applyTo(targetLayout);
 
-                    // Configura o OnClickListener para abrir os detalhes do animal
-                    button.setOnClickListener(v -> {
-                        Log.d("Aves", "Botão clicado para o animal: " + animal.getName());
-
-                        // Passa os dados para a PagAnimaisActivity (detalhes do animal)
+                    cardView.setOnClickListener(v -> {
+                        // Passa os dados para a PagAnimaisActivity
                         Intent detailIntent = new Intent(Aves.this, PagAnimais.class);
                         detailIntent.putExtra("NOME_ANIMAL", animal.getName());
                         detailIntent.putExtra("DESCRICAO_ANIMAL", animal.getAbout());
@@ -126,6 +102,65 @@ public class Aves extends AppCompatActivity {
                         detailIntent.putExtra("IMG_ANIMAL", animal.getAnimalPhoto());
                         startActivity(detailIntent);
                     });
+
+                    // Cria, configura e adiciona constraintLayout o cardView
+                    ConstraintLayout constraintLayout = new ConstraintLayout(Aves.this);
+                    CardView.LayoutParams constraintLayoutParams = new CardView.LayoutParams(
+                            CardView.LayoutParams.MATCH_PARENT,
+                            CardView.LayoutParams.MATCH_PARENT
+                    );
+                    constraintLayout.setLayoutParams(constraintLayoutParams);
+                    cardView.addView(constraintLayout);
+
+                    // Cria, configura e adiciona TextView ao constraintLayout
+                    TextView textView = new TextView(Aves.this);
+                    textView.setId(View.generateViewId());
+                    textView.setText(animal.getName());
+                    textView.setTextSize(dpToPx(6));
+                    Typeface typeface = ResourcesCompat.getFont(this, R.font.amaranth);
+                    textView.setTypeface(typeface);
+                    textView.setTextColor(Color.WHITE);
+
+                    ConstraintLayout.LayoutParams textLayoutParams = new ConstraintLayout.LayoutParams(
+                            ConstraintLayout.LayoutParams.WRAP_CONTENT,
+                            ConstraintLayout.LayoutParams.WRAP_CONTENT
+                    );
+                    textView.setLayoutParams(textLayoutParams);
+                    constraintLayout.addView(textView);
+
+                    ConstraintSet textViewConstraintSet = new ConstraintSet();
+                    textViewConstraintSet.clone(constraintLayout);
+                    textViewConstraintSet.connect(textView.getId(), ConstraintSet.START, ConstraintSet.PARENT_ID, ConstraintSet.START, 0);
+                    textViewConstraintSet.connect(textView.getId(), ConstraintSet.END, ConstraintSet.PARENT_ID, ConstraintSet.END, 0);
+                    textViewConstraintSet.connect(textView.getId(), ConstraintSet.BOTTOM, ConstraintSet.PARENT_ID, ConstraintSet.BOTTOM, dpToPx(3));
+                    textViewConstraintSet.applyTo(constraintLayout);
+
+                    // Cria, configura e adiciona imageView ao constraintLayout
+
+                    ImageView imageView = new ImageView(Aves.this);
+                    imageView.setId(View.generateViewId()); // Define um ID único para o ImageView
+                    imageView.setScaleType(ImageView.ScaleType.FIT_XY);
+
+                    ConstraintLayout.LayoutParams imageViewLayoutParams = new ConstraintLayout.LayoutParams(
+                            0,
+                            0
+                    );
+                    imageView.setLayoutParams(imageViewLayoutParams);
+                    constraintLayout.addView(imageView);
+
+                    ConstraintSet imageViewConstraintSet = new ConstraintSet();
+                    imageViewConstraintSet.clone(constraintLayout);
+
+                    imageViewConstraintSet.connect(imageView.getId(), ConstraintSet.START, ConstraintSet.PARENT_ID, ConstraintSet.START, 0);
+                    imageViewConstraintSet.connect(imageView.getId(), ConstraintSet.END, ConstraintSet.PARENT_ID, ConstraintSet.END, 0);
+                    imageViewConstraintSet.connect(imageView.getId(), ConstraintSet.TOP, ConstraintSet.PARENT_ID, ConstraintSet.TOP, 0);
+                    imageViewConstraintSet.connect(imageView.getId(), ConstraintSet.BOTTOM, textView.getId(), ConstraintSet.TOP, dpToPx(3));
+                    imageViewConstraintSet.applyTo(constraintLayout);
+
+                    Glide.with(Aves.this) // Adiciona imagem atraves do glide, pegando o URL
+                            .load(animal.getAnimalPhoto())
+                            .into(imageView);
+
                 }
             }
         }

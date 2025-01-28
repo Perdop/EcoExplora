@@ -5,19 +5,17 @@ import android.os.Parcelable;
 import android.util.Log;
 
 public class AnimaisExtintosModel implements Parcelable {
-    private int id;            // ID do animal extinto
-    private String name;       // Nome do animal extinto
-    private String about;      // Descrição sobre o animal extinto
-    private int animalType;        // Classe do animal (como mamífero, réptil, etc.)
-    private int living;    // Número de animais existentes
-    private String state;     // Estado do animal (extinto, em extinção, etc.)
+    private int id;
+    private String name;
+    private String about;
+    private int animalType;
+    private int living;
+    private String state;
     private String animalPhoto;
 
-    // Construtor padrão
     public AnimaisExtintosModel() {
     }
 
-    // Construtor com todos os campos
     public AnimaisExtintosModel(int id, String nome, String sobre, int classe, int existentes, String estado, String img) {
         this.id = id;
         this.name = nome;
@@ -29,7 +27,6 @@ public class AnimaisExtintosModel implements Parcelable {
     }
 
     // Getters e Setters
-
     public int getId() {
         return id;
     }
@@ -81,9 +78,7 @@ public class AnimaisExtintosModel implements Parcelable {
         this.animalPhoto = animalPhoto;
     }
 
-    // Implementação do Parcelable
-
-    // Método que cria o objeto a partir do Parcel
+    // Parcelable
     protected AnimaisExtintosModel(Parcel in) {
         id = in.readInt();
         name = in.readString();
@@ -92,11 +87,8 @@ public class AnimaisExtintosModel implements Parcelable {
         living = in.readInt();
         state = in.readString();
         animalPhoto = in.readString();
-        Log.d("Teste", "Img no Parcel: " + animalPhoto);  // Log para verificar o valor de 'img' no Parcel
     }
 
-
-    // Método que cria o array de objetos Parcelable
     public static final Creator<AnimaisExtintosModel> CREATOR = new Creator<AnimaisExtintosModel>() {
         @Override
         public AnimaisExtintosModel createFromParcel(Parcel in) {
@@ -109,10 +101,9 @@ public class AnimaisExtintosModel implements Parcelable {
         }
     };
 
-    // Métodos obrigatórios da interface Parcelable
     @Override
     public int describeContents() {
-        return 0; // Não há objetos especiais a serem descritos
+        return 0;
     }
 
     @Override

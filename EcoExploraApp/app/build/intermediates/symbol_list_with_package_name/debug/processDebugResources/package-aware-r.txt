@@ -1361,6 +1361,7 @@ color accent_material_dark
 color accent_material_light
 color androidx_core_ripple_material_light
 color androidx_core_secondary_text_default_material_light
+color background_color
 color background_floating_material_dark
 color background_floating_material_light
 color background_material_dark
@@ -3272,7 +3273,6 @@ id cardQts
 id cardRepteis
 id cardTop
 id cardTopSeta
-id cardView
 id carryVelocity
 id center
 id centerCrop
@@ -3420,7 +3420,6 @@ id imageProfile1
 id imageProfile2
 id imageProfile3
 id imageRepteis
-id imageView
 id imageView2
 id imgPerfilDev1
 id imgPerfilDev2
@@ -3567,13 +3566,7 @@ id position
 id postLayout
 id pressed
 id profileButton
-id profileButtonAnfibios
 id profileButtonAnimais
-id profileButtonAves
-id profileButtonMamiferos
-id profileButtonPeixes
-id profileButtonPlantas
-id profileButtonRepteis
 id progress_circular
 id progress_horizontal
 id radio
@@ -3654,12 +3647,7 @@ id stretch
 id submenuarrow
 id submit_area
 id subtitulo
-id subtituloAnfibios
-id subtituloAves
 id subtituloMamiferos
-id subtituloPeixes
-id subtituloPlantas
-id subtituloRepteis
 id supportScrollUp
 id tabMode
 id tag_accessibility_actions
@@ -3725,7 +3713,6 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
-id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3743,16 +3730,11 @@ id titulo
 id titulo2
 id titulo3
 id titulo4
-id tituloAnfibios
-id tituloAves
 id tituloDev
 id tituloLogado
 id tituloLogin
 id tituloLogin1
 id tituloMamiferos
-id tituloPeixes
-id tituloPlantas
-id tituloRepteis
 id tituloSobreAnimais
 id toggle
 id top

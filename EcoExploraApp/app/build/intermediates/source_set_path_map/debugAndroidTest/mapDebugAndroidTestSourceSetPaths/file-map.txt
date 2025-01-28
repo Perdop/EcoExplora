@@ -1,0 +1,5 @@
+com.example.home.test.app-core-1.6.1-0 /home/perdop/.gradle/caches/transforms-4/2cb443ffdc663d09dd676afd89887a73/transformed/core-1.6.1/res
+com.example.home.test.app-androidTest-1 /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/build/generated/res/resValues/androidTest/debug
+com.example.home.test.app-mergeDebugAndroidTestResources-2 /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.home.test.app-mergeDebugAndroidTestResources-3 /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.home.test.app-debugAndroidTest-4 /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources

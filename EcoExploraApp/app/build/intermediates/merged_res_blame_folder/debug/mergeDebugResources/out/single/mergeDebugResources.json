@@ -132,10 +132,6 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/layout/activity_logado.xml"
     },
     {
-        "merged": "com.example.home.app-debug-32:/layout_activity_mamiferos.xml.flat",
-        "source": "com.example.home.app-main-34:/layout/activity_mamiferos.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_image2.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/image2.png"
     },
@@ -202,6 +198,10 @@
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_fundo2.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/fundo2.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-32:/layout_activity_peixes.xml.flat",
+        "source": "com.example.home.app-main-34:/layout/activity_peixes.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_fundo4.png.flat",
