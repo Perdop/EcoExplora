@@ -40,16 +40,6 @@
                 android:textColor="#1B485F"
                 android:textSize="32sp" />
 
-            <ImageButton
-                android:id="@+id/profileButtonAnimais"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="right"
-                android:layout_marginTop="45dp"
-                android:layout_marginEnd="36dp"
-                android:background="@null"
-                app:srcCompat="@drawable/profilebutton" />
-
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardAnimais"
                 android:layout_width="411dp"

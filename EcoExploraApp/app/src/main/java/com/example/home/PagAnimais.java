@@ -54,13 +54,8 @@ public class PagAnimais extends AppCompatActivity {
         Log.d("img","img" + imageUrl + "img2" + imgAnimal);
 
         // Configura os botões de navegação
-        ImageButton profileAnimal = findViewById(R.id.profileButtonAnimais);
         TextView animaisVoltar = findViewById(R.id.setaAnimais);
 
-        profileAnimal.setOnClickListener(v -> {
-            Intent intent = new Intent(PagAnimais.this, Cadastro.class);
-            startActivity(intent);
-        });
 
         // Alterando o comportamento do botão de voltar para considerar o tipo do animal
         animaisVoltar.setOnClickListener(v -> {

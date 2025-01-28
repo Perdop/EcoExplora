@@ -3565,7 +3565,6 @@ int id position 0x7f0a01aa
 int id postLayout 0x7f0a01ab
 int id pressed 0x7f0a01ac
 int id profileButton 0x7f0a01ad
-int id profileButtonAnimais 0x7f0a01af
 int id progress_circular 0x7f0a01b5
 int id progress_horizontal 0x7f0a01b6
 int id radio 0x7f0a01b7

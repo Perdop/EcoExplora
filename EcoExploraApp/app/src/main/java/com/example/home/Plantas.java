@@ -35,7 +35,6 @@ public class Plantas extends AppCompatActivity {
         setContentView(R.layout.activity_plantas);
 
         TextView voltar = findViewById(R.id.setaAnimais);
-        ImageButton perfilAnimais = findViewById(R.id.profileButton);
         ConstraintLayout constraintLayout1 = findViewById(R.id.constraintLayout1);
         ConstraintLayout constraintLayout2 = findViewById(R.id.constraintLayout2);
 
@@ -46,10 +45,7 @@ public class Plantas extends AppCompatActivity {
             onBackPressed();
         });
 
-        perfilAnimais.setOnClickListener(v -> { // Configuracao do botao de perfil
-            Intent intentPerfil = new Intent(Plantas.this, Cadastro.class);
-            startActivity(intentPerfil);
-        });
+
         int plantas = 0;
         if (animaisList != null) { // Cria botoes
             for (int i = 0; i < animaisList.size(); i++) {

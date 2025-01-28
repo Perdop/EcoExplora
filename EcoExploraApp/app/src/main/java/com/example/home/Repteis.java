@@ -35,7 +35,6 @@ public class Repteis extends AppCompatActivity {
         setContentView(R.layout.activity_repteis);
 
         TextView voltar = findViewById(R.id.setaAnimais);
-        ImageButton perfilAnimais = findViewById(R.id.profileButton);
         ConstraintLayout constraintLayout1 = findViewById(R.id.constraintLayout1);
         ConstraintLayout constraintLayout2 = findViewById(R.id.constraintLayout2);
 
@@ -46,10 +45,6 @@ public class Repteis extends AppCompatActivity {
             onBackPressed();
         });
 
-        perfilAnimais.setOnClickListener(v -> { // Configuracao do botao de perfil
-            Intent intentPerfil = new Intent(Repteis.this, Cadastro.class);
-            startActivity(intentPerfil);
-        });
         int repteis = 0;
         if (animaisList != null) { // Cria botoes
             for (int i = 0; i < animaisList.size(); i++) {

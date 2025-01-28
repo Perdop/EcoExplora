@@ -119,7 +119,6 @@ id perfilDev1
 id perfilDev2
 id perfilDev3
 id profileButton
-id profileButtonAnimais
 id rounded1
 id rounded2
 id rounded3

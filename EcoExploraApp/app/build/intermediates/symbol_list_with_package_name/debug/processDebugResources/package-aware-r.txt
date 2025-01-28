@@ -3566,7 +3566,6 @@ id position
 id postLayout
 id pressed
 id profileButton
-id profileButtonAnimais
 id progress_circular
 id progress_horizontal
 id radio
