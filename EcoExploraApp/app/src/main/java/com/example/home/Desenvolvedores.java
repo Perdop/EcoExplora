@@ -1,6 +1,7 @@
 package com.example.home;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -29,6 +30,36 @@ public class Desenvolvedores extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Desenvolvedores.this, Home.class);
+                startActivity(intent);
+            }
+        });
+
+        TextView gitEllen = findViewById(R.id.gitEllen);
+        gitEllen.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://github.com/EllenVargas"; // Substitua pelo link desejado
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
+            }
+        });
+
+        TextView gitPedro = findViewById(R.id.gitPedro);
+        gitPedro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://github.com/Perdop"; // Substitua pelo link desejado
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
+                startActivity(intent);
+            }
+        });
+
+        TextView gitRaphael = findViewById(R.id.gitRaphael);
+        gitRaphael.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://github.com/RaphaelBarcelos"; // Substitua pelo link desejado
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(url));
                 startActivity(intent);
             }
         });

@@ -1429,6 +1429,7 @@ color foreground_material_dark
 color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
+color ic_launcher_background
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
 color m3_assist_chip_stroke_color
@@ -3390,6 +3391,9 @@ id fundoTop1
 id fundoTop2
 id ghost_view
 id ghost_view_holder
+id gitEllen
+id gitPedro
+id gitRaphael
 id glide_custom_view_target_tag
 id gone
 id graph
@@ -3696,9 +3700,6 @@ id textPerfil3
 id textPerfil4
 id textPerfil5
 id textPerfil6
-id textPerfil7
-id textPerfil8
-id textPerfil9
 id textPlantas
 id textProfilePic
 id textQts
@@ -3712,6 +3713,7 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textView
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3981,6 +3983,7 @@ layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
 string abc_action_bar_home_description

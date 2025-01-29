@@ -21,8 +21,9 @@
     </array>
     <color name="background_color">#8FBE9E</color>
     <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#8FBE9E</color>
     <color name="white">#FFFFFFFF</color>
-    <string name="app_name">home</string>
+    <string name="app_name">EcoExplora</string>
     <style name="Base.Theme.Home" parent="Theme.Material3.DayNight.NoActionBar">
         
         

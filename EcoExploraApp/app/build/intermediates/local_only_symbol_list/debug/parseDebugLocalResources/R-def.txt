@@ -6,6 +6,7 @@ array com_google_android_gms_fonts_certs_prod
 array preloaded_fonts
 color background_color
 color black
+color ic_launcher_background
 color white
 drawable anfibios
 drawable aves
@@ -96,6 +97,9 @@ id fundoDev1
 id fundoDev2
 id fundoTop1
 id fundoTop2
+id gitEllen
+id gitPedro
+id gitRaphael
 id imageAnfibios
 id imageAves
 id imageDev
@@ -158,9 +162,6 @@ id textPerfil3
 id textPerfil4
 id textPerfil5
 id textPerfil6
-id textPerfil7
-id textPerfil8
-id textPerfil9
 id textPlantas
 id textProfilePic
 id textQts
@@ -170,6 +171,7 @@ id textSenha1
 id textSetaBottom
 id textSetaBottom1
 id textSetaBottomLogado
+id textView
 id titulo
 id titulo2
 id titulo3
@@ -195,6 +197,7 @@ layout activity_peixes
 layout activity_plantas
 layout activity_repteis
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 string app_name
 style Base.Theme.Home

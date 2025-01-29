@@ -1428,6 +1428,7 @@ int color foreground_material_dark 0x7f06005d
 int color foreground_material_light 0x7f06005e
 int color highlighted_text_material_dark 0x7f06005f
 int color highlighted_text_material_light 0x7f060060
+int color ic_launcher_background 0x7f060308
 int color m3_appbar_overlay_color 0x7f060061
 int color m3_assist_chip_icon_tint_color 0x7f060062
 int color m3_assist_chip_stroke_color 0x7f060063
@@ -3389,6 +3390,9 @@ int id fundoTop1 0x7f0a00fa
 int id fundoTop2 0x7f0a00fb
 int id ghost_view 0x7f0a00fc
 int id ghost_view_holder 0x7f0a00fd
+int id gitEllen 0x7f0a028f
+int id gitPedro 0x7f0a0290
+int id gitRaphael 0x7f0a0291
 int id glide_custom_view_target_tag 0x7f0a00fe
 int id gone 0x7f0a00ff
 int id graph 0x7f0a0100
@@ -3695,9 +3699,6 @@ int id textPerfil3 0x7f0a0238
 int id textPerfil4 0x7f0a0239
 int id textPerfil5 0x7f0a023a
 int id textPerfil6 0x7f0a023b
-int id textPerfil7 0x7f0a023c
-int id textPerfil8 0x7f0a023d
-int id textPerfil9 0x7f0a023e
 int id textPlantas 0x7f0a023f
 int id textProfilePic 0x7f0a0240
 int id textQts 0x7f0a0241
@@ -3711,6 +3712,7 @@ int id textSpacerNoButtons 0x7f0a0248
 int id textSpacerNoTitle 0x7f0a0249
 int id textStart 0x7f0a024a
 int id textTop 0x7f0a024b
+int id textView 0x7f0a0292
 int id text_input_end_icon 0x7f0a024c
 int id text_input_error_icon 0x7f0a024d
 int id text_input_start_icon 0x7f0a024e
@@ -3980,6 +3982,7 @@ int layout select_dialog_multichoice_material 0x7f0d0076
 int layout select_dialog_singlechoice_material 0x7f0d0077
 int layout support_simple_spinner_dropdown_item 0x7f0d0078
 int mipmap ic_launcher 0x7f0f0000
+int mipmap ic_launcher_foreground 0x7f0f0002
 int mipmap ic_launcher_round 0x7f0f0001
 int plurals mtrl_badge_content_description 0x7f100000
 int string abc_action_bar_home_description 0x7f110000

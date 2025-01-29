@@ -248,8 +248,8 @@
             app:layout_constraintTop_toTopOf="@+id/textPerfil1" />
 
         <TextView
-            android:id="@+id/textPerfil7"
-            android:layout_width="wrap_content"
+            android:id="@+id/gitEllen"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/amaranth"
             android:text="git: EllenVargas"
@@ -303,8 +303,8 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textPerfil8"
-            android:layout_width="wrap_content"
+            android:id="@+id/gitPedro"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/amaranth"
             android:text="git: Perdop"
@@ -356,8 +356,8 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/textPerfil9"
-            android:layout_width="wrap_content"
+            android:id="@+id/gitRaphael"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:fontFamily="@font/amaranth"
             android:text="git: RaphaelBarcelos"
@@ -370,5 +370,20 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="1.0" />
     </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="15dp"
+        android:fontFamily="@font/amaranth"
+        android:text="Clicar no git leva para pagina do perfil"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
