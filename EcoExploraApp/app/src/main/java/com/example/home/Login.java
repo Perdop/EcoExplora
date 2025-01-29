@@ -24,7 +24,7 @@ public class Login extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        TextView voltarLogin = findViewById(R.id.setaAnimais);
+        TextView voltarLogin = findViewById(R.id.setaVoltar);
         ImageButton devsLogin = findViewById(R.id.fundoBottom21);
         TextView toRegistro = findViewById(R.id.textContaLogin1);
 

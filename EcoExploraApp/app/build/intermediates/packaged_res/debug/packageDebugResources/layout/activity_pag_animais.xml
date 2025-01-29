@@ -30,7 +30,7 @@
                 app:srcCompat="@drawable/exemploanimal" />
 
             <TextView
-                android:id="@+id/setaAnimais"
+                android:id="@+id/setaVoltar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"

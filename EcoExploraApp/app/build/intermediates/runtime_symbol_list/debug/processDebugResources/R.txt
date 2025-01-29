@@ -3184,7 +3184,6 @@ int id accessibility_custom_action_6 0x7f0a002c
 int id accessibility_custom_action_7 0x7f0a002d
 int id accessibility_custom_action_8 0x7f0a002e
 int id accessibility_custom_action_9 0x7f0a002f
-int id acessarButton 0x7f0a0030
 int id acessarButton1 0x7f0a0031
 int id acessarButtonLogado 0x7f0a0032
 int id acessarButtonLogado2 0x7f0a0033
@@ -3245,6 +3244,7 @@ int id bounceEnd 0x7f0a0069
 int id bounceStart 0x7f0a006a
 int id buttonPanel 0x7f0a006b
 int id cache_measures 0x7f0a006c
+int id cadastrarButton 0x7f0a0294
 int id callMeasure 0x7f0a006d
 int id cancel_button 0x7f0a006e
 int id carPeixes 0x7f0a006f
@@ -3608,9 +3608,9 @@ int id search_voice_btn 0x7f0a01d8
 int id select_dialog_listview 0x7f0a01d9
 int id selected 0x7f0a01da
 int id selection_type 0x7f0a01db
-int id setaAnimais 0x7f0a01dc
 int id setaDev 0x7f0a01dd
 int id setaInfopage 0x7f0a01de
+int id setaVoltar 0x7f0a0293
 int id sharedValueSet 0x7f0a01df
 int id sharedValueUnset 0x7f0a01e0
 int id shortcut 0x7f0a01e1

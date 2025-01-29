@@ -1,6 +1,7 @@
 package com.example.home;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.Toast;
@@ -21,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         Button button = findViewById(R.id.iniciar);
 
         Toast.makeText(MainActivity.this, "Procurando dados dos animais", Toast.LENGTH_SHORT).show(); // Sinaliza a procura pelos dados

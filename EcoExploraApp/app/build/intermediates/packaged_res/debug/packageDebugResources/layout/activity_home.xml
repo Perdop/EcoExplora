@@ -26,11 +26,11 @@
                 android:id="@+id/profileButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="80dp"
-                android:layout_marginEnd="36dp"
+                android:layout_marginEnd="28dp"
                 android:background="@null"
+                app:layout_constraintBottom_toBottomOf="@+id/titulo"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/titulo"
                 app:srcCompat="@drawable/profilebutton" />
 
             <TextView
@@ -61,11 +61,13 @@
 
             <TextView
                 android:id="@+id/loginBtn"
-                android:layout_width="0dp"
+                android:layout_width="80dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
                 android:layout_marginTop="9dp"
+                android:layout_marginEnd="28dp"
                 android:fontFamily="@font/amaranth"
+                android:includeFontPadding="false"
                 android:text="faça login!"
                 android:textColor="#1B455B"
                 android:textSize="16sp"

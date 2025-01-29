@@ -26,12 +26,8 @@ public class Desenvolvedores extends AppCompatActivity {
         });
         TextView devsVoltar = findViewById(R.id.setaDev);
 
-        devsVoltar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Desenvolvedores.this, Home.class);
-                startActivity(intent);
-            }
+        devsVoltar.setOnClickListener(v -> {
+            onBackPressed();
         });
 
         TextView gitEllen = findViewById(R.id.gitEllen);

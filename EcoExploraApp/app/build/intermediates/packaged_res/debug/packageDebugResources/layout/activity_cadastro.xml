@@ -13,38 +13,38 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginTop="50dp"
         android:fontFamily="@font/londrina_solid"
         android:letterSpacing="0.05"
         android:text="ECOEXPLORA"
         android:textColor="#1B485F"
         android:textSize="36sp"
-        app:layout_constraintStart_toEndOf="@+id/setaAnimais"
+        app:layout_constraintStart_toEndOf="@+id/setaVoltar"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/setaAnimais"
+        android:id="@+id/setaVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
-        android:layout_marginTop="55dp"
         android:rotation="180"
         android:text="➜"
         android:textColor="#1B485F"
         android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/titulo3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/titulo3" />
 
     <ImageButton
         android:id="@+id/fundoTop2"
         android:layout_width="85dp"
         android:layout_height="85dp"
-        android:layout_marginTop="30dp"
         android:layout_marginEnd="25dp"
         android:background="@null"
         android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="@+id/titulo3"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/titulo3"
         app:srcCompat="@drawable/logo" />
 
     <androidx.cardview.widget.CardView
@@ -58,7 +58,7 @@
         app:cardCornerRadius="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/setaAnimais">
+        app:layout_constraintTop_toBottomOf="@+id/setaVoltar">
 
         <TextView
             android:id="@+id/tituloLogin"
@@ -93,7 +93,9 @@
             android:background="@drawable/rounded_corners1"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
+            android:fontFamily="@font/amaranth"
             android:inputType="text"
+            android:paddingLeft="20dp"
             android:textColor="#000000" />
 
         <TextView
@@ -117,7 +119,9 @@
             android:background="@drawable/rounded_corners1"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
+            android:fontFamily="@font/amaranth"
             android:inputType="textPassword"
+            android:paddingLeft="20dp"
             android:textColor="#000000" />
 
         <TextView
@@ -145,6 +149,7 @@
                 android:id="@+id/imageProfile1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:alpha="0.6"
                 android:background="@android:color/transparent"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/cajo" />
@@ -162,6 +167,7 @@
                 android:id="@+id/imageProfile2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:alpha="0.6"
                 android:background="@android:color/transparent"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/pato" />
@@ -180,20 +186,21 @@
                 android:id="@+id/imageProfile3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:alpha="0.6"
                 android:background="@android:color/transparent"
                 android:scaleType="centerCrop"
                 app:srcCompat="@drawable/urso" />
         </androidx.cardview.widget.CardView>
 
         <Button
-            android:id="@+id/acessarButton"
+            android:id="@+id/cadastrarButton"
             android:layout_width="287dp"
             android:layout_height="45dp"
             android:layout_gravity="bottom|center"
             android:layout_marginBottom="15dp"
             android:backgroundTint="#E4EEF3"
             android:fontFamily="@font/londrina_solid"
-            android:text="ACESSAR"
+            android:text="CADASTRAR"
             android:textAlignment="center"
             android:textColor="#1B485F"
             android:textSize="24dp"

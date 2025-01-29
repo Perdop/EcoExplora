@@ -1,9 +1,6 @@
 package com.example.home;
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -54,7 +51,7 @@ public class PagAnimais extends AppCompatActivity {
         Log.d("img","img" + imageUrl + "img2" + imgAnimal);
 
         // Configura os botões de navegação
-        TextView animaisVoltar = findViewById(R.id.setaAnimais);
+        TextView animaisVoltar = findViewById(R.id.setaVoltar);
 
 
         // Alterando o comportamento do botão de voltar para considerar o tipo do animal

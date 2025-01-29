@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -38,6 +39,7 @@ public class Home extends AppCompatActivity {
 
         // Configuração dos botões da Home
         ImageButton profileButton = findViewById(R.id.profileButton);
+        TextView loginBtn = findViewById(R.id.loginBtn);
         ImageButton especiesButton = findViewById(R.id.fundoTop2);
         ImageButton plantasButton = findViewById(R.id.imagePlantas);
         ImageButton anfibiosButton = findViewById(R.id.imageAnfibios);
@@ -49,6 +51,13 @@ public class Home extends AppCompatActivity {
 
         // Navegação para a tela de login
         profileButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Home.this, Cadastro.class);
+                startActivity(intent);
+            }
+        });
+        loginBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Home.this, Cadastro.class);

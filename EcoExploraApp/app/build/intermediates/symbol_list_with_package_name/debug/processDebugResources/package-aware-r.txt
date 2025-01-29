@@ -3185,7 +3185,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-id acessarButton
 id acessarButton1
 id acessarButtonLogado
 id acessarButtonLogado2
@@ -3246,6 +3245,7 @@ id bounceEnd
 id bounceStart
 id buttonPanel
 id cache_measures
+id cadastrarButton
 id callMeasure
 id cancel_button
 id carPeixes
@@ -3609,9 +3609,9 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
-id setaAnimais
 id setaDev
 id setaInfopage
+id setaVoltar
 id sharedValueSet
 id sharedValueUnset
 id shortcut

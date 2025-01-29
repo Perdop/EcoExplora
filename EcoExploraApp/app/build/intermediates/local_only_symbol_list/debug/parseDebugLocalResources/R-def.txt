@@ -45,7 +45,6 @@ drawable urso
 font amaranth
 font amiko
 font londrina_solid
-id acessarButton
 id acessarButton1
 id acessarButtonLogado
 id acessarButtonLogado2
@@ -54,6 +53,7 @@ id animalEstado
 id animalExistentes
 id animalImage
 id animalName
+id cadastrarButton
 id carPeixes
 id cardAmbiente
 id cardAnfibios
@@ -126,9 +126,9 @@ id profileButton
 id rounded1
 id rounded2
 id rounded3
-id setaAnimais
 id setaDev
 id setaInfopage
+id setaVoltar
 id subtitulo
 id subtituloMamiferos
 id textAmbiente1

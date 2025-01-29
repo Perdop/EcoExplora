@@ -19,11 +19,11 @@
         android:text="ECOEXPLORA"
         android:textColor="#1B485F"
         android:textSize="36sp"
-        app:layout_constraintStart_toEndOf="@+id/setaAnimais"
+        app:layout_constraintStart_toEndOf="@+id/setaVoltar"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/setaAnimais"
+        android:id="@+id/setaVoltar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
@@ -60,7 +60,7 @@
         app:layout_constraintBottom_toTopOf="@+id/cardDevLogin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/setaAnimais">
+        app:layout_constraintTop_toBottomOf="@+id/setaVoltar">
 
         <TextView
             android:id="@+id/tituloLogin1"
