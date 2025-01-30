@@ -51,8 +51,7 @@ public class UsersController {
 	
 	@GetMapping("/findUser/{user}")
 	public boolean findByUsername(@PathVariable("user") String user) {
-	    Optional<Users> username = ecoexploraRepositoryUsers.findByUser(user);
-	    return username.isPresent();
+	    return ecoexploraRepositoryUsers.existsByUser(user);
 	}
 
 

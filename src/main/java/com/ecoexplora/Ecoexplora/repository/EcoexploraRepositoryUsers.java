@@ -8,5 +8,5 @@ import com.ecoexplora.Ecoexplora.model.Users;
 
 public interface EcoexploraRepositoryUsers extends JpaRepository<Users,Integer> {
     Optional<Users> findByUser(String user);
-    
+    boolean existsByUser(String user);
 }
