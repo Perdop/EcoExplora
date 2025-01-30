@@ -2,6 +2,7 @@ package com.example.home;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.ColorStateList;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
@@ -29,6 +30,8 @@ import org.json.JSONObject;
 import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.Objects;
+import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -42,7 +45,9 @@ public class    Cadastro extends AppCompatActivity {
     boolean dadosValidos;
     boolean userExists;
 
-
+    public interface UserCallback {
+        void onUserChecked(boolean exists);
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -118,33 +123,75 @@ public class    Cadastro extends AppCompatActivity {
         EditText editTextNome = findViewById(R.id.editTextNome);
         EditText editTextSenha = findViewById(R.id.editTextSenha);
         Button cadastrarButton = findViewById(R.id.cadastrarButton);
+
+
+
+        editTextNome.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View v, boolean hasFocus) {
+                if (!hasFocus) { // Se perdeu o foco
+                    user = editTextNome.getText().toString().trim();
+                    Log.d("teste2", "onFocusChange: " + user);
+                    verificarUser(user, new UserCallback() {
+                        @Override
+                        public void onUserChecked(boolean exists) {
+                            runOnUiThread(() -> { // Executa na thread principal para atualizar UI
+                                if (exists) {
+                                    Toast.makeText(getApplicationContext(), "Usuário já existe! Digite outro nome.", Toast.LENGTH_SHORT).show();
+                                    editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#E25D5D")));
+                                } else{
+                                    editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#FFFFFF")));
+                                }
+                                if (Objects.equals(user, "")){
+                                    Toast.makeText(Cadastro.this, "Usuário vazio, por favor digite algo", Toast.LENGTH_SHORT).show();
+                                }
+                            });
+                        }
+                    });
+                }
+            }
+        });
+
+
         cadastrarButton.setOnClickListener(v -> {
-            user = editTextNome.getText().toString();
+            user = editTextNome.getText().toString().trim();
             password = editTextSenha.getText().toString();
-            verificarUser(user);
-            if (userExists == false){
-                dadosValidos = true;
-            } else {
+
+            if (userExists == true){
+                Toast.makeText(Cadastro.this, "Usuário já existe! Digite outro nome.", Toast.LENGTH_SHORT).show();
+            }
+            if (Objects.equals(user, "")){
+                Toast.makeText(Cadastro.this, "Usuário vazio, por favor digite algo", Toast.LENGTH_SHORT).show();
+            }
+
+            if (userExists == true || Objects.equals(user, "")){
                 dadosValidos = false;
-                Toast.makeText(Cadastro.this, "Usuário já existe, mude o nome.", Toast.LENGTH_SHORT).show();
+            } else if (userExists == false && !Objects.equals(user, "")){
+                dadosValidos = true;
             }
 
             if (dadosValidos == true){
                 enviarCadastro(user, password, profileUrl);
             }
-
         });
 
     }
 
-    private void verificarUser(String nome){
+
+
+
+
+    private void verificarUser(String nome, UserCallback callback) {
         ExecutorService executor = Executors.newSingleThreadExecutor();
 
         executor.execute(() -> {
             userExists = FindUser.findUser(nome);
-            Log.d("teste2", "onCreate: " + userExists);
+            callback.onUserChecked(userExists); // Chama o callback quando terminar
         });
+
+        executor.shutdown(); // Fecha a thread após uso
     }
+
 
     private void enviarCadastro(String nome, String senha, String urlPhoto) {
         new Thread(() -> {

@@ -120,7 +120,7 @@
             android:backgroundTint="#FFFFFF"
             android:ems="10"
             android:fontFamily="@font/amaranth"
-            android:inputType="textPassword"
+            android:inputType="text|textPassword"
             android:paddingLeft="20dp"
             android:textColor="#000000" />
 
