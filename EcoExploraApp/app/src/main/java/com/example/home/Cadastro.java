@@ -124,7 +124,6 @@ public class    Cadastro extends AppCompatActivity {
             verificarUser(user);
             if (userExists == false){
                 dadosValidos = true;
-                Log.d("teste", "onCreate: " + userExists);
             } else {
                 dadosValidos = false;
                 Toast.makeText(Cadastro.this, "Usuário já existe, mude o nome.", Toast.LENGTH_SHORT).show();
