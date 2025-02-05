@@ -27,7 +27,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class Login extends AppCompatActivity {
-
+    private String userInfo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,22 +65,42 @@ public class Login extends AppCompatActivity {
             }
         });
 
-        loginBtn.setOnClickListener(v -> {
-            String username = editTextUser.getText().toString().trim();
+        String username = editTextUser.getText().toString().trim();
+        String password = editTextPassword.getText().toString().trim();
 
-            if (!username.isEmpty()) {
-                // Executa a busca do usuário em uma nova thread
-                new Thread(() -> {
-                    String userInfo = GetUser.getUser(username);
-                    runOnUiThread(() -> {
-                        // Exibe a resposta na TextView ou em um Toast
-                        Log.d("UserTest", "User info: " + userInfo); // Log da resposta
-                    });
-                }).start();
-            } else {
-                Toast.makeText(this, "Por favor, insira um nome de usuário.", Toast.LENGTH_SHORT).show();
+        editTextUser.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+            @Override
+            public void onFocusChange(View view, boolean b) {
+                if (!b) {
+                    if (!username.isEmpty() && !password.isEmpty()) {
+                        // Executa a busca do usuário em uma nova thread
+                        new Thread(() -> {
+                            userInfo = GetUser.getUser(username);
+                            runOnUiThread(() -> {
+                                // Exibe a resposta na TextView ou em um Toast
+
+                            });
+                        }).start();
+                    }
+                }
             }
         });
+
+        loginBtn.setOnClickListener(v -> {
+            if (userInfo == ""){
+                Toast.makeText(this, "Usuário não existe", Toast.LENGTH_SHORT).show();
+            }
+            if (username.isEmpty()){
+                Toast.makeText(this, "Por favor, insira um nome de usuário.", Toast.LENGTH_SHORT).show();
+            }
+            if(password.isEmpty()){
+                Toast.makeText(this, "Por favor, insira uma senha", Toast.LENGTH_SHORT).show();
+            }
+            if(user)
+            Log.d("UserTest", "onCreate: " + userInfo);
+        });
+
+
 
 //        // Salvando usuario
 //        SharedPreferences user = getSharedPreferences("user", MODE_PRIVATE);
