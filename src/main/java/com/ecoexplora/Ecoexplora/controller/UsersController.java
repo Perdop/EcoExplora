@@ -86,6 +86,25 @@ public class UsersController {
         Users newLogins = new Users(user, password, userPhoto);
         return ecoexploraRepositoryUsers.save(newLogins);
     }
+    @PostMapping("/loginUser")
+    public ResponseEntity<String> loginUser(@RequestBody Map<String, String> body) {
+        String user = body.get("user");
+        String password = body.get("password");
+
+        Optional<Users> foundUser = ecoexploraRepositoryUsers.findByUser(user);
+
+        if (!foundUser.isPresent()) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Usuário não encontrado");
+        }
+
+        if (!foundUser.get().getPassword().equals(password)) {
+            return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Senha incorreta");
+        }
+
+        return ResponseEntity.ok("Login bem-sucedido");
+    }
+
+
     
 }
 
