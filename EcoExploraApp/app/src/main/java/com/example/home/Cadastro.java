@@ -50,6 +50,7 @@ public class    Cadastro extends AppCompatActivity {
 //        SharedPreferences.Editor editor = userState.edit();
 //        editor.putBoolean("logado", false); // Salva um número inteiro
 //        editor.apply();
+
         boolean logado = userState.getBoolean("logado", false);
 
         if (logado) {
@@ -193,6 +194,9 @@ public class    Cadastro extends AppCompatActivity {
                 enviarCadastro(user, password, profileUrl);
             }
         });
+
+        // Login
+
 
     }
 
