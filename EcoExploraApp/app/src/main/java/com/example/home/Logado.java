@@ -23,14 +23,6 @@ public class Logado extends AppCompatActivity {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
-        Button buttonHome = findViewById(R.id.acessarButtonLogado);
 
-        buttonHome.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Logado.this, Home.class);
-                startActivity(intent);
-            }
-        });
     }
 }

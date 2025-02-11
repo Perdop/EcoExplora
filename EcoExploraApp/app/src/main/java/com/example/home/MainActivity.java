@@ -31,18 +31,14 @@ public class MainActivity extends AppCompatActivity {
         networkUtilAnimaisExtintos = new NetworkUtilAnimaisExtintos();
 
         tryToLoadData();
-            button.setOnClickListener(v -> {
-                    Intent intent = new Intent(MainActivity.this, Home.class);
-                    startActivity(intent);
-            });
-
         button.setOnClickListener(v -> {
-            if (animaisList != null && !animaisList.isEmpty()) {
+            // Verifica se os dados foram carregados corretamente
+            if (isDataLoaded && animaisList != null && !animaisList.isEmpty()) {
                 Intent intent = new Intent(MainActivity.this, Home.class);
                 intent.putParcelableArrayListExtra("ANIMAIS_LIST", new java.util.ArrayList<>(animaisList));
                 startActivity(intent);
             } else {
-                Toast.makeText(MainActivity.this, "Nenhum animal encontrado", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Nenhum animal encontrado, tentando novamente...", Toast.LENGTH_SHORT).show();
             }
         });
     }
@@ -59,6 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 // Se os dados foram carregados corretamente
                 if (animaisList != null && !animaisList.isEmpty()) {
                     isDataLoaded = true;
+                    DataStorage.getInstance().setAnimaisList(animaisList);
                     Toast.makeText(MainActivity.this, "Dados carregados com sucesso!", Toast.LENGTH_SHORT).show();
                 } else {
                     tryToLoadData();

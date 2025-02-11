@@ -4,6 +4,7 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+import com.example.home.BuildConfig;
 import com.example.home.model.AnimaisExtintosModel;
 import com.example.home.model.Users;
 import com.google.gson.Gson;
@@ -19,9 +20,11 @@ public class GetUser {
     public static String getUser(String username) {
         OkHttpClient client = new OkHttpClient();
         String url = "https://ecoexplora.onrender.com" + "/getUser/" + username;
+        String apiKey = BuildConfig.API_KEY;
 
         Request request = new Request.Builder()
                 .url(url)
+                .addHeader("X-API-KEY", apiKey)
                 .get()
                 .build();
 

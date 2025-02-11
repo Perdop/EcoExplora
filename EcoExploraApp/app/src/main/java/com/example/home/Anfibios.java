@@ -38,7 +38,7 @@ public class Anfibios extends AppCompatActivity {
         ConstraintLayout constraintLayout2 = findViewById(R.id.constraintLayout2);
 
         Intent intent = getIntent(); // Obtem lista de animais extintos
-        List<AnimaisExtintosModel> animaisList = intent.getParcelableArrayListExtra("ANIMAIS_LIST");
+        List<AnimaisExtintosModel> animaisList =  DataStorage.getInstance().getAnimaisList();
 
         voltar.setOnClickListener(v -> { // Configura o botao de voltar
             onBackPressed();

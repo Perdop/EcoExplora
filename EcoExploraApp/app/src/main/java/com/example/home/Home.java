@@ -2,6 +2,7 @@ package com.example.home;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
@@ -28,7 +29,8 @@ public class Home extends AppCompatActivity {
 
         // Recuperando a lista de animais passada pela MainActivity
         Intent intent = getIntent();
-        animaisList = intent.getParcelableArrayListExtra("ANIMAIS_LIST");
+        MainActivity main = new MainActivity();
+        animaisList = DataStorage.getInstance().getAnimaisList();
 
         // Verificando se a lista foi recebida corretamente
         if (animaisList != null) {

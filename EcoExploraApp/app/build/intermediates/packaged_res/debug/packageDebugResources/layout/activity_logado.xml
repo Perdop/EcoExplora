@@ -112,6 +112,20 @@
             android:textSize="24dp"
             app:cornerRadius="15dp" />
 
+        <Button
+            android:id="@+id/acessarButtonLogado3"
+            android:layout_width="287dp"
+            android:layout_height="45dp"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="115dp"
+            android:backgroundTint="#E4EEF3"
+            android:fontFamily="@font/londrina_solid"
+            android:text="SAIR"
+            android:textAlignment="center"
+            android:textColor="#1B485F"
+            android:textSize="24dp"
+            app:cornerRadius="15dp" />
+
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView

@@ -1,5 +1,7 @@
 package com.example.home.controller;
 
+import com.example.home.BuildConfig;
+
 import org.json.JSONObject;
 
 import java.io.IOException;
@@ -9,13 +11,14 @@ import okhttp3.Request;
 import okhttp3.Response;
 
 public class FindUser {
-
     public static boolean findUser(String username) {
         OkHttpClient client = new OkHttpClient();
         String url = "https://ecoexplora.onrender.com" + "/findUser/" + username;
+        String apiKey = BuildConfig.API_KEY;
 
         Request request = new Request.Builder()
                 .url(url)
+                .addHeader("X-API-KEY", apiKey)
                 .get()
                 .build();
 

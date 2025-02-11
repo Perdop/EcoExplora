@@ -3187,6 +3187,7 @@ int id accessibility_custom_action_9 0x7f0a002f
 int id acessarButton1 0x7f0a0031
 int id acessarButtonLogado 0x7f0a0032
 int id acessarButtonLogado2 0x7f0a0033
+int id acessarButtonLogado3 0x7f0a0295
 int id actionDown 0x7f0a0034
 int id actionDownUp 0x7f0a0035
 int id actionUp 0x7f0a0036

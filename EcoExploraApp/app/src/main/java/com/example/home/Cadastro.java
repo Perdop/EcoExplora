@@ -47,9 +47,6 @@ public class    Cadastro extends AppCompatActivity {
 
         // Verificao de login para definir o layout
         SharedPreferences userState = getSharedPreferences("userState", MODE_PRIVATE);
-//        SharedPreferences.Editor editor = userState.edit();
-//        editor.putBoolean("logado", false); // Salva um número inteiro
-//        editor.apply();
 
         boolean logado = userState.getBoolean("logado", false);
 
@@ -59,143 +56,178 @@ public class    Cadastro extends AppCompatActivity {
             setContentView(R.layout.activity_cadastro);
         }
 
-        // Botao Voltar
-        TextView setaVoltar = findViewById(R.id.setaVoltar);
-        setaVoltar.setOnClickListener(v -> {
-            onBackPressed();
-        });
+        if (logado){
+            Button buttonHome = findViewById(R.id.acessarButtonLogado);
+            Button buttonSair = findViewById(R.id.acessarButtonLogado3);
+            Button buttonTrocar = findViewById(R.id.acessarButtonLogado2);
 
-        // Botao login
-        TextView textContaLogin = findViewById(R.id.textContaLogin);
-        textContaLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Cadastro.this, Login.class);
-                startActivity(intent);
-            }
-        });
-
-        // Botao desenvolvedores
-        ImageView fundoBottom = findViewById(R.id.fundoBottom2);
-        fundoBottom.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Cadastro.this, Desenvolvedores.class);
-                startActivity(intent);
-            }
-        });
-
-        // Hover e selacao da imagem
-        ImageView imageProfile1 = findViewById(R.id.imageProfile1);
-        ImageView imageProfile2 = findViewById(R.id.imageProfile2);
-        ImageView imageProfile3 = findViewById(R.id.imageProfile3);
-
-
-        imageProfile1.setOnClickListener(v -> {
-            profileSelected = 1;
-            imageProfile1.setAlpha(1.0f);
-            imageProfile2.setAlpha(0.6f);
-            imageProfile3.setAlpha(0.6f);
-            profileUrl = "https://res.cloudinary.com/dixozqlb4/image/upload/v1738181622/profileImgCrab_eejbvr.png";
-        });
-        imageProfile2.setOnClickListener(v -> {
-            profileSelected = 2;
-            imageProfile2.setAlpha(1.0f);
-            imageProfile3.setAlpha(0.6f);
-            imageProfile1.setAlpha(0.6f);
-            profileUrl = "https://res.cloudinary.com/dixozqlb4/image/upload/v1738181623/profileImgDuck_mihp1x.png";
-        });
-        imageProfile3.setOnClickListener(v -> {
-            profileSelected = 3;
-            imageProfile3.setAlpha(1.0f);
-            imageProfile2.setAlpha(0.6f);
-            imageProfile1.setAlpha(0.6f);
-            profileUrl = "https://res.cloudinary.com/dixozqlb4/image/upload/v1738181621/profileImgBear_rafydg.png";
-        });
-
-        // Botao Cadastrar
-        EditText editTextNome = findViewById(R.id.editTextNome);
-        EditText editTextSenha = findViewById(R.id.editTextSenha);
-        Button cadastrarButton = findViewById(R.id.cadastrarButton);
-
-
-
-        editTextNome.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                if (!hasFocus) { // Se perdeu o foco
-                    user = editTextNome.getText().toString().trim();
-                    verificarUser(user, new UserCallback() {
-                        @Override
-                        public void onUserChecked(boolean exists) {
-                            runOnUiThread(() -> { // Executa na thread principal para atualizar UI
-                                if (exists) {
-                                    Toast.makeText(getApplicationContext(), "Usuário já existe! Digite outro nome.", Toast.LENGTH_SHORT).show();
-                                    editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#E25D5D")));
-                                } else{
-                                    editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#FFFFFF")));
-                                }
-                                if (Objects.equals(user, "")){
-                                    Toast.makeText(Cadastro.this, "Usuário vazio, por favor digite algo", Toast.LENGTH_SHORT).show();
-                                }
-                            });
-                        }
-                    });
-                }
-            }
-        });
-
-        editTextSenha.setFilters(new InputFilter[] { new InputFilter() {
-            @Override
-            public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
-                for (int i = start; i < end; i++) {
-                    // Impede a inserção do dígito '5'
-                    if (source.charAt(i) == ' ') {
-                        Toast.makeText(Cadastro.this, "Proibido espaços na senha", Toast.LENGTH_SHORT).show();
-                        return ""; // Retorna vazio para impedir a entrada
-                    }
-                }
-                return null; // Permite a entrada
-            }
-        } });
-
-        cadastrarButton.setOnClickListener(v -> {
-            user = editTextNome.getText().toString().trim();
-            password = editTextSenha.getText().toString();
-
-            user = editTextNome.getText().toString().trim();
-            verificarUser(user, new UserCallback() {
+            buttonHome.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onUserChecked(boolean exists) {
-                    runOnUiThread(() -> { // Executa na thread principal para atualizar UI
-                        if (exists) {
-                            Toast.makeText(getApplicationContext(), "Usuário já existe! Digite outro nome.", Toast.LENGTH_SHORT).show();
-                            editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#E25D5D")));
-                        } else{
-                            editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#FFFFFF")));
-                        }
-                        if (Objects.equals(user, "")){
-                            Toast.makeText(Cadastro.this, "Usuário vazio, por favor digite algo", Toast.LENGTH_SHORT).show();
-                        }
-                    });
+                public void onClick(View v) {
+                    Intent intent = new Intent(Cadastro.this, Home.class);
+                    startActivity(intent);
+                }
+            });
+            buttonSair.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    SharedPreferences.Editor editor = userState.edit();
+                    editor.putBoolean("logado", false); // Salva um número inteiro
+                    editor.apply();
+                    Toast.makeText(getApplicationContext(), "Usuário desconectado", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(Cadastro.this, Home.class);
+                    startActivity(intent);
+                }
+            });
+            buttonTrocar.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    SharedPreferences.Editor editor = userState.edit();
+                    editor.putBoolean("logado", false); // Salva um número inteiro
+                    editor.apply();
+
+                    Intent intent = new Intent(Cadastro.this, Login.class);
+                    startActivity(intent);
+                }
+            });
+        } else {
+            // Botao Voltar
+            TextView setaVoltar = findViewById(R.id.setaVoltar);
+            setaVoltar.setOnClickListener(v -> {
+                onBackPressed();
+            });
+
+            // Botao login
+            TextView textContaLogin = findViewById(R.id.textContaLogin);
+            textContaLogin.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(Cadastro.this, Login.class);
+                    startActivity(intent);
                 }
             });
 
-            if (Objects.equals(password, "")){
-                Toast.makeText(Cadastro.this, "Digite uma senha", Toast.LENGTH_SHORT).show();
-            }
-            if (profileSelected == 0){
-                Toast.makeText(Cadastro.this, "Selecione uma imagem", Toast.LENGTH_SHORT).show();
-            }
+            // Botao desenvolvedores
+            ImageView fundoBottom = findViewById(R.id.fundoBottom2);
+            fundoBottom.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(Cadastro.this, Desenvolvedores.class);
+                    startActivity(intent);
+                }
+            });
 
-            dadosValidos = !userExists && !Objects.equals(user, "") && !Objects.equals(password, "") && profileSelected != 0;
+            // Hover e selacao da imagem
+            ImageView imageProfile1 = findViewById(R.id.imageProfile1);
+            ImageView imageProfile2 = findViewById(R.id.imageProfile2);
+            ImageView imageProfile3 = findViewById(R.id.imageProfile3);
 
-            if (dadosValidos){
-                enviarCadastro(user, password, profileUrl);
-            }
-        });
 
-        // Login
+            imageProfile1.setOnClickListener(v -> {
+                profileSelected = 1;
+                imageProfile1.setAlpha(1.0f);
+                imageProfile2.setAlpha(0.6f);
+                imageProfile3.setAlpha(0.6f);
+                profileUrl = "https://res.cloudinary.com/dixozqlb4/image/upload/v1738181622/profileImgCrab_eejbvr.png";
+            });
+            imageProfile2.setOnClickListener(v -> {
+                profileSelected = 2;
+                imageProfile2.setAlpha(1.0f);
+                imageProfile3.setAlpha(0.6f);
+                imageProfile1.setAlpha(0.6f);
+                profileUrl = "https://res.cloudinary.com/dixozqlb4/image/upload/v1738181623/profileImgDuck_mihp1x.png";
+            });
+            imageProfile3.setOnClickListener(v -> {
+                profileSelected = 3;
+                imageProfile3.setAlpha(1.0f);
+                imageProfile2.setAlpha(0.6f);
+                imageProfile1.setAlpha(0.6f);
+                profileUrl = "https://res.cloudinary.com/dixozqlb4/image/upload/v1738181621/profileImgBear_rafydg.png";
+            });
+
+            // Botao Cadastrar
+            EditText editTextNome = findViewById(R.id.editTextNome);
+            EditText editTextSenha = findViewById(R.id.editTextSenha);
+            Button cadastrarButton = findViewById(R.id.cadastrarButton);
+
+
+
+            editTextNome.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+                @Override
+                public void onFocusChange(View v, boolean hasFocus) {
+                    if (!hasFocus) { // Se perdeu o foco
+                        user = editTextNome.getText().toString().trim();
+                        verificarUser(user, new UserCallback() {
+                            @Override
+                            public void onUserChecked(boolean exists) {
+                                runOnUiThread(() -> { // Executa na thread principal para atualizar UI
+                                    if (exists) {
+                                        Toast.makeText(getApplicationContext(), "Usuário já existe! Digite outro nome.", Toast.LENGTH_SHORT).show();
+                                        editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#E25D5D")));
+                                    } else{
+                                        editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#FFFFFF")));
+                                    }
+                                    if (Objects.equals(user, "")){
+                                        Toast.makeText(Cadastro.this, "Usuário vazio, por favor digite algo", Toast.LENGTH_SHORT).show();
+                                    }
+                                });
+                            }
+                        });
+                    }
+                }
+            });
+
+            editTextSenha.setFilters(new InputFilter[] { new InputFilter() {
+                @Override
+                public CharSequence filter(CharSequence source, int start, int end, Spanned dest, int dstart, int dend) {
+                    for (int i = start; i < end; i++) {
+                        // Impede a inserção do dígito '5'
+                        if (source.charAt(i) == ' ') {
+                            Toast.makeText(Cadastro.this, "Proibido espaços na senha", Toast.LENGTH_SHORT).show();
+                            return ""; // Retorna vazio para impedir a entrada
+                        }
+                    }
+                    return null; // Permite a entrada
+                }
+            } });
+
+            cadastrarButton.setOnClickListener(v -> {
+                user = editTextNome.getText().toString().trim();
+                password = editTextSenha.getText().toString();
+
+                user = editTextNome.getText().toString().trim();
+                verificarUser(user, new UserCallback() {
+                    @Override
+                    public void onUserChecked(boolean exists) {
+                        runOnUiThread(() -> { // Executa na thread principal para atualizar UI
+                            if (exists) {
+                                Toast.makeText(getApplicationContext(), "Usuário já existe! Digite outro nome.", Toast.LENGTH_SHORT).show();
+                                editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#E25D5D")));
+                            } else{
+                                editTextNome.setBackgroundTintList(ColorStateList.valueOf(Color.parseColor("#FFFFFF")));
+                            }
+                            if (Objects.equals(user, "")){
+                                Toast.makeText(Cadastro.this, "Usuário vazio, por favor digite algo", Toast.LENGTH_SHORT).show();
+                            }
+                        });
+                    }
+                });
+
+                if (Objects.equals(password, "")){
+                    Toast.makeText(Cadastro.this, "Digite uma senha", Toast.LENGTH_SHORT).show();
+                }
+                if (profileSelected == 0){
+                    Toast.makeText(Cadastro.this, "Selecione uma imagem", Toast.LENGTH_SHORT).show();
+                }
+
+                dadosValidos = !userExists && !Objects.equals(user, "") && !Objects.equals(password, "") && profileSelected != 0;
+
+                if (dadosValidos){
+                    enviarCadastro(user, password, profileUrl);
+                }
+            });
+        }
+
 
 
     }
@@ -221,6 +253,7 @@ public class    Cadastro extends AppCompatActivity {
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.setRequestMethod("POST");
                 conn.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
+                conn.setRequestProperty("X-API-KEY", BuildConfig.API_KEY);
                 conn.setDoOutput(true);
 
                 // Criar o objeto JSON
@@ -259,5 +292,3 @@ public class    Cadastro extends AppCompatActivity {
     }
 
 }
-
-

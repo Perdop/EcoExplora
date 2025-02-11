@@ -95,6 +95,7 @@
             android:background="@drawable/rounded_corners1"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
+            android:fontFamily="@font/amaranth"
             android:inputType="text"
             android:paddingLeft="20dp"
             android:textColor="#000000" />
@@ -120,6 +121,7 @@
             android:background="@drawable/rounded_corners1"
             android:backgroundTint="#FFFFFF"
             android:ems="10"
+            android:fontFamily="@font/amaranth"
             android:inputType="textPassword"
             android:paddingLeft="20dp"
             android:textColor="#000000" />
