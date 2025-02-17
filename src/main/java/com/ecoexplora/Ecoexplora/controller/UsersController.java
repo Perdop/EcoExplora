@@ -48,6 +48,18 @@ public class UsersController {
 	        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
 	    }
 	}
+	
+	@GetMapping("/getUserPhoto/{user}")
+	public ResponseEntity<String> getUserPhotoByUsername(@PathVariable("user") String user) {
+	    Optional<Users> username = ecoexploraRepositoryUsers.findByUser(user);
+	    
+	    if (username.isPresent()) {
+	        return ResponseEntity.ok(username.get().getUserPhoto());
+	    } else {
+	        return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+	    }
+	}
+
 
 	@GetMapping("/findUser/{user}")
 	public boolean findByUsername(@PathVariable("user") String user) {
