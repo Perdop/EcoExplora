@@ -78,6 +78,8 @@ public class    Cadastro extends AppCompatActivity {
                 public void onClick(View v) {
                     SharedPreferences.Editor editor = userState.edit();
                     editor.putBoolean("logado", false); // Salva um número inteiro
+                    editor.putString("userPhoto", "");
+                    editor.putString("user", "");
                     editor.apply();
                     Toast.makeText(getApplicationContext(), "Usuário desconectado", Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(Cadastro.this, Home.class);
