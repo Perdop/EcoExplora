@@ -1,25 +1,32 @@
 package com.example.home;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
+import com.bumptech.glide.Glide;
 import com.example.home.model.AnimaisExtintosModel;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicReference;
 
 public class Home extends AppCompatActivity {
 
     private List<AnimaisExtintosModel> animaisList;
+    private String userUrl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,9 +34,30 @@ public class Home extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_home);
 
-        // Recuperando a lista de animais passada pela MainActivity
-        Intent intent = getIntent();
-        MainActivity main = new MainActivity();
+        SharedPreferences userState = getSharedPreferences("userState", MODE_PRIVATE);
+        boolean logado = userState.getBoolean("logado", false);
+        String userName = userState.getString("user", "");
+
+        getUserPhoto(userName);
+
+        SharedPreferences.Editor editor = userState.edit();
+        editor.putString("userPhoto", userUrl);
+        editor.apply();
+        String userPhoto = userState.getString("userPhoto", "");
+
+        TextView loginBtn = findViewById(R.id.loginBtn);
+        TextView userNameText = findViewById(R.id.userNameText);
+        ImageButton profileButton = findViewById(R.id.profileButton);
+
+        if(logado){
+            loginBtn.setVisibility(View.GONE);
+            userNameText.setText(userName + "!");
+            Glide.with(this)
+                    .load(userPhoto)
+                    .error(R.drawable.profilebutton) // Imagem padrão em caso de erro
+                    .into(profileButton);
+
+        }
         animaisList = DataStorage.getInstance().getAnimaisList();
 
         // Verificando se a lista foi recebida corretamente
@@ -40,8 +68,7 @@ public class Home extends AppCompatActivity {
         }
 
         // Configuração dos botões da Home
-        ImageButton profileButton = findViewById(R.id.profileButton);
-        TextView loginBtn = findViewById(R.id.loginBtn);
+
         ImageButton especiesButton = findViewById(R.id.fundoTop2);
         ImageButton plantasButton = findViewById(R.id.imagePlantas);
         ImageButton anfibiosButton = findViewById(R.id.imageAnfibios);
@@ -146,4 +173,44 @@ public class Home extends AppCompatActivity {
             }
         });
     }
+
+
+    private void getUserPhoto(String userName) {
+        new Thread(() -> {
+            try {
+                // Sua lógica para obter a userUrl
+                URL url = new URL("https://ecoexplora.onrender.com/getUserPhoto/" + userName);
+                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                conn.setRequestMethod("GET");
+                conn.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
+                conn.setRequestProperty("X-API-KEY", BuildConfig.API_KEY);
+
+                int responseCode = conn.getResponseCode();
+                if (responseCode == HttpURLConnection.HTTP_OK) {
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(conn.getInputStream(), "utf-8"));
+                    StringBuilder response = new StringBuilder();
+                    String line;
+                    while ((line = reader.readLine()) != null) {
+                        response.append(line);
+                    }
+                    userUrl = response.toString(); // Assume que a resposta é a URL da imagem
+                    runOnUiThread(() -> loadImage(userUrl)); // Carregar a imagem na UI thread
+                } else {
+                    Log.d("UserPhotoResponse", "Erro na requisição: " + responseCode);
+                }
+                conn.disconnect();
+            } catch (Exception e) {
+                runOnUiThread(() -> Toast.makeText(Home.this, "Erro ao conectar à API.", Toast.LENGTH_SHORT).show());
+            }
+        }).start();
+    }
+
+    private void loadImage(String userUrl) {
+        ImageButton profileButton = findViewById(R.id.profileButton);
+        Glide.with(this)
+                .load(userUrl)
+                .error(R.drawable.profilebutton) // Imagem padrão em caso de erro
+                .into(profileButton);
+    }
+
 }

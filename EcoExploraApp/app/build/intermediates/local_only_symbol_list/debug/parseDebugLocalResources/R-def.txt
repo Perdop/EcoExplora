@@ -124,6 +124,7 @@ id perfilDev1
 id perfilDev2
 id perfilDev3
 id profileButton
+id profileTest
 id rounded1
 id rounded2
 id rounded3
@@ -183,6 +184,7 @@ id tituloLogin
 id tituloLogin1
 id tituloMamiferos
 id tituloSobreAnimais
+id userNameText
 layout activity_anfibios
 layout activity_aves
 layout activity_cadastro

@@ -57,6 +57,11 @@ public class    Cadastro extends AppCompatActivity {
         }
 
         if (logado){
+            TextView setaVoltar = findViewById(R.id.setaVoltar);
+            setaVoltar.setOnClickListener(v -> {
+                onBackPressed();
+            });
+
             Button buttonHome = findViewById(R.id.acessarButtonLogado);
             Button buttonSair = findViewById(R.id.acessarButtonLogado3);
             Button buttonTrocar = findViewById(R.id.acessarButtonLogado2);

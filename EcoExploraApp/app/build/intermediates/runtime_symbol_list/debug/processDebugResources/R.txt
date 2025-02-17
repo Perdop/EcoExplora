@@ -3570,6 +3570,7 @@ int id position 0x7f0a01aa
 int id postLayout 0x7f0a01ab
 int id pressed 0x7f0a01ac
 int id profileButton 0x7f0a01ad
+int id profileTest 0x7f0a0297
 int id progress_circular 0x7f0a01b5
 int id progress_horizontal 0x7f0a01b6
 int id radio 0x7f0a01b7
@@ -3757,6 +3758,7 @@ int id uniform 0x7f0a0278
 int id unlabeled 0x7f0a0279
 int id up 0x7f0a027a
 int id useLogo 0x7f0a027b
+int id userNameText 0x7f0a0296
 int id vertical_only 0x7f0a027c
 int id view_offset_helper 0x7f0a027d
 int id view_transition 0x7f0a027e

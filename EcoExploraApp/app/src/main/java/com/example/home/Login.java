@@ -21,6 +21,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.home.controller.FindUser;
 import com.example.home.controller.GetUser;
+import com.example.home.model.Users;
 
 import org.json.JSONObject;
 
@@ -31,7 +32,6 @@ import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.util.Objects;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
@@ -87,13 +87,7 @@ public class Login extends AppCompatActivity {
             }
 
             loginUser(username, password);
-
         });
-
-
-
-
-
     }
 
 
@@ -137,6 +131,7 @@ public class Login extends AppCompatActivity {
                         SharedPreferences userState = getSharedPreferences("userState", MODE_PRIVATE);
                         SharedPreferences.Editor editor = userState.edit();
                         editor.putBoolean("logado", true); // Salva um número inteiro
+                        editor.putString("user", nome);
                         editor.apply();
                         Intent intent = new Intent(Login.this, Home.class);
                         startActivity(intent);
@@ -152,4 +147,7 @@ public class Login extends AppCompatActivity {
             }
         }).start();
     }
+
+
+
 }
