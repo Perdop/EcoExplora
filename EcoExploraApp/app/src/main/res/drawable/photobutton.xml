@@ -11,6 +11,6 @@
     <item>
         <bitmap
             android:src="@drawable/photo"
-        android:gravity="center"/>
+            android:gravity="center" />
     </item>
 </layer-list>

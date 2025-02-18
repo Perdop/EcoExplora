@@ -3007,6 +3007,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable cajo
+drawable camera
 drawable card_border
 drawable design_fab_background
 drawable design_ic_visibility
@@ -3233,6 +3234,11 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id avistamentosData
+id avistamentosImage
+id avistamentosLocal
+id avistamentosNome
+id avistamentosTittle
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3275,6 +3281,7 @@ id cardQts
 id cardRepteis
 id cardTop
 id cardTopSeta
+id cardView
 id carryVelocity
 id center
 id centerCrop
@@ -3417,6 +3424,7 @@ id ignoreRequest
 id image
 id imageAnfibios
 id imageAves
+id imageButton
 id imageDev
 id imageMamiferos
 id imagePeixes
@@ -3597,6 +3605,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar

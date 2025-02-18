@@ -14,6 +14,7 @@ drawable baleia
 drawable border
 drawable btn_animaltype_extinctanimals
 drawable cajo
+drawable camera
 drawable card_border
 drawable ecoexploralogo
 drawable ecoexploralogonobg
@@ -54,6 +55,11 @@ id animalEstado
 id animalExistentes
 id animalImage
 id animalName
+id avistamentosData
+id avistamentosImage
+id avistamentosLocal
+id avistamentosNome
+id avistamentosTittle
 id cadastrarButton
 id carPeixes
 id cardAmbiente
@@ -81,6 +87,7 @@ id cardQts
 id cardRepteis
 id cardTop
 id cardTopSeta
+id cardView
 id constraintLayout
 id constraintLayout1
 id constraintLayout2
@@ -103,6 +110,7 @@ id gitPedro
 id gitRaphael
 id imageAnfibios
 id imageAves
+id imageButton
 id imageDev
 id imageMamiferos
 id imagePeixes
@@ -128,6 +136,7 @@ id profileTest
 id rounded1
 id rounded2
 id rounded3
+id scrollView2
 id setaDev
 id setaInfopage
 id setaVoltar

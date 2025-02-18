@@ -3006,6 +3006,7 @@ int drawable btn_radio_off_to_on_mtrl_animation 0x7f080084
 int drawable btn_radio_on_mtrl 0x7f080085
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080086
 int drawable cajo 0x7f080087
+int drawable camera 0x7f080107
 int drawable card_border 0x7f080088
 int drawable design_fab_background 0x7f080089
 int drawable design_ic_visibility 0x7f08008a
@@ -3232,6 +3233,11 @@ int id auto 0x7f0a005c
 int id autoComplete 0x7f0a005d
 int id autoCompleteToEnd 0x7f0a005e
 int id autoCompleteToStart 0x7f0a005f
+int id avistamentosData 0x7f0a02a3
+int id avistamentosImage 0x7f0a029e
+int id avistamentosLocal 0x7f0a02a2
+int id avistamentosNome 0x7f0a02a1
+int id avistamentosTittle 0x7f0a029c
 int id barrier 0x7f0a0060
 int id baseline 0x7f0a0061
 int id beginOnFirstDraw 0x7f0a0062
@@ -3274,6 +3280,7 @@ int id cardQts 0x7f0a0085
 int id cardRepteis 0x7f0a0086
 int id cardTop 0x7f0a0087
 int id cardTopSeta 0x7f0a0088
+int id cardView 0x7f0a029f
 int id carryVelocity 0x7f0a0089
 int id center 0x7f0a008a
 int id centerCrop 0x7f0a008b
@@ -3416,6 +3423,7 @@ int id ignoreRequest 0x7f0a0110
 int id image 0x7f0a0111
 int id imageAnfibios 0x7f0a0112
 int id imageAves 0x7f0a0113
+int id imageButton 0x7f0a0298
 int id imageDev 0x7f0a0114
 int id imageMamiferos 0x7f0a0115
 int id imagePeixes 0x7f0a0116
@@ -3596,6 +3604,7 @@ int id scroll 0x7f0a01ca
 int id scrollIndicatorDown 0x7f0a01cb
 int id scrollIndicatorUp 0x7f0a01cc
 int id scrollView 0x7f0a01cd
+int id scrollView2 0x7f0a0299
 int id scrollable 0x7f0a01ce
 int id search_badge 0x7f0a01cf
 int id search_bar 0x7f0a01d0

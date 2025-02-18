@@ -16,6 +16,10 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/profilebutton.xml"
     },
     {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_camera.png.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/camera.png"
+    },
+    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_urso.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/urso.png"
     },
@@ -50,10 +54,6 @@
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_border.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/border.xml"
-    },
-    {
-        "merged": "com.example.home.app-debug-32:/layout_activity_home.xml.flat",
-        "source": "com.example.home.app-main-34:/layout/activity_home.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/layout_activity_peixes.xml.flat",
@@ -124,6 +124,10 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/ecoexploralogonobg.png"
     },
     {
+        "merged": "com.example.home.app-debug-32:/layout_activity_pag_animais.xml.flat",
+        "source": "com.example.home.app-main-34:/layout/activity_pag_animais.xml"
+    },
+    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_plantas.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/plantas.png"
     },
@@ -132,20 +136,20 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_pato.png.flat",
-        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/pato.png"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/layout_activity_pag_animais.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/layout/activity_pag_animais.xml"
     },
     {
-        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/layout_activity_logado.xml.flat",
-        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/layout/activity_logado.xml"
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_pato.png.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/pato.png"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/layout_activity_main.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/layout_activity_logado.xml.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/layout/activity_logado.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_image2.png.flat",
