@@ -1,5 +1,6 @@
 package com.example.home;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
 import android.os.Bundle;
@@ -83,6 +84,18 @@ public class Repteis extends AppCompatActivity {
                     }
 
                     constraintSet.applyTo(targetLayout);
+
+                    cardView.setOnClickListener(v -> {
+                        // Passa os dados para a PagAnimaisActivity
+                        Intent detailIntent = new Intent(Repteis.this, PagAnimais.class);
+                        detailIntent.putExtra("NOME_ANIMAL", animal.getName());
+                        detailIntent.putExtra("DESCRICAO_ANIMAL", animal.getAbout());
+                        detailIntent.putExtra("ESTADO_ANIMAL", animal.getState());
+                        detailIntent.putExtra("EXISTENTES_ANIMAL", animal.getLiving());
+                        detailIntent.putExtra("IMG_ANIMAL", animal.getAnimalPhoto());
+                        startActivity(detailIntent);
+                    });
+
                     // Cria, configura e adiciona constraintLayout o cardView
                     ConstraintLayout constraintLayout = new ConstraintLayout(Repteis.this);
                     CardView.LayoutParams constraintLayoutParams = new CardView.LayoutParams(
