@@ -222,9 +222,11 @@ public class    Cadastro extends AppCompatActivity {
 
                 if (Objects.equals(password, "")){
                     Toast.makeText(Cadastro.this, "Digite uma senha", Toast.LENGTH_SHORT).show();
+                    return;
                 }
                 if (profileSelected == 0){
                     Toast.makeText(Cadastro.this, "Selecione uma imagem", Toast.LENGTH_SHORT).show();
+                    return;
                 }
 
                 dadosValidos = !userExists && !Objects.equals(user, "") && !Objects.equals(password, "") && profileSelected != 0;

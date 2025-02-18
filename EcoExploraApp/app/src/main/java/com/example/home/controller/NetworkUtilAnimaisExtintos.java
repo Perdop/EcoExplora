@@ -11,38 +11,27 @@ import com.google.gson.reflect.TypeToken;
 
 import java.io.IOException;
 import java.util.List;
-import java.util.Properties;
 
-import android.content.Context;
-import android.content.res.AssetManager;
 import android.util.Log;
-import android.os.Handler;
-import android.os.Looper;
 
+// Classe que conecta a API para a funcao getAllExtinctAnimals, ela verifica a existencia do usuario
 public class NetworkUtilAnimaisExtintos {
-    private Context context;
+    private List<AnimaisExtintosModel> animaisList;  // Lista de animais
 
-    private List<AnimaisExtintosModel> animaisList;  // Lista modelo
-
-    String apiKey = BuildConfig.API_KEY;
-    // Requisição GET
     public void getRequestWithOkHttp() {
         OkHttpClient client = new OkHttpClient();
         Request request = new Request.Builder()
                 .url("https://ecoexplora.onrender.com/getAllExtinctAnimals")
-                .addHeader("X-API-KEY", apiKey)
+                .addHeader("X-API-KEY", BuildConfig.API_KEY)
                 .build();
 
-        new Thread(() -> {
-            try {
-                Response response = client.newCall(request).execute();
-
+        new Thread(() -> { // Executo em uma nova thread, assim não trancando a principal
+            try (Response response = client.newCall(request).execute()) {// Try-with-resources, fecha no final do bloco
                 if (response.isSuccessful()) {
                     String responseBody = response.body().string();
 
                     Gson gson = new Gson(); // Usa Gson para converter o Json para String
                     animaisList = gson.fromJson(responseBody, new TypeToken<List<AnimaisExtintosModel>>(){}.getType());
-
                 } else {
                     Log.e("GET Error", "Request failed with status: " + response.code());
                 }

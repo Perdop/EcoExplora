@@ -14,7 +14,6 @@ public class DataStorage {
         animaisList = new ArrayList<>();
     }
 
-    // Método para obter a instância do Singleton
     public static DataStorage getInstance() {
         if (instance == null) {
             instance = new DataStorage();

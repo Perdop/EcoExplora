@@ -37,8 +37,7 @@ public class Aves extends AppCompatActivity {
         ConstraintLayout constraintLayout1 = findViewById(R.id.constraintLayout1);
         ConstraintLayout constraintLayout2 = findViewById(R.id.constraintLayout2);
 
-        Intent intent = getIntent(); // Obtem lista de animais extintos
-        List<AnimaisExtintosModel> animaisList = intent.getParcelableArrayListExtra("ANIMAIS_LIST");
+        List<AnimaisExtintosModel> animaisList = DataStorage.getInstance().getAnimaisList();
 
         voltar.setOnClickListener(v -> { // Configura o botao de voltar
             onBackPressed();
@@ -51,7 +50,6 @@ public class Aves extends AppCompatActivity {
 
                 if (animal.getAnimalType() == 3) { // Filtra aves
                     aves++; // Contador de aves
-                    Log.d("TAG", "onCreate: "+ aves);
                     // Cria e configura cardView
                     CardView cardView = new CardView(Aves.this);
                     cardView.setId(View.generateViewId());
@@ -85,17 +83,6 @@ public class Aves extends AppCompatActivity {
                     }
 
                     constraintSet.applyTo(targetLayout);
-
-                    cardView.setOnClickListener(v -> {
-                        // Passa os dados para a PagAnimaisActivity
-                        Intent detailIntent = new Intent(Aves.this, PagAnimais.class);
-                        detailIntent.putExtra("NOME_ANIMAL", animal.getName());
-                        detailIntent.putExtra("DESCRICAO_ANIMAL", animal.getAbout());
-                        detailIntent.putExtra("ESTADO_ANIMAL", animal.getState());
-                        detailIntent.putExtra("EXISTENTES_ANIMAL", animal.getLiving());
-                        detailIntent.putExtra("IMG_ANIMAL", animal.getAnimalPhoto());
-                        startActivity(detailIntent);
-                    });
 
                     // Cria, configura e adiciona constraintLayout o cardView
                     ConstraintLayout constraintLayout = new ConstraintLayout(Aves.this);
