@@ -6,10 +6,14 @@ import android.widget.Button;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.cloudinary.android.MediaManager;
 import com.example.home.controller.NetworkUtilAnimaisExtintos;
 import com.example.home.model.AnimaisExtintosModel;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -23,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        Map config = new HashMap();
+        config.put("cloud_name", "dixozqlb4");
+        MediaManager.init(this, config);
 
         Button button = findViewById(R.id.iniciar);
 

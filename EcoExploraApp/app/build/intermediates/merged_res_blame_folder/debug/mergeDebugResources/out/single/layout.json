@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_pag_animais.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_pag_animais.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_login.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_infopage.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_infopage.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_mamiferos.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_mamiferos.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_repteis.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_repteis.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_logado.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_logado.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_anfibios.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_anfibios.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_home.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_peixes.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_peixes.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_cadastro.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_cadastro.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_aves.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_aves.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_desenvolvedores.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_desenvolvedores.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-52:/layout/activity_plantas.xml",
+        "source": "com.example.home.app-main-55:/layout/activity_plantas.xml"
+    }
+]
