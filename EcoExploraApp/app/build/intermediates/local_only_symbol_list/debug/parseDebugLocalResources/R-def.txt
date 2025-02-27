@@ -61,6 +61,7 @@ id avistamentosLocal
 id avistamentosNome
 id avistamentosTittle
 id cadastrarButton
+id camBtn
 id carPeixes
 id cardAmbiente
 id cardAnfibios
@@ -110,7 +111,6 @@ id gitPedro
 id gitRaphael
 id imageAnfibios
 id imageAves
-id imageButton
 id imageDev
 id imageMamiferos
 id imagePeixes

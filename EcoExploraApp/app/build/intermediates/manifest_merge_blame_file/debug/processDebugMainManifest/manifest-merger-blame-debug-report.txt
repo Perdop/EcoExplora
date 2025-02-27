@@ -11,145 +11,146 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:5:5-67
 11-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:5:22-64
-12
-13    <permission
-13-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
-14        android:name="com.example.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
-15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
-16
-17    <uses-permission android:name="com.example.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
-18
-19    <application
-19-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:7:5-70:19
-20        android:allowBackup="true"
-20-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:8:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
-22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:9:9-65
-23        android:debuggable="true"
-24        android:extractNativeLibs="false"
-25        android:fullBackupContent="@xml/backup_rules"
-25-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:10:9-54
-26        android:icon="@mipmap/ic_launcher"
-26-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:11:9-43
-27        android:label="@string/app_name"
-27-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:12:9-41
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:13:9-54
-29        android:supportsRtl="true"
-29-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.Home" >
-31-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:15:9-42
-32        <activity
-32-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:17:9-19:40
-33            android:name="com.example.home.Logado"
-33-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:18:13-35
-34            android:exported="false" />
-34-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:19:13-37
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:6:5-65
+12-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:6:22-62
+13
+14    <uses-feature android:name="android.hardware.camera" />
+14-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:7:5-60
+14-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:7:19-57
+15
+16    <permission
+16-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+17        android:name="com.example.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.example.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:9:5-69:19
+23        android:allowBackup="true"
+23-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:10:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+25        android:dataExtractionRules="@xml/data_extraction_rules"
+25-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:11:9-65
+26        android:debuggable="true"
+27        android:extractNativeLibs="false"
+28        android:fullBackupContent="@xml/backup_rules"
+28-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:12:9-54
+29        android:icon="@mipmap/ic_launcher"
+29-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:13:9-43
+30        android:label="@string/app_name"
+30-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:14:9-41
+31        android:roundIcon="@mipmap/ic_launcher_round"
+31-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:15:9-54
+32        android:supportsRtl="true"
+32-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:16:9-35
+33        android:testOnly="true"
+34        android:theme="@style/Theme.Home" >
+34-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:17:9-42
 35        <activity
-35-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:20:9-22:40
+35-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:19:9-21:40
 36            android:name="com.example.home.Login"
-36-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:21:13-34
+36-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:20:13-34
 37            android:exported="false" />
-37-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:22:13-37
+37-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:21:13-37
 38        <activity
-38-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:23:9-25:40
+38-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:22:9-24:40
 39            android:name="com.example.home.Peixes"
-39-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:24:13-35
+39-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:23:13-35
 40            android:exported="false" />
-40-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:25:13-37
+40-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:24:13-37
 41        <activity
-41-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:26:9-28:40
+41-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:25:9-27:40
 42            android:name="com.example.home.Repteis"
-42-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:27:13-36
+42-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:26:13-36
 43            android:exported="false" />
-43-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:28:13-37
+43-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:27:13-37
 44        <activity
-44-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:29:9-31:40
+44-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:28:9-30:40
 45            android:name="com.example.home.Aves"
-45-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:30:13-33
+45-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:29:13-33
 46            android:exported="false" />
-46-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:31:13-37
+46-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:30:13-37
 47        <activity
-47-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:32:9-34:40
+47-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:31:9-33:40
 48            android:name="com.example.home.Plantas"
-48-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:33:13-36
+48-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:32:13-36
 49            android:exported="false" />
-49-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:34:13-37
+49-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:33:13-37
 50        <activity
-50-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:35:9-37:40
+50-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:34:9-36:40
 51            android:name="com.example.home.Anfibios"
-51-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:36:13-37
+51-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:35:13-37
 52            android:exported="false" />
-52-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:37:13-37
+52-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:36:13-37
 53        <activity
-53-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:38:9-40:40
+53-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:37:9-39:40
 54            android:name="com.example.home.Mamiferos"
-54-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:39:13-38
+54-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:38:13-38
 55            android:exported="false" />
-55-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:40:13-37
+55-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:39:13-37
 56        <activity
-56-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:41:9-43:40
+56-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:40:9-42:40
 57            android:name="com.example.home.PagAnimais"
-57-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:42:13-39
+57-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:41:13-39
 58            android:exported="false" />
-58-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:43:13-37
+58-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:42:13-37
 59        <activity
-59-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:44:9-46:40
+59-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:43:9-45:40
 60            android:name="com.example.home.Desenvolvedores"
-60-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:45:13-44
+60-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:44:13-44
 61            android:exported="false" />
-61-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:46:13-37
+61-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:45:13-37
 62        <activity
-62-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:47:9-49:40
+62-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:46:9-48:40
 63            android:name="com.example.home.Cadastro"
-63-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:48:13-37
+63-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:47:13-37
 64            android:exported="false" />
-64-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:49:13-37
+64-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:48:13-37
 65        <activity
-65-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:50:9-52:40
+65-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:49:9-51:40
 66            android:name="com.example.home.Infopage"
-66-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:51:13-37
+66-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:50:13-37
 67            android:exported="false" />
-67-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:52:13-37
+67-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:51:13-37
 68        <activity
-68-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:53:9-55:40
+68-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:52:9-54:40
 69            android:name="com.example.home.Home"
-69-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:54:13-33
+69-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:53:13-33
 70            android:exported="false" />
-70-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:55:13-37
+70-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:54:13-37
 71        <activity
-71-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:56:9-65:20
+71-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:55:9-64:20
 72            android:name="com.example.home.MainActivity"
-72-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:57:13-41
+72-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:56:13-41
 73            android:exported="true"
-73-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:59:13-36
+73-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:58:13-36
 74            android:theme="@style/Theme.Home" >
-74-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:58:13-46
+74-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:57:13-46
 75            <intent-filter>
-75-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:60:13-64:29
+75-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:59:13-63:29
 76                <action android:name="android.intent.action.MAIN" />
-76-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:61:17-69
-76-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:61:25-66
+76-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:60:17-69
+76-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:60:25-66
 77
 78                <category android:name="android.intent.category.LAUNCHER" />
-78-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:63:17-77
-78-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:63:27-74
+78-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:62:17-77
+78-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:62:27-74
 79            </intent-filter>
 80        </activity>
 81
 82        <meta-data
-82-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:67:9-69:57
+82-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:66:9-68:57
 83            android:name="preloaded_fonts"
-83-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:68:13-43
+83-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:67:13-43
 84            android:resource="@array/preloaded_fonts" />
-84-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:69:13-54
+84-->/home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:68:13-54
 85
 86        <provider
 86-->[com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40

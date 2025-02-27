@@ -3253,6 +3253,7 @@ int id buttonPanel 0x7f0a006b
 int id cache_measures 0x7f0a006c
 int id cadastrarButton 0x7f0a0294
 int id callMeasure 0x7f0a006d
+int id camBtn 0x7f0a02a4
 int id cancel_button 0x7f0a006e
 int id carPeixes 0x7f0a006f
 int id cardAmbiente 0x7f0a0070
@@ -3423,7 +3424,6 @@ int id ignoreRequest 0x7f0a0110
 int id image 0x7f0a0111
 int id imageAnfibios 0x7f0a0112
 int id imageAves 0x7f0a0113
-int id imageButton 0x7f0a0298
 int id imageDev 0x7f0a0114
 int id imageMamiferos 0x7f0a0115
 int id imagePeixes 0x7f0a0116

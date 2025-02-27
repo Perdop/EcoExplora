@@ -23,6 +23,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+
         Button button = findViewById(R.id.iniciar);
 
         searchAnimals = Toast.makeText(MainActivity.this, "Procurando dados dos animais", Toast.LENGTH_SHORT); // Sinaliza a procura pelos dados

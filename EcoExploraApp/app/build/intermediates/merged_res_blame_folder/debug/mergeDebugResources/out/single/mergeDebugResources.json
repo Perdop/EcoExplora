@@ -16,12 +16,12 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/profilebutton.xml"
     },
     {
-        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_camera.png.flat",
-        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/camera.png"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_urso.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/urso.png"
+    },
+    {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_camera.png.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-34:/drawable/camera.png"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-32:/drawable_ic_launcher_background.xml.flat",

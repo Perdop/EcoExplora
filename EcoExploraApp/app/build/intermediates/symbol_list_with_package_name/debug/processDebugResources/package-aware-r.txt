@@ -3254,6 +3254,7 @@ id buttonPanel
 id cache_measures
 id cadastrarButton
 id callMeasure
+id camBtn
 id cancel_button
 id carPeixes
 id cardAmbiente
@@ -3424,7 +3425,6 @@ id ignoreRequest
 id image
 id imageAnfibios
 id imageAves
-id imageButton
 id imageDev
 id imageMamiferos
 id imagePeixes

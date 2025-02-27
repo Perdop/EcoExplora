@@ -9,6 +9,9 @@
         android:targetSdkVersion="34" />
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
 
     <permission
         android:name="com.example.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -29,9 +32,6 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Home" >
-        <activity
-            android:name="com.example.home.Logado"
-            android:exported="false" />
         <activity
             android:name="com.example.home.Login"
             android:exported="false" />
