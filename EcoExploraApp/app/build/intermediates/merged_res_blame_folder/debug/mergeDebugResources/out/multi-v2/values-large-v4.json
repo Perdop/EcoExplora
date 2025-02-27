@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.home.app-mergeDebugResources-51:/values-large-v4/values-large-v4.xml",
+            "outputFile": "com.example.home.app-mergeDebugResources-53:/values-large-v4/values-large-v4.xml",
             "map": [
                 {
                     "source": "/home/perdop/.gradle/caches/transforms-4/325410e8cc28ed840be8d7b8f17cbe27/transformed/appcompat-1.7.0/res/values-large-v4/values-large-v4.xml",

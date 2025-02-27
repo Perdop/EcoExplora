@@ -60,7 +60,7 @@
 
             <ImageView
                 android:id="@+id/animalImage"
-                android:layout_width="411dp"
+                android:layout_width="match_parent"
                 android:layout_height="293dp"
                 android:layout_gravity="top|center_horizontal"
                 android:layout_marginTop="-30dp"

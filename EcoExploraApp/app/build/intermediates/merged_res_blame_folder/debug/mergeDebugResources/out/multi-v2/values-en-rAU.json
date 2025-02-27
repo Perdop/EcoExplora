@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.home.app-mergeDebugResources-51:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.example.home.app-mergeDebugResources-53:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/home/perdop/.gradle/caches/transforms-4/0dd699eb65d9c2cf64de71021d7b8fe4/transformed/navigation-ui-2.7.7/res/values-en-rAU/values-en-rAU.xml",

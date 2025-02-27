@@ -205,6 +205,7 @@ layout activity_login
 layout activity_main
 layout activity_mamiferos
 layout activity_pag_animais
+layout activity_pag_animais_photo
 layout activity_peixes
 layout activity_plantas
 layout activity_repteis

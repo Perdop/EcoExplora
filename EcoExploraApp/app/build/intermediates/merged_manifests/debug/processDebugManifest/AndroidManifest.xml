@@ -15,6 +15,8 @@
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
@@ -39,6 +41,9 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.Home" >
+        <activity
+            android:name="com.example.home.PagAnimaisPhoto"
+            android:exported="false" />
         <activity
             android:name="com.example.home.Login"
             android:exported="false" />
@@ -94,6 +99,14 @@
             android:name="com.cloudinary.android.uploadwidget.ui.UploadWidgetActivity"
             android:configChanges="orientation"
             android:theme="@style/UploadWidgetTheme" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
 
         <provider
             android:name="com.squareup.picasso.PicassoProvider"

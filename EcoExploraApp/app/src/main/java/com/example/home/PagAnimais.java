@@ -48,11 +48,13 @@ public class PagAnimais extends AppCompatActivity {
     private ActivityMainBinding binding; //New - Activity binding
 
     private String userName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_pag_animais);
+
 
         SharedPreferences userState = getSharedPreferences("userState", MODE_PRIVATE);
         userName = userState.getString("user", "");

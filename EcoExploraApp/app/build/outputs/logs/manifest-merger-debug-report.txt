@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-75:12
-INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-75:12
-INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-75:12
-INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-75:12
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-81:12
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-81:12
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-81:12
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-81:12
 MERGED from [androidx.databinding:viewbinding:8.5.1] /home/perdop/.gradle/caches/transforms-4/470bbaa5cb0b31a924e207dbfb9c4ef3/transformed/viewbinding-8.5.1/AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.7] /home/perdop/.gradle/caches/transforms-4/288a3758e62747404cc7e154db7fe798/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/perdop/.gradle/caches/transforms-4/98b737145d7c6472707de92e72d972d2/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
@@ -21,6 +21,10 @@ MERGED from [androidx.appcompat:appcompat:1.7.0] /home/perdop/.gradle/caches/tra
 MERGED from [com.github.bumptech.glide:glide:4.16.0] /home/perdop/.gradle/caches/transforms-4/00e94685adf99553b5f539ace5f9a96a/transformed/glide-4.16.0/AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/transforms-4/d575685bd2e90f8f33376196829bdc67/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/perdop/.gradle/caches/transforms-4/4cb36ad1a38995925c7954775904e4ef/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/perdop/.gradle/caches/transforms-4/13d1bd45674950262c10dd78aa675db8/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.fragment:fragment:1.6.2] /home/perdop/.gradle/caches/transforms-4/f5fe29a18fc773a1071b337a97e102da/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.activity:activity-ktx:1.9.2] /home/perdop/.gradle/caches/transforms-4/4d329a73412f15a7511a597273015185/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
@@ -126,20 +130,28 @@ ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/mai
 	android:name
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:6:22-62
 uses-feature#android.hardware.camera
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:7:5-60
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:8:5-60
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:7:19-57
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:8:19-57
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:8:5-80
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:10:5-81
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:8:22-78
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:10:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:9:5-79
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:9:22-77
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:13:22-78
 application
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:12:5-73:19
-INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:12:5-73:19
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:15:5-79:19
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:15:5-79:19
 MERGED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:9:5-14:19
 MERGED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:9:5-14:19
 MERGED from [com.cloudinary:cloudinary-android-core:3.0.2] /home/perdop/.gradle/caches/transforms-4/4646aab28a9e7eb3154a3ca098b1194f/transformed/cloudinary-android-core-3.0.2/AndroidManifest.xml:11:5-20
@@ -148,6 +160,14 @@ MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/c
 MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/caches/transforms-4/7a9aae6d8e9d27cf6e88168f6c33d267/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
 MERGED from [com.linkedin.android.litr:litr:1.4.16] /home/perdop/.gradle/caches/transforms-4/2a0082b144e33b7944981bf1eeb95767/transformed/litr-1.4.16/AndroidManifest.xml:14:5-20
@@ -177,121 +197,127 @@ MERGED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:20:9-35
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:22:9-35
 	android:label
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:20:9-41
 	android:fullBackupContent
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:16:9-54
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:18:9-54
 	android:roundIcon
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:19:9-54
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:21:9-54
 	tools:targetApi
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:22:9-29
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:25:9-29
 	android:icon
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:17:9-43
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:19:9-43
 	android:allowBackup
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:14:9-35
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:16:9-35
 	android:theme
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:21:9-42
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:23:9-42
 	android:dataExtractionRules
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:15:9-65
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:17:9-65
 	tools:replace
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:13:9-50
-activity#com.example.home.Login
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:23:9-25:40
-	android:exported
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:25:13-37
-	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:24:13-34
-activity#com.example.home.Peixes
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:24:9-50
+activity#com.example.home.PagAnimaisPhoto
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:26:9-28:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:28:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:27:13-35
-activity#com.example.home.Repteis
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:27:13-44
+activity#com.example.home.Login
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:30:13-36
-activity#com.example.home.Aves
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:30:13-34
+activity#com.example.home.Peixes
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:33:13-33
-activity#com.example.home.Plantas
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:33:13-35
+activity#com.example.home.Repteis
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:37:13-37
 	android:name
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:36:13-36
-activity#com.example.home.Anfibios
+activity#com.example.home.Aves
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:38:9-40:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:40:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:39:13-37
-activity#com.example.home.Mamiferos
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:39:13-33
+activity#com.example.home.Plantas
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:41:9-43:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:43:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:42:13-38
-activity#com.example.home.PagAnimais
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:42:13-36
+activity#com.example.home.Anfibios
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:44:9-46:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:46:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:45:13-39
-activity#com.example.home.Desenvolvedores
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:45:13-37
+activity#com.example.home.Mamiferos
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:47:9-49:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:49:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:48:13-44
-activity#com.example.home.Cadastro
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:48:13-38
+activity#com.example.home.PagAnimais
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:50:9-52:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:51:13-37
-activity#com.example.home.Infopage
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:51:13-39
+activity#com.example.home.Desenvolvedores
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:53:9-55:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:55:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:54:13-37
-activity#com.example.home.Home
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:54:13-44
+activity#com.example.home.Cadastro
 ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:56:9-58:40
 	android:exported
 		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:58:13-37
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:57:13-33
-activity#com.example.home.MainActivity
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:59:9-68:20
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:57:13-37
+activity#com.example.home.Infopage
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:59:9-61:40
 	android:exported
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:62:13-36
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:61:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:60:13-37
+activity#com.example.home.Home
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:62:9-64:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:64:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:63:13-33
+activity#com.example.home.MainActivity
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:65:9-74:20
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:67:13-36
 	android:theme
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:61:13-46
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:68:13-46
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:60:13-41
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:66:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:63:13-67:29
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:69:13-73:29
 action#android.intent.action.MAIN
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:64:17-69
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:70:17-69
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:64:25-66
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:70:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:66:17-77
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:72:17-77
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:66:27-74
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:72:27-74
 meta-data#preloaded_fonts
-ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:70:9-72:57
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:76:9-78:57
 	android:resource
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:72:13-54
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:78:13-54
 	android:name
-		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:71:13-43
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:77:13-43
 uses-sdk
 INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
@@ -330,6 +356,14 @@ MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/t
 MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/transforms-4/d575685bd2e90f8f33376196829bdc67/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/perdop/.gradle/caches/transforms-4/4cb36ad1a38995925c7954775904e4ef/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/perdop/.gradle/caches/transforms-4/4cb36ad1a38995925c7954775904e4ef/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/perdop/.gradle/caches/transforms-4/13d1bd45674950262c10dd78aa675db8/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/perdop/.gradle/caches/transforms-4/13d1bd45674950262c10dd78aa675db8/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.6.2] /home/perdop/.gradle/caches/transforms-4/f5fe29a18fc773a1071b337a97e102da/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
@@ -512,6 +546,20 @@ ADDED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/cac
 		ADDED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:13:13-53
 	android:name
 		ADDED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:11:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities
