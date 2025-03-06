@@ -19,8 +19,9 @@ public class Sightings {
 	private String location;
 	private String date;
 	private String photo;
+	private String animal;
 	
-	public Sightings(String user, String location, String date, String photo) {	
+	public Sightings(String user, String location, String date, String photo, String animal) {	
 		this.user = user;
 		this.location = location;
 		this.date = date;
@@ -58,6 +59,14 @@ public class Sightings {
 	public void setPhoto(String photo) {
 		this.photo = photo;
 	}
+
+	public String getAnimal() {
+		return animal;
+	}
+	public void setAnimal(String animal) {
+		this.animal = animal;
+	}
+	
 
 
 	public Sightings() {
