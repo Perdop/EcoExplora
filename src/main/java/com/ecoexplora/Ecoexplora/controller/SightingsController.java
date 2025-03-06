@@ -47,6 +47,7 @@ public class SightingsController {
         current.setLocation((String) body.get("location"));
         current.setDate((String) body.get("date"));
         current.setPhoto((String) body.get("photo"));
+	current.setAnimal((String) body.get("animal"));
         
         ecoexploraRepositorySightings.save(current);
         
@@ -61,8 +62,9 @@ public class SightingsController {
         String location = (String) body.get("location");
         String date = (String) body.get("date");
         String photo = (String) body.get("photo");
+	String animal = (String) body.get("photo");
 
-        Sightings newSightings = new Sightings(user, location, date, photo);
+        Sightings newSightings = new Sightings(user, location, date, photo, animal);
 
         return ecoexploraRepositorySightings.save(newSightings);
     }
