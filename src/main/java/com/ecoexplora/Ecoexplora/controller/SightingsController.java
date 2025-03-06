@@ -62,7 +62,7 @@ public class SightingsController {
         String location = (String) body.get("location");
         String date = (String) body.get("date");
         String photo = (String) body.get("photo");
-	String animal = (String) body.get("photo");
+	String animal = (String) body.get("animal");
 
         Sightings newSightings = new Sightings(user, location, date, photo, animal);
 
