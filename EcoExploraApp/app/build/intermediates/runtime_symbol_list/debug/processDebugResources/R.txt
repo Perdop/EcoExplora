@@ -3208,6 +3208,7 @@ int drawable btn_radio_off_to_on_mtrl_animation 0x7f080084
 int drawable btn_radio_on_mtrl 0x7f080085
 int drawable btn_radio_on_to_off_mtrl_animation 0x7f080086
 int drawable cajo 0x7f080087
+int drawable calendar 0x7f080175
 int drawable camera 0x7f080088
 int drawable card_border 0x7f080089
 int drawable check 0x7f08008a
@@ -3428,6 +3429,7 @@ int drawable penguin 0x7f080160
 int drawable perfil 0x7f080161
 int drawable photo 0x7f080162
 int drawable photobutton 0x7f080163
+int drawable place_localizer 0x7f080176
 int drawable plantas 0x7f080164
 int drawable play 0x7f080165
 int drawable play_overlay 0x7f080166
@@ -3568,6 +3570,7 @@ int id bounce 0x7f0a0073
 int id bounceBoth 0x7f0a0074
 int id bounceEnd 0x7f0a0075
 int id bounceStart 0x7f0a0076
+int id button 0x7f0a02eb
 int id buttonPanel 0x7f0a0077
 int id buttonsContainer 0x7f0a0078
 int id cache_measures 0x7f0a0079
@@ -3604,6 +3607,11 @@ int id cardRepteis 0x7f0a0097
 int id cardTop 0x7f0a0098
 int id cardTopSeta 0x7f0a0099
 int id cardView 0x7f0a009a
+int id cardView2 0x7f0a02ec
+int id cardView3 0x7f0a02ed
+int id cardView4 0x7f0a02ee
+int id cardView5 0x7f0a02ef
+int id cardView6 0x7f0a02f0
 int id carryVelocity 0x7f0a009b
 int id center 0x7f0a009c
 int id centerCrop 0x7f0a009d
@@ -3684,6 +3692,8 @@ int id editTextNome 0x7f0a00e7
 int id editTextNome1 0x7f0a00e8
 int id editTextSenha 0x7f0a00e9
 int id editTextSenha1 0x7f0a00ea
+int id editTextText 0x7f0a02f1
+int id editTextText3 0x7f0a02f2
 int id edit_query 0x7f0a00eb
 int id edit_text_id 0x7f0a00ec
 int id elastic 0x7f0a00ed
@@ -3816,6 +3826,8 @@ int id imageProfile3 0x7f0a016b
 int id imageRepteis 0x7f0a016c
 int id imageView 0x7f0a016d
 int id imageView2 0x7f0a016e
+int id imageView3 0x7f0a02f3
+int id imageView4 0x7f0a02f4
 int id imagesViewPager 0x7f0a016f
 int id imgPerfilDev1 0x7f0a0170
 int id imgPerfilDev2 0x7f0a0171
@@ -4126,6 +4138,7 @@ int id textSpacerNoTitle 0x7f0a02a1
 int id textStart 0x7f0a02a2
 int id textTop 0x7f0a02a3
 int id textView 0x7f0a02a4
+int id textView2 0x7f0a02f5
 int id text_input_end_icon 0x7f0a02a5
 int id text_input_error_icon 0x7f0a02a6
 int id text_input_start_icon 0x7f0a02a7

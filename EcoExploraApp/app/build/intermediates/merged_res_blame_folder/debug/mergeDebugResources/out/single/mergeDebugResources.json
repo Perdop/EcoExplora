@@ -4,24 +4,24 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_anfibios.xml"
     },
     {
-        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_photo.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/photo.png"
+    },
+    {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_fundo3.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/fundo3.png"
     },
     {
-        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/layout_activity_peixes.xml.flat",
-        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_peixes.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_aves.png.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/aves.png"
+    },
+    {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/layout_activity_peixes.xml.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_peixes.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_camera.png.flat",
@@ -208,6 +208,10 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
+        "merged": "com.example.home.app-debug-55:/drawable_calendar.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/calendar.png"
+    },
+    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/font_amaranth.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/font/amaranth.xml"
     },
@@ -226,6 +230,10 @@
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_photobutton.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/photobutton.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_pag_animais_photo.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_pag_animais_photo.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_ic_launcher_background.xml.flat",
@@ -268,12 +276,12 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/profilebutton.xml"
     },
     {
-        "merged": "com.example.home.app-debug-55:/layout_activity_pag_animais.xml.flat",
-        "source": "com.example.home.app-main-57:/layout/activity_pag_animais.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/layout_activity_pag_animais.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_pag_animais.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_place_localizer.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/place_localizer.png"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/mipmap-hdpi_ic_launcher.webp.flat",

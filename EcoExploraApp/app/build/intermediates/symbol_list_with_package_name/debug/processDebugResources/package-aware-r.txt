@@ -3209,6 +3209,7 @@ drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
 drawable cajo
+drawable calendar
 drawable camera
 drawable card_border
 drawable check
@@ -3429,6 +3430,7 @@ drawable penguin
 drawable perfil
 drawable photo
 drawable photobutton
+drawable place_localizer
 drawable plantas
 drawable play
 drawable play_overlay
@@ -3569,6 +3571,7 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
+id button
 id buttonPanel
 id buttonsContainer
 id cache_measures
@@ -3605,6 +3608,11 @@ id cardRepteis
 id cardTop
 id cardTopSeta
 id cardView
+id cardView2
+id cardView3
+id cardView4
+id cardView5
+id cardView6
 id carryVelocity
 id center
 id centerCrop
@@ -3685,6 +3693,8 @@ id editTextNome
 id editTextNome1
 id editTextSenha
 id editTextSenha1
+id editTextText
+id editTextText3
 id edit_query
 id edit_text_id
 id elastic
@@ -3817,6 +3827,8 @@ id imageProfile3
 id imageRepteis
 id imageView
 id imageView2
+id imageView3
+id imageView4
 id imagesViewPager
 id imgPerfilDev1
 id imgPerfilDev2
@@ -4127,6 +4139,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView2
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon

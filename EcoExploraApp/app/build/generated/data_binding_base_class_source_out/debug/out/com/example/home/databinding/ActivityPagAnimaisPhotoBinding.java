@@ -4,25 +4,79 @@ package com.example.home.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.ImageView;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.cardview.widget.CardView;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.home.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class ActivityPagAnimaisPhotoBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
 
   @NonNull
+  public final Button button;
+
+  @NonNull
+  public final CardView cardView2;
+
+  @NonNull
+  public final CardView cardView3;
+
+  @NonNull
+  public final CardView cardView4;
+
+  @NonNull
+  public final CardView cardView5;
+
+  @NonNull
+  public final CardView cardView6;
+
+  @NonNull
+  public final EditText editTextText;
+
+  @NonNull
+  public final EditText editTextText3;
+
+  @NonNull
+  public final ImageView imageView3;
+
+  @NonNull
+  public final ImageView imageView4;
+
+  @NonNull
   public final ConstraintLayout main;
 
-  private ActivityPagAnimaisPhotoBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ConstraintLayout main) {
+  @NonNull
+  public final TextView textView2;
+
+  private ActivityPagAnimaisPhotoBinding(@NonNull ConstraintLayout rootView, @NonNull Button button,
+      @NonNull CardView cardView2, @NonNull CardView cardView3, @NonNull CardView cardView4,
+      @NonNull CardView cardView5, @NonNull CardView cardView6, @NonNull EditText editTextText,
+      @NonNull EditText editTextText3, @NonNull ImageView imageView3, @NonNull ImageView imageView4,
+      @NonNull ConstraintLayout main, @NonNull TextView textView2) {
     this.rootView = rootView;
+    this.button = button;
+    this.cardView2 = cardView2;
+    this.cardView3 = cardView3;
+    this.cardView4 = cardView4;
+    this.cardView5 = cardView5;
+    this.cardView6 = cardView6;
+    this.editTextText = editTextText;
+    this.editTextText3 = editTextText3;
+    this.imageView3 = imageView3;
+    this.imageView4 = imageView4;
     this.main = main;
+    this.textView2 = textView2;
   }
 
   @Override
@@ -48,12 +102,83 @@ public final class ActivityPagAnimaisPhotoBinding implements ViewBinding {
 
   @NonNull
   public static ActivityPagAnimaisPhotoBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.button;
+      Button button = ViewBindings.findChildViewById(rootView, id);
+      if (button == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView2;
+      CardView cardView2 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView2 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView3;
+      CardView cardView3 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView4;
+      CardView cardView4 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView4 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView5;
+      CardView cardView5 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.cardView6;
+      CardView cardView6 = ViewBindings.findChildViewById(rootView, id);
+      if (cardView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextText;
+      EditText editTextText = ViewBindings.findChildViewById(rootView, id);
+      if (editTextText == null) {
+        break missingId;
+      }
+
+      id = R.id.editTextText3;
+      EditText editTextText3 = ViewBindings.findChildViewById(rootView, id);
+      if (editTextText3 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView3;
+      ImageView imageView3 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView4;
+      ImageView imageView4 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView4 == null) {
+        break missingId;
+      }
+
+      ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.textView2;
+      TextView textView2 = ViewBindings.findChildViewById(rootView, id);
+      if (textView2 == null) {
+        break missingId;
+      }
+
+      return new ActivityPagAnimaisPhotoBinding((ConstraintLayout) rootView, button, cardView2,
+          cardView3, cardView4, cardView5, cardView6, editTextText, editTextText3, imageView3,
+          imageView4, main, textView2);
     }
-
-    ConstraintLayout main = (ConstraintLayout) rootView;
-
-    return new ActivityPagAnimaisPhotoBinding((ConstraintLayout) rootView, main);
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }

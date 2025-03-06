@@ -14,6 +14,7 @@ drawable baleia
 drawable border
 drawable btn_animaltype_extinctanimals
 drawable cajo
+drawable calendar
 drawable camera
 drawable card_border
 drawable ecoexploralogo
@@ -35,6 +36,7 @@ drawable penguin
 drawable perfil
 drawable photo
 drawable photobutton
+drawable place_localizer
 drawable plantas
 drawable profilebutton
 drawable repteis
@@ -60,6 +62,7 @@ id avistamentosImage
 id avistamentosLocal
 id avistamentosNome
 id avistamentosTittle
+id button
 id cadastrarButton
 id camBtn
 id carPeixes
@@ -89,6 +92,11 @@ id cardRepteis
 id cardTop
 id cardTopSeta
 id cardView
+id cardView2
+id cardView3
+id cardView4
+id cardView5
+id cardView6
 id constraintLayout
 id constraintLayout1
 id constraintLayout2
@@ -96,6 +104,8 @@ id editTextNome
 id editTextNome1
 id editTextSenha
 id editTextSenha1
+id editTextText
+id editTextText3
 id fundoBottom1
 id fundoBottom11
 id fundoBottom2
@@ -120,6 +130,8 @@ id imageProfile2
 id imageProfile3
 id imageRepteis
 id imageView2
+id imageView3
+id imageView4
 id imgPerfilDev1
 id imgPerfilDev2
 id imgPerfilDev3
@@ -183,6 +195,7 @@ id textSetaBottom
 id textSetaBottom1
 id textSetaBottomLogado
 id textView
+id textView2
 id titulo
 id titulo2
 id titulo3
