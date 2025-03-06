@@ -28,6 +28,7 @@ drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable image1
 drawable image2
+drawable image_gallery
 drawable logo
 drawable mamiferos
 drawable pato
@@ -62,7 +63,6 @@ id avistamentosImage
 id avistamentosLocal
 id avistamentosNome
 id avistamentosTittle
-id button
 id cadastrarButton
 id camBtn
 id carPeixes
@@ -100,6 +100,7 @@ id cardView6
 id constraintLayout
 id constraintLayout1
 id constraintLayout2
+id constraintLayout3
 id editTextNome
 id editTextNome1
 id editTextSenha
@@ -132,6 +133,8 @@ id imageRepteis
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id imgPerfilDev1
 id imgPerfilDev2
 id imgPerfilDev3
@@ -143,17 +146,20 @@ id main
 id perfilDev1
 id perfilDev2
 id perfilDev3
+id pickImg
 id profileButton
 id profileTest
 id rounded1
 id rounded2
 id rounded3
 id scrollView2
+id sendDataBtn
 id setaDev
 id setaInfopage
 id setaVoltar
 id subtitulo
 id subtituloMamiferos
+id takePic
 id textAmbiente1
 id textAmbiente2
 id textAnfibios
@@ -196,6 +202,8 @@ id textSetaBottom1
 id textSetaBottomLogado
 id textView
 id textView2
+id textView3
+id textView4
 id titulo
 id titulo2
 id titulo3

@@ -67,18 +67,27 @@ public class PagAnimais extends AppCompatActivity {
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.CAMERA}, 100);
         }
 
-        // Botao que chama a camera
-        ImageButton camBtn = findViewById(R.id.camBtn);
-        camBtn.setOnClickListener(v -> {
-            abrirOpcoes();
-        });
-
         // Recebe os dados passados pela Intent
         String nomeAnimal = getIntent().getStringExtra("NOME_ANIMAL");
         String descricaoAnimal = getIntent().getStringExtra("DESCRICAO_ANIMAL");
         String estadoAnimal = getIntent().getStringExtra("ESTADO_ANIMAL");
         String existentesAnimal = String.valueOf(getIntent().getIntExtra("EXISTENTES_ANIMAL", 0));  // Converte o inteiro para string
         String imgAnimal = getIntent().getStringExtra("IMG_ANIMAL");
+
+
+        // Botao que chama a camera
+        ImageButton camBtn = findViewById(R.id.camBtn);
+        camBtn.setOnClickListener(v -> {
+            // Verifica login
+            if( userName == ""){
+                Toast.makeText(PagAnimais.this, "Faça login antes de enviar", Toast.LENGTH_SHORT).show();
+                return;
+            }
+            // Envia os dados pra proxima tela
+            Intent detailIntent = new Intent(PagAnimais.this, PagAnimaisPhoto.class);
+            detailIntent.putExtra("NOME_ANIMAL", nomeAnimal);
+            startActivity(detailIntent);
+        });
 
         // Exibe os dados na interface
         TextView animalNome = findViewById(R.id.animalName);
@@ -107,190 +116,4 @@ public class PagAnimais extends AppCompatActivity {
             onBackPressed();
         });
     }
-
-    private static final int REQUEST_CAMERA_PERMISSION = 100;
-
-    private void abrirOpcoes() {
-        if( userName == ""){
-            Toast.makeText(PagAnimais.this, "Faça login antes de enviar", Toast.LENGTH_SHORT).show();
-            return;
-        }
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setTitle("Escolha uma opção")
-                .setItems(new CharSequence[]{"Tirar Foto", "Selecionar da Galeria", "Cancelar"},
-                        (dialog, which) -> {
-                            if (which == 0) { // Tirar foto
-                                verificarPermissaoCamera();
-                            } else if (which == 1) { // Escolher da galeria
-                                selecionarImagemGaleria();
-                            }
-                        }).show();
-    }
-    private void verificarPermissaoCamera() {
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.CAMERA)
-                != PackageManager.PERMISSION_GRANTED) {
-            ActivityCompat.requestPermissions(this,
-                    new String[]{Manifest.permission.CAMERA},
-                    REQUEST_CAMERA_PERMISSION);
-        } else {
-            abrirCamera();
-        }
-    }
-
-    private void abrirCamera() {
-        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            abrirCameraLauncher.launch(intent);
-        }
-    }
-    private void selecionarImagemGaleria() {
-        Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
-        intent.setType("image/*");
-        abrirGaleriaLauncher.launch(intent);
-    }
-
-    private final ActivityResultLauncher<Intent> abrirCameraLauncher = registerForActivityResult(
-            new ActivityResultContracts.StartActivityForResult(),
-            result -> {
-                if (result.getResultCode() == RESULT_OK) {
-                    Intent data = result.getData();
-                    if (data != null) {
-                        Bundle extras = data.getExtras();
-                        if (extras != null) {
-                            Bitmap bitmap = (Bitmap) extras.get("data"); // Captura o Bitmap da foto
-                            // Chame o método para fazer o upload, se necessário
-                            uploadImageBit(bitmap);
-                        }
-                    }
-                }
-            }
-    );
-
-
-    private final ActivityResultLauncher<Intent> abrirGaleriaLauncher = registerForActivityResult(
-            new ActivityResultContracts.StartActivityForResult(),
-            result -> {
-                // Processar resultado da galeria aqui
-                if (result.getResultCode() == RESULT_OK) {
-                    Intent data = result.getData();
-                    if (data != null && data.getData() != null) {
-                        Uri imageUri = data.getData(); // URI da imagem selecionada
-                        uploadImageUri(imageUri); // New - call upload image method
-                    }
-                }
-            }
-    );
-
-    // New - upload image function
-    private void uploadImageUri(Uri uri) {
-        MediaManager.get().upload(uri).unsigned(uploadPreset).callback(new UploadCallback() {
-            @Override
-            public void onStart(String requestId) {
-                Log.d("Cloudinary Quickstart", "Upload start");
-            }
-
-            @Override
-            public void onProgress(String requestId, long bytes, long totalBytes) {
-                Log.d("Cloudinary Quickstart", "Upload progress");
-            }
-
-            @Override
-            public void onSuccess(String requestId, Map resultData) {
-                Log.d("Cloudinary Quickstart", "Upload success");
-                String url = (String) resultData.get("secure_url");
-                Log.d("requestId", "onSuccess: " + url);
-                enviarDados(userName,"test","test",url);
-            }
-
-            @Override
-            public void onError(String requestId, ErrorInfo error) {
-                Log.d("Cloudinary Quickstart", "Upload failed");
-            }
-
-            @Override
-            public void onReschedule(String requestId, ErrorInfo error) {
-
-            }
-        }).dispatch();
-    }
-
-    private void uploadImageBit(Bitmap bitmap) {
-        ByteArrayOutputStream stream = new ByteArrayOutputStream();
-        bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream);
-        byte[] byteArray = stream.toByteArray();
-
-        // Envia o ByteArray para o Cloudinary
-        MediaManager.get().upload(byteArray).unsigned(uploadPreset).callback(new UploadCallback() {
-            @Override
-            public void onStart(String requestId) {
-                Log.d("Cloudinary Quickstart", "Upload start");
-            }
-
-            @Override
-            public void onProgress(String requestId, long bytes, long totalBytes) {
-                Log.d("Cloudinary Quickstart", "Upload progress");
-            }
-
-            @Override
-            public void onSuccess(String requestId, Map resultData) {
-                String url = (String) resultData.get("url"); // Obtém a URL da imagem
-                Log.d("Cloudinary", "Imagem enviada com sucesso: " + url);
-                enviarDados(userName,"test","test",url);
-
-            }
-
-            @Override
-            public void onError(String requestId, ErrorInfo error) {
-                Log.d("Cloudinary Quickstart", "Upload failed");
-            }
-
-            @Override
-            public void onReschedule(String requestId, ErrorInfo error) {
-
-            }
-        }).dispatch();
-    }
-
-    private void enviarDados(String user, String location, String date, String photo) {
-        new Thread(() -> {
-            try {
-                // URL da API
-                URL url = new URL("https://ecoexplora.onrender.com/addSightings");
-                HttpURLConnection conn = (HttpURLConnection) url.openConnection();
-                conn.setRequestMethod("POST");
-                conn.setRequestProperty("Content-Type", "application/json; charset=UTF-8");
-                conn.setRequestProperty("X-API-KEY", BuildConfig.API_KEY);
-                conn.setDoOutput(true);
-
-                // Criar o objeto JSON
-                JSONObject jsonParam = new JSONObject();
-                jsonParam.put("user", user);
-                jsonParam.put("location", location);
-                jsonParam.put("date", date);
-                jsonParam.put("photo", photo);
-
-                // Enviar o JSON
-                OutputStream os = conn.getOutputStream();
-                os.write(jsonParam.toString().getBytes(StandardCharsets.UTF_8));
-                os.close();
-
-                // Verificar a resposta
-                int responseCode = conn.getResponseCode();
-                runOnUiThread(() -> {
-                    if (responseCode == 200) {
-                        Toast.makeText(PagAnimais.this, "Informação enviada!", Toast.LENGTH_SHORT).show();
-                    } else {
-                        Toast.makeText(PagAnimais.this, "Erro ao enviar!", Toast.LENGTH_SHORT).show();
-                    }
-                });
-
-                conn.disconnect();
-            } catch (Exception e) {
-                runOnUiThread(() -> Toast.makeText(PagAnimais.this, "Erro no envio!", Toast.LENGTH_SHORT).show());
-            }
-        }).start();
-    }
-
-
-
 }

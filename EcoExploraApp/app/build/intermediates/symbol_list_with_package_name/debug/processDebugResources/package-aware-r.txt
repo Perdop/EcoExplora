@@ -3348,6 +3348,7 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_search_black_24
 drawable image1
 drawable image2
+drawable image_gallery
 drawable indeterminate_static
 drawable lock
 drawable logo
@@ -3571,7 +3572,6 @@ id bounce
 id bounceBoth
 id bounceEnd
 id bounceStart
-id button
 id buttonPanel
 id buttonsContainer
 id cache_measures
@@ -3638,6 +3638,7 @@ id constraint
 id constraintLayout
 id constraintLayout1
 id constraintLayout2
+id constraintLayout3
 id container
 id content
 id contentPanel
@@ -3829,6 +3830,8 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
+id imageView6
 id imagesViewPager
 id imgPerfilDev1
 id imgPerfilDev2
@@ -3980,6 +3983,7 @@ id percent
 id perfilDev1
 id perfilDev2
 id perfilDev3
+id pickImg
 id pin
 id pooling_container_listener_holder_tag
 id position
@@ -4029,6 +4033,7 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id selection_type
+id sendDataBtn
 id setaDev
 id setaInfopage
 id setaVoltar
@@ -4091,6 +4096,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id takePic
 id text
 id text2
 id textAmbiente1
@@ -4140,6 +4146,8 @@ id textStart
 id textTop
 id textView
 id textView2
+id textView3
+id textView4
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
