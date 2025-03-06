@@ -26,6 +26,7 @@ public class Sightings {
 		this.location = location;
 		this.date = date;
 		this.photo = photo;
+		this.animal = animal;
 	}
 	
 	public Integer getId() {
