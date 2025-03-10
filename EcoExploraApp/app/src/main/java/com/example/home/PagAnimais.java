@@ -146,7 +146,7 @@ public class PagAnimais extends AppCompatActivity {
         ImageButton refreshAvistamentos = findViewById(R.id.refreshAvistamentos);
         refreshAvistamentos.setOnClickListener(v -> {
             getAvistamentos();
-            Log.d("teaads", "onCreate: ");
+            Toast.makeText(PagAnimais.this, "Atualizando...", Toast.LENGTH_SHORT).show();
         });
 
     }

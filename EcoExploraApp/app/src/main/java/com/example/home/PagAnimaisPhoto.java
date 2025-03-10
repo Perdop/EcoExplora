@@ -326,11 +326,12 @@ public class PagAnimaisPhoto extends AppCompatActivity {
             @Override
             public void onSuccess(String requestId, Map resultData) {
                 String url = (String) resultData.get("url"); // Obtém a URL da imagem
+                url = url.replace("http://", "https://"); // Garante que seja HTTPS
                 Log.d("Cloudinary", "Imagem enviada com sucesso: " + url);
                 Toast.makeText(PagAnimaisPhoto.this, "Imagem enviada com sucesso", Toast.LENGTH_SHORT).show();
                 photoUrl = url;
-
             }
+
 
             @Override
             public void onError(String requestId, ErrorInfo error) {
