@@ -40,6 +40,7 @@ drawable photobutton
 drawable place_localizer
 drawable plantas
 drawable profilebutton
+drawable reload
 drawable repteis
 drawable rounded_corners1
 drawable rounded_corners2
@@ -58,6 +59,7 @@ id animalEstado
 id animalExistentes
 id animalImage
 id animalName
+id avistamentos
 id avistamentosData
 id avistamentosImage
 id avistamentosLocal
@@ -101,6 +103,7 @@ id constraintLayout
 id constraintLayout1
 id constraintLayout2
 id constraintLayout3
+id constraintLayout4
 id editTextNome
 id editTextNome1
 id editTextSenha
@@ -149,6 +152,7 @@ id perfilDev3
 id pickImg
 id profileButton
 id profileTest
+id refreshAvistamentos
 id rounded1
 id rounded2
 id rounded3
@@ -238,3 +242,4 @@ style Base.Theme.Home
 style Theme.Home
 xml backup_rules
 xml data_extraction_rules
+xml file_paths

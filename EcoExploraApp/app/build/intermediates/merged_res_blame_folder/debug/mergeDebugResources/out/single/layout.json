@@ -28,16 +28,16 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_infopage.xml"
     },
     {
-        "merged": "com.example.home.app-mergeDebugResources-54:/layout/activity_pag_animais_photo.xml",
-        "source": "com.example.home.app-main-57:/layout/activity_pag_animais_photo.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-mergeDebugResources-54:/layout/activity_repteis.xml",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_repteis.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-mergeDebugResources-54:/layout/activity_cadastro.xml",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_cadastro.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-54:/layout/activity_pag_animais.xml",
+        "source": "com.example.home.app-main-57:/layout/activity_pag_animais.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-mergeDebugResources-54:/layout/activity_main.xml",

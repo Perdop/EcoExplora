@@ -8,12 +8,12 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/calendar.png"
     },
     {
-        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_photo.png.flat",
-        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/photo.png"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_photo.png.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/photo.png"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_fundo3.png.flat",
@@ -208,6 +208,10 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/penguin.jpg"
     },
     {
+        "merged": "com.example.home.app-debug-55:/xml_file_paths.xml.flat",
+        "source": "com.example.home.app-main-57:/xml/file_paths.xml"
+    },
+    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
@@ -236,16 +240,16 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/photobutton.xml"
     },
     {
-        "merged": "com.example.home.app-debug-55:/layout_activity_pag_animais_photo.xml.flat",
-        "source": "com.example.home.app-main-57:/layout/activity_pag_animais_photo.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_ic_launcher_background.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/ic_launcher_background.xml"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/xml_data_extraction_rules.xml.flat",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_reload.png.flat",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/drawable/reload.png"
     },
     {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-debug-55:/drawable_mamiferos.png.flat",

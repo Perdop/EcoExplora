@@ -80,8 +80,8 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardAnimais"
                 android:layout_width="411dp"
-                android:layout_height="800dp"
-                android:layout_gravity="top|center_horizontal"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:layout_marginTop="220dp"
                 android:backgroundTint="#8FBE9E"
                 app:cardCornerRadius="30dp">
@@ -193,14 +193,16 @@
                     android:layout_width="411dp"
                     android:layout_height="wrap_content"
                     android:layout_gravity="bottom"
+                    android:layout_marginTop="350dp"
                     android:backgroundTint="#B3E3C2"
                     android:minHeight="411dp"
                     app:cardCornerRadius="40dp">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent"
+                        android:layout_height="wrap_content"
                         android:minHeight="411dp">>
+
                         <TextView
                             android:id="@+id/avistamentosTittle"
                             android:layout_width="wrap_content"
@@ -215,83 +217,126 @@
                             app:layout_constraintTop_toTopOf="parent" />
 
                         <androidx.constraintlayout.widget.ConstraintLayout
-                            android:layout_width="0dp"
+                            android:id="@+id/avistamentos"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="40dp"
                             android:layout_marginTop="20dp"
                             android:layout_marginEnd="40dp"
-                            android:minHeight="50dp"
+                            android:layout_marginBottom="40dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
                             app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.0"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toBottomOf="@+id/avistamentosTittle">
+                            app:layout_constraintTop_toBottomOf="@+id/avistamentosTittle"
+                            app:layout_constraintVertical_bias="0.0">
 
-                            <TextView
-                                android:id="@+id/avistamentosData"
-                                android:layout_width="wrap_content"
+                            <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/constraintLayout4"
+                                android:layout_width="0dp"
                                 android:layout_height="wrap_content"
-                                android:layout_marginStart="10dp"
-                                android:layout_marginBottom="5dp"
-                                android:fontFamily="@font/amaranth"
-                                android:text="Data:"
-                                android:textColor="#1B455B"
-                                android:textSize="20sp"
-                                android:textStyle="normal"
-                                app:layout_constraintBottom_toBottomOf="@+id/cardView"
+                                android:visibility="invisible"
                                 app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.0"
-                                app:layout_constraintStart_toEndOf="@+id/cardView" />
-
-                            <TextView
-                                android:id="@+id/avistamentosLocal"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="10dp"
-                                android:layout_marginTop="5dp"
-                                android:fontFamily="@font/amaranth"
-                                android:text="Local:"
-                                android:textColor="#1B455B"
-                                android:textSize="20sp"
-                                android:textStyle="normal"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.0"
-                                app:layout_constraintStart_toEndOf="@+id/cardView"
-                                app:layout_constraintTop_toBottomOf="@+id/avistamentosNome" />
-
-                            <TextView
-                                android:id="@+id/avistamentosNome"
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="10dp"
-                                android:layout_marginTop="5dp"
-                                android:fontFamily="@font/amaranth"
-                                android:text="Pedro Costa"
-                                android:textColor="#1B455B"
-                                android:textSize="20sp"
-                                android:textStyle="bold"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.0"
-                                app:layout_constraintStart_toEndOf="@+id/cardView"
-                                app:layout_constraintTop_toTopOf="@+id/cardView" />
-
-                            <androidx.cardview.widget.CardView
-                                android:id="@+id/cardView"
-                                android:layout_width="150dp"
-                                android:layout_height="0dp"
-                                app:cardCornerRadius="12dp"
-                                app:layout_constraintDimensionRatio="1:1"
-                                app:layout_constraintEnd_toEndOf="parent"
-                                app:layout_constraintHorizontal_bias="0.0"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent">
 
-                                <ImageView
-                                    android:id="@+id/avistamentosImage"
+                                <TextView
+                                    android:id="@+id/avistamentosData"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:scaleType="centerCrop"
-                                    app:srcCompat="@drawable/anfibios" />
-                            </androidx.cardview.widget.CardView>
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginBottom="5dp"
+                                    android:fontFamily="@font/amaranth"
+                                    android:text="Data:"
+                                    android:textColor="#1B455B"
+                                    android:textSize="20sp"
+                                    android:textStyle="normal"
+                                    app:layout_constraintBottom_toBottomOf="@+id/cardView"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="0.0"
+                                    app:layout_constraintStart_toEndOf="@+id/cardView" />
+
+                                <ScrollView
+                                    android:layout_width="0dp"
+                                    android:layout_height="0dp"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="5dp"
+                                    app:layout_constraintBottom_toTopOf="@+id/avistamentosData"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="0.0"
+                                    app:layout_constraintStart_toEndOf="@+id/cardView"
+                                    app:layout_constraintTop_toBottomOf="@+id/avistamentosNome"
+                                    app:layout_constraintVertical_bias="0.0">
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/avistamentosLocal"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:fontFamily="@font/amaranth"
+                                            android:text="Local:dsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaadddddddddddddddddddddddadddddaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                                            android:textColor="#1B455B"
+                                            android:textSize="20sp"
+                                            android:textStyle="normal" />
+                                    </LinearLayout>
+                                </ScrollView>
+
+                                <TextView
+                                    android:id="@+id/avistamentosNome"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:fontFamily="@font/amaranth"
+                                    android:text="Pedro Costa"
+                                    android:textColor="#1B455B"
+                                    android:textSize="20sp"
+                                    android:textStyle="bold"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="0.0"
+                                    app:layout_constraintStart_toEndOf="@+id/cardView"
+                                    app:layout_constraintTop_toTopOf="@+id/cardView" />
+
+                                <androidx.cardview.widget.CardView
+                                    android:id="@+id/cardView"
+                                    android:layout_width="150dp"
+                                    android:layout_height="0dp"
+                                    app:cardCornerRadius="12dp"
+                                    app:layout_constraintDimensionRatio="1:1"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintHorizontal_bias="0.0"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent">
+
+                                    <ImageView
+                                        android:id="@+id/avistamentosImage"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:scaleType="centerCrop"
+                                        app:srcCompat="@drawable/anfibios" />
+                                </androidx.cardview.widget.CardView>
+                            </androidx.constraintlayout.widget.ConstraintLayout>
                         </androidx.constraintlayout.widget.ConstraintLayout>
+
+                        <ImageButton
+                            android:id="@+id/refreshAvistamentos"
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_marginStart="30dp"
+                            android:backgroundTint="#00D9D8D8"
+                            android:scaleType="fitCenter"
+                            android:scaleX="1.3"
+                            android:scaleY="1.3"
+                            app:layout_constraintBottom_toBottomOf="@+id/avistamentosTittle"
+                            app:layout_constraintDimensionRatio="1:1"
+                            app:layout_constraintStart_toEndOf="@+id/avistamentosTittle"
+                            app:layout_constraintTop_toTopOf="@+id/avistamentosTittle"
+                            app:srcCompat="@drawable/reload" />
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
 

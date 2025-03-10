@@ -1,11 +1,15 @@
 package com.example.home;
 
+import android.os.Environment;
 
+import java.io.File;
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import android.Manifest;
 import android.app.DatePickerDialog;
 import android.content.pm.PackageManager;
+import android.graphics.BitmapFactory;
 import android.location.Address;
 import android.location.Geocoder;
 import android.location.Location;
@@ -41,6 +45,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 import androidx.core.app.ActivityCompat;
 import androidx.core.content.ContextCompat;
+import androidx.core.content.FileProvider;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
@@ -59,6 +64,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.Map;
@@ -201,12 +207,35 @@ public class PagAnimaisPhoto extends AppCompatActivity {
         }
     }
 
+    private Uri photoURI;
+    private File photoFile;
+
     private void abrirCamera() {
-        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            abrirCameraLauncher.launch(intent);
+        Intent cameraIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+        if (cameraIntent.resolveActivity(getPackageManager()) != null) {
+            // Criar um arquivo para a imagem
+            try {
+                photoFile = createImageFile(); // Método que cria o arquivo
+                if (photoFile != null) {
+                    photoURI = FileProvider.getUriForFile(this,
+                            "com.example.home.fileprovider", // Nome do seu provider
+                            photoFile);
+                    cameraIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
+                    abrirCameraLauncher.launch(cameraIntent);
+                }
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
     }
+
+    private File createImageFile() throws IOException {
+        String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
+        String imageFileName = "JPEG_" + timeStamp + "_";
+        File storageDir = getExternalFilesDir(Environment.DIRECTORY_PICTURES);
+        return File.createTempFile(imageFileName, ".jpg", storageDir);
+    }
+
     private void selecionarImagemGaleria() {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         intent.setType("image/*");
@@ -217,18 +246,14 @@ public class PagAnimaisPhoto extends AppCompatActivity {
             new ActivityResultContracts.StartActivityForResult(),
             result -> {
                 if (result.getResultCode() == RESULT_OK) {
-                    Intent data = result.getData();
-                    if (data != null) {
-                        Bundle extras = data.getExtras();
-                        if (extras != null) {
-                            Bitmap bitmap = (Bitmap) extras.get("data"); // Captura o Bitmap da foto
-                            // Chame o método para fazer o upload, se necessário
-                            uploadImageBit(bitmap);
-                        }
-                    }
+                    // Aqui, a imagem já foi salva no arquivo photoFile
+                    Bitmap bitmap = BitmapFactory.decodeFile(photoFile.getAbsolutePath());
+                    // Chame o método para fazer o upload, se necessário
+                    uploadImageBit(bitmap);
                 }
             }
     );
+
 
 
     private final ActivityResultLauncher<Intent> abrirGaleriaLauncher = registerForActivityResult(

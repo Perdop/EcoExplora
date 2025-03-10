@@ -67,7 +67,7 @@
             android:exported="false" />
         <activity
             android:name="com.example.home.PagAnimais"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name="com.example.home.Desenvolvedores"
             android:exported="false" />
@@ -94,6 +94,16 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.home.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
 
         <activity
             android:name="com.cloudinary.android.uploadwidget.ui.UploadWidgetActivity"

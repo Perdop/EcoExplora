@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -22,7 +23,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Home"
         tools:replace="android:fullBackupContent"
-        tools:targetApi="31" >
+        tools:targetApi="31"
+        >
         <activity
             android:name=".PagAnimaisPhoto"
             android:exported="false" />
@@ -49,7 +51,7 @@
             android:exported="false" />
         <activity
             android:name=".PagAnimais"
-            android:exported="false" />
+            android:exported="true" />
         <activity
             android:name=".Desenvolvedores"
             android:exported="false" />
@@ -76,6 +78,15 @@
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.home.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
     </application>
 
 </manifest>

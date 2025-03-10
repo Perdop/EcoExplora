@@ -3436,6 +3436,7 @@ drawable plantas
 drawable play
 drawable play_overlay
 drawable profilebutton
+drawable reload
 drawable repteis
 drawable rotate_90
 drawable rounded_corners1
@@ -3556,6 +3557,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id avistamentos
 id avistamentosData
 id avistamentosImage
 id avistamentosLocal
@@ -3639,6 +3641,7 @@ id constraintLayout
 id constraintLayout1
 id constraintLayout2
 id constraintLayout3
+id constraintLayout4
 id container
 id content
 id contentPanel
@@ -3996,6 +3999,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id refreshAvistamentos
 id report_drawn
 id reverseSawtooth
 id right
@@ -6055,3 +6059,4 @@ styleable ViewTransition android_id SharedValue SharedValueId clearsTag duration
 styleable include constraintSet
 xml backup_rules
 xml data_extraction_rules
+xml file_paths

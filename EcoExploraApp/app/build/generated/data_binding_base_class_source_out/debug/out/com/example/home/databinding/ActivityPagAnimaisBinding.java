@@ -39,6 +39,9 @@ public final class ActivityPagAnimaisBinding implements ViewBinding {
   public final TextView animalName;
 
   @NonNull
+  public final ConstraintLayout avistamentos;
+
+  @NonNull
   public final TextView avistamentosData;
 
   @NonNull
@@ -72,7 +75,13 @@ public final class ActivityPagAnimaisBinding implements ViewBinding {
   public final CardView cardView;
 
   @NonNull
+  public final ConstraintLayout constraintLayout4;
+
+  @NonNull
   public final ConstraintLayout main;
+
+  @NonNull
+  public final ImageButton refreshAvistamentos;
 
   @NonNull
   public final ScrollView scrollView2;
@@ -92,13 +101,15 @@ public final class ActivityPagAnimaisBinding implements ViewBinding {
   private ActivityPagAnimaisBinding(@NonNull ConstraintLayout rootView,
       @NonNull TextView animalDescricao, @NonNull TextView animalEstado,
       @NonNull TextView animalExistentes, @NonNull ImageView animalImage,
-      @NonNull TextView animalName, @NonNull TextView avistamentosData,
-      @NonNull ImageView avistamentosImage, @NonNull TextView avistamentosLocal,
-      @NonNull TextView avistamentosNome, @NonNull TextView avistamentosTittle,
-      @NonNull ImageButton camBtn, @NonNull CardView cardAnimais, @NonNull CardView cardEstado,
-      @NonNull CardView cardFotos, @NonNull CardView cardQts, @NonNull CardView cardView,
-      @NonNull ConstraintLayout main, @NonNull ScrollView scrollView2, @NonNull TextView setaVoltar,
-      @NonNull TextView textEstado, @NonNull TextView textQts,
+      @NonNull TextView animalName, @NonNull ConstraintLayout avistamentos,
+      @NonNull TextView avistamentosData, @NonNull ImageView avistamentosImage,
+      @NonNull TextView avistamentosLocal, @NonNull TextView avistamentosNome,
+      @NonNull TextView avistamentosTittle, @NonNull ImageButton camBtn,
+      @NonNull CardView cardAnimais, @NonNull CardView cardEstado, @NonNull CardView cardFotos,
+      @NonNull CardView cardQts, @NonNull CardView cardView,
+      @NonNull ConstraintLayout constraintLayout4, @NonNull ConstraintLayout main,
+      @NonNull ImageButton refreshAvistamentos, @NonNull ScrollView scrollView2,
+      @NonNull TextView setaVoltar, @NonNull TextView textEstado, @NonNull TextView textQts,
       @NonNull TextView tituloSobreAnimais) {
     this.rootView = rootView;
     this.animalDescricao = animalDescricao;
@@ -106,6 +117,7 @@ public final class ActivityPagAnimaisBinding implements ViewBinding {
     this.animalExistentes = animalExistentes;
     this.animalImage = animalImage;
     this.animalName = animalName;
+    this.avistamentos = avistamentos;
     this.avistamentosData = avistamentosData;
     this.avistamentosImage = avistamentosImage;
     this.avistamentosLocal = avistamentosLocal;
@@ -117,7 +129,9 @@ public final class ActivityPagAnimaisBinding implements ViewBinding {
     this.cardFotos = cardFotos;
     this.cardQts = cardQts;
     this.cardView = cardView;
+    this.constraintLayout4 = constraintLayout4;
     this.main = main;
+    this.refreshAvistamentos = refreshAvistamentos;
     this.scrollView2 = scrollView2;
     this.setaVoltar = setaVoltar;
     this.textEstado = textEstado;
@@ -179,6 +193,12 @@ public final class ActivityPagAnimaisBinding implements ViewBinding {
       id = R.id.animalName;
       TextView animalName = ViewBindings.findChildViewById(rootView, id);
       if (animalName == null) {
+        break missingId;
+      }
+
+      id = R.id.avistamentos;
+      ConstraintLayout avistamentos = ViewBindings.findChildViewById(rootView, id);
+      if (avistamentos == null) {
         break missingId;
       }
 
@@ -248,7 +268,19 @@ public final class ActivityPagAnimaisBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.constraintLayout4;
+      ConstraintLayout constraintLayout4 = ViewBindings.findChildViewById(rootView, id);
+      if (constraintLayout4 == null) {
+        break missingId;
+      }
+
       ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.refreshAvistamentos;
+      ImageButton refreshAvistamentos = ViewBindings.findChildViewById(rootView, id);
+      if (refreshAvistamentos == null) {
+        break missingId;
+      }
 
       id = R.id.scrollView2;
       ScrollView scrollView2 = ViewBindings.findChildViewById(rootView, id);
@@ -281,10 +313,10 @@ public final class ActivityPagAnimaisBinding implements ViewBinding {
       }
 
       return new ActivityPagAnimaisBinding((ConstraintLayout) rootView, animalDescricao,
-          animalEstado, animalExistentes, animalImage, animalName, avistamentosData,
+          animalEstado, animalExistentes, animalImage, animalName, avistamentos, avistamentosData,
           avistamentosImage, avistamentosLocal, avistamentosNome, avistamentosTittle, camBtn,
-          cardAnimais, cardEstado, cardFotos, cardQts, cardView, main, scrollView2, setaVoltar,
-          textEstado, textQts, tituloSobreAnimais);
+          cardAnimais, cardEstado, cardFotos, cardQts, cardView, constraintLayout4, main,
+          refreshAvistamentos, scrollView2, setaVoltar, textEstado, textQts, tituloSobreAnimais);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
