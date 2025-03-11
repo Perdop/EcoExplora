@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Formulário via POST</title>
+    <style>
+        /* Estilo global */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f4f4f4;
+        }
+
+        /* Centraliza o conteúdo dentro de uma div */
+        .form-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;  /* Limita o tamanho máximo do formulário */
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-size: 14px;
+            margin-bottom: 5px;
+            display: block;
+        }
+
+        input[type="text"],
+        input[type="number"],
+        textarea {
+            width: 100%;
+            padding: 8px 0 8px 0px;
+            text-indent: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .classeP{
+            font-size: 14px;
+            margin-bottom: 10px;
+            display: block;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Novo animal extinto</h2>
+        <form id="formEnviar">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            <br>
+
+            <label for="classe">Classe (1 a 5):</label>
+            <p class="classeP">Mamífero = 1 <br>
+                Réptil = 2 <br>
+                Aves = 3 <br>
+                Anfíbios = 4 <br>
+                Plantas e insetos = 5  </p>
+            <input type="number" id="classe" min="1" max="5" required>
+            <br>
+
+            <label for="sobre">Sobre (Descrição):</label>
+            <textarea id="sobre" required></textarea>
+            <br>
+
+            <label for="existentes">Existentes:</label>
+            <input type="number" id="existentes" required>
+            <br>
+
+            <label for="estado">Estado:</label>
+            <input type="text" id="estado" required>
+            <br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+
+    <script>
+        // Função para enviar o formulário via POST
+        function enviarPost(event) {
+            event.preventDefault(); // Impede o envio padrão do formulário
+
+            // Captura os valores dos inputs
+            var nome = document.querySelector("#nome").value;
+            var classe = parseInt(document.querySelector("#classe").value);  // Garantindo que seja um número
+            var sobre = document.querySelector("#sobre").value;
+            var existentes = parseInt(document.querySelector("#existentes").value);  // Garantindo que seja um número
+            var estado = document.querySelector("#estado").value;
+
+            // Cria um objeto com os dados para enviar
+            const dados = {
+                nome: nome,
+                classe: classe,
+                sobre: sobre,
+                existentes: existentes,
+                estado: estado
+            };
+
+            // URL do servidor
+            const url = 'https://testspring-g2nh.onrender.com/addAnimal';  // Substitua pela URL real do seu servidor
+
+            // Envia os dados via POST usando fetch
+            fetch(url, {
+                method: 'POST', // Método HTTP POST
+                headers: {
+                    'Content-Type': 'application/json', // Envia os dados como JSON
+                },
+                body: JSON.stringify(dados), // Converte o objeto para JSON
+            })
+            .then(response => {
+                if (!response.ok) {  // Verifica se a resposta foi bem-sucedida
+                    throw new Error('Falha na resposta do servidor: ' + response.status);
+                }
+                return response.json();  // Converte a resposta para JSON
+            })
+            .then(data => {
+                console.log('Resposta do servidor:', data); // Exibe a resposta do servidor no console
+            })
+            .catch(error => {
+                console.error('Erro ao enviar os dados:', error); // Exibe erro caso ocorra
+                console.log('Dados enviados:', JSON.stringify(dados)); // Exibe os dados enviados no console
+            });
+        }
+
+        // Adiciona o evento de envio ao formulário
+        var submit = document.querySelector("#formEnviar");
+        submit.addEventListener('submit', enviarPost); // Chama a função ao enviar o formulário
+    </script>
+
+</body>
+</html>
