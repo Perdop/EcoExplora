@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar JSON</title>
+</head>
+<body>
+
+    <input type="file" id="fileInput" accept=".json">
+    <button onclick="processarArquivo()">Enviar JSON</button>
+    <p id="status">Aguardando envio...</p>
+
+    <script>
+        function processarArquivo() {
+            const fileInput = document.getElementById("fileInput");
+            if (!fileInput.files.length) {
+                alert("Por favor, selecione um arquivo JSON.");
+                return;
+            }
+
+            const file = fileInput.files[0];
+            const reader = new FileReader();
+
+            reader.onload = function(event) {
+                try {
+                    const jsonData = JSON.parse(event.target.result);
+                    if (!Array.isArray(jsonData)) {
+                        alert("O arquivo JSON deve conter uma lista de animais.");
+                        return;
+                    }
+
+                    enviarAnimais(jsonData);
+                } catch (error) {
+                    alert("Erro ao processar o arquivo JSON.");
+                    console.error("Erro de parsing JSON:", error);
+                }
+            };
+
+            reader.readAsText(file);
+        }
+
+        function enviarAnimais(animais) {
+            const url = "https://ecoexplora.onrender.com/addExtinctAnimals";
+            let enviados = 0, falhas = 0;
+
+            animais.forEach(animal => {
+                fetch(url, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        "X-API-KEY": "apiKey" // Substitua pelo valor correto
+                    },
+                    body: JSON.stringify(animal)
+                })
+                .then(response => {
+                    // No modo no-cors, não é possível acessar o corpo da resposta
+                    console.log("Requisição feita, mas não é possível acessar a resposta.");
+                    enviados++;
+                })
+                .catch(error => {
+                    console.error("Erro ao enviar:", error);
+                    falhas++;
+                })
+                .finally(() => {
+                    document.getElementById("status").innerText = `Enviados: ${enviados}, Falhas: ${falhas}`;
+                });
+            });
+        }
+    </script>
+
+</body>
+</html>

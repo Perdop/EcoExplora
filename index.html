@@ -75,10 +75,16 @@
             display: block;
             margin-left: 10px;
         }
+        .multipleAnimals{
+            position: absolute; 
+            top: 30px;
+            right: 30px;
+            font-size: clamp(16px,4vw,40px);
+        }
     </style>
 </head>
 <body>
-
+    <a href="multipleAnimals.html" class="multipleAnimals">Envio em escala</a>
     <div class="form-container">
         <h2>Novo animal extinto</h2>
         <form id="formEnviar">
@@ -91,7 +97,8 @@
                 Réptil = 2 <br>
                 Aves = 3 <br>
                 Anfíbios = 4 <br>
-                Plantas e insetos = 5  </p>
+                Plantas e insetos = 5 <br>
+                Peixes = 6 </p>
             <input type="number" id="classe" min="1" max="5" required>
             <br>
 
@@ -130,19 +137,22 @@
                 sobre: sobre,
                 existentes: existentes,
                 estado: estado
+                
             };
 
             // URL do servidor
-            const url = 'https://testspring-g2nh.onrender.com/addAnimal';  // Substitua pela URL real do seu servidor
+            const url = 'https://ecoexplora.onrender.com/addExtinctAnimals';  // Substitua pela URL real do seu servidor
 
             // Envia os dados via POST usando fetch
             fetch(url, {
                 method: 'POST', // Método HTTP POST
                 headers: {
                     'Content-Type': 'application/json', // Envia os dados como JSON
+                    'X-API-KEY': 'apiKey' // Adicionando a chave de autenticação
                 },
                 body: JSON.stringify(dados), // Converte o objeto para JSON
             })
+
             .then(response => {
                 if (!response.ok) {  // Verifica se a resposta foi bem-sucedida
                     throw new Error('Falha na resposta do servidor: ' + response.status);
