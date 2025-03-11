@@ -1,6 +1,5 @@
 package com.ecoexplora.Ecoexplora.config;
 
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
@@ -12,10 +11,9 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         // Permite requisições de todas as origens
         registry.addMapping("/**") // Aplica CORS a todos os endpoints
-                .allowedOrigins("*") // Permite todas as origens
+                .allowedOrigins("http://127.0.0.1:5500") // Especifique a origem do cliente
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Métodos permitidos
                 .allowedHeaders("*") // Permite todos os cabeçalhos
-                .exposedHeaders("X-API-KEY") // Garante que o navegador pode acessar esse cabeçalho
-                .allowCredentials(true); // Permite cookies e headers personalizados    
+                .exposedHeaders("X-API-KEY"); // Garante que o navegador pode acessar esse cabeçalho
     }
 }
