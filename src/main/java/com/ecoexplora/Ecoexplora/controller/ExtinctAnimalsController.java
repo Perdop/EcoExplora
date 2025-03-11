@@ -16,7 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 import com.ecoexplora.Ecoexplora.model.ExtinctAnimals;
 import com.ecoexplora.Ecoexplora.model.Users;
 import com.ecoexplora.Ecoexplora.repository.EcoExploraRepositoryExtinctAnimals;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
+@CrossOrigin(origins = "*") // Permite requisições de qualquer domínio
+@RestController
 @RestController
 
 public class ExtinctAnimalsController {
