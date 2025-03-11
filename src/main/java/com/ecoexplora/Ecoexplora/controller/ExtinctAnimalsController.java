@@ -72,5 +72,25 @@ public class ExtinctAnimalsController {
 
         return ecoexploraRepositoryAnimals.save(newAnimal);
     }
+	
+	@PostMapping("/addMultipleExtinctAnimals")
+	public List<ExtinctAnimals> createMultiple(@RequestBody List<Map<String, Object>> animals) {
+	    List<ExtinctAnimals> createdAnimals = new ArrayList<>();
+	
+	    for (Map<String, Object> body : animals) {
+	        String name = (String) body.get("name");
+	        Integer animalType = (Integer) body.get("animalType");
+	        String about = (String) body.get("about");
+	        Integer living = (Integer) body.get("living");
+	        String state = (String) body.get("state");
+	        String animalPhoto = (String) body.get("animalPhoto");
+	
+	        ExtinctAnimals newAnimal = new ExtinctAnimals(name, animalType, about, living, state, animalPhoto);
+	        createdAnimals.add(ecoexploraRepositoryAnimals.save(newAnimal));
+	    }
+	
+	    return createdAnimals;
+	}
+
 
 }
