@@ -1,0 +1,310 @@
+[
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_plantas.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_plantas.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_main.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_border.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/border.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_exemploanimal.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/exemploanimal.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_login.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_camera.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/camera.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_urso.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/urso.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_peixes.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/peixes.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_aves.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/aves.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_fundo3.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/fundo3.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_ecoexploralogo.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/ecoexploralogo.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_plantas.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/plantas.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_cadastro.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_cadastro.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_home.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_logado.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_logado.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/xml_backup_rules.xml.flat",
+        "source": "com.example.home.app-main-57:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_card_border.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/card_border.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_mamiferos.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/mamiferos.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_rounded_corners2.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/rounded_corners2.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/font_amaranth.xml.flat",
+        "source": "com.example.home.app-main-57:/font/amaranth.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-hdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/font_amiko.xml.flat",
+        "source": "com.example.home.app-main-57:/font/amiko.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_fundo4.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/fundo4.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_perfil.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/perfil.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_anfibios.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/anfibios.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xxhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_baleia.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/baleia.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_tatu.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/tatu.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_infopage.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_infopage.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_logo.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_image1.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/image1.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_btn_animaltype_extinctanimals.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/btn_animaltype_extinctanimals.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/xml_file_paths.xml.flat",
+        "source": "com.example.home.app-main-57:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_rounded_corners3.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/rounded_corners3.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_reload.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/reload.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_anfibios.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_anfibios.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_aves.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_aves.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/font_londrina_solid.xml.flat",
+        "source": "com.example.home.app-main-57:/font/londrina_solid.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_calendar.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/calendar.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xhdpi/ic_launcher_foreground.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_pag_animais_photo.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_pag_animais_photo.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.home.app-main-57:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_pato.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/pato.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_ecoexploralogonobg.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/ecoexploralogonobg.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_photo.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/photo.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_profilebutton.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/profilebutton.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_rounded_corners1.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/rounded_corners1.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_fundo2.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/fundo2.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_image2.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/image2.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_photobutton.xml.flat",
+        "source": "com.example.home.app-main-57:/drawable/photobutton.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.home.app-main-57:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_image_gallery.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/image_gallery.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_repteis.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_repteis.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_pag_animais.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_pag_animais.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_desenvolvedores.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_desenvolvedores.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.home.app-main-57:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_place_localizer.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/place_localizer.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_cajo.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/cajo.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_guara.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/guara.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_mamiferos.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_mamiferos.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/layout_activity_peixes.xml.flat",
+        "source": "com.example.home.app-main-57:/layout/activity_peixes.xml"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_repteis.png.flat",
+        "source": "com.example.home.app-main-57:/drawable/repteis.png"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/drawable_penguin.jpg.flat",
+        "source": "com.example.home.app-main-57:/drawable/penguin.jpg"
+    },
+    {
+        "merged": "com.example.home.app-debug-55:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.example.home.app-main-57:/mipmap-mdpi/ic_launcher_foreground.webp"
+    }
+]

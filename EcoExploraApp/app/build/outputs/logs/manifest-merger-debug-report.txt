@@ -1,0 +1,928 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-92:12
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-92:12
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-92:12
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:1-92:12
+MERGED from [androidx.databinding:viewbinding:8.5.1] /home/perdop/.gradle/caches/transforms-4/470bbaa5cb0b31a924e207dbfb9c4ef3/transformed/viewbinding-8.5.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/perdop/.gradle/caches/transforms-4/288a3758e62747404cc7e154db7fe798/transformed/navigation-common-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/perdop/.gradle/caches/transforms-4/98b737145d7c6472707de92e72d972d2/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /home/perdop/.gradle/caches/transforms-4/f88dfb43f778a7e1021ea82dde655e7b/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /home/perdop/.gradle/caches/transforms-4/0dd699eb65d9c2cf64de71021d7b8fe4/transformed/navigation-ui-2.7.7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.cloudinary:cloudinary-android:3.0.2] /home/perdop/.gradle/caches/transforms-4/ceba75a8a465a9975b24c45fb4cfde24/transformed/cloudinary-android-3.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:2:1-16:12
+MERGED from [com.cloudinary:cloudinary-android-preprocess:3.0.2] /home/perdop/.gradle/caches/transforms-4/1baaadecbce8f4682709852590a6741a/transformed/cloudinary-android-preprocess-3.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.cloudinary:cloudinary-android-download:3.0.2] /home/perdop/.gradle/caches/transforms-4/44a83fde71a7ab56f7a41ca21ffcac84/transformed/cloudinary-android-download-3.0.2/AndroidManifest.xml:2:1-9:12
+MERGED from [com.cloudinary:cloudinary-android-core:3.0.2] /home/perdop/.gradle/caches/transforms-4/4646aab28a9e7eb3154a3ca098b1194f/transformed/cloudinary-android-core-3.0.2/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/caches/transforms-4/7a9aae6d8e9d27cf6e88168f6c33d267/transformed/material-1.12.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/perdop/.gradle/caches/transforms-4/b84ae970fce4774e3416c512c72b4d0a/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/perdop/.gradle/caches/transforms-4/325410e8cc28ed840be8d7b8f17cbe27/transformed/appcompat-1.7.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /home/perdop/.gradle/caches/transforms-4/00e94685adf99553b5f539ace5f9a96a/transformed/glide-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/transforms-4/d575685bd2e90f8f33376196829bdc67/transformed/viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/perdop/.gradle/caches/transforms-4/4cb36ad1a38995925c7954775904e4ef/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/perdop/.gradle/caches/transforms-4/13d1bd45674950262c10dd78aa675db8/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.6.2] /home/perdop/.gradle/caches/transforms-4/f5fe29a18fc773a1071b337a97e102da/transformed/fragment-1.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/perdop/.gradle/caches/transforms-4/4d329a73412f15a7511a597273015185/transformed/activity-ktx-1.9.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.2] /home/perdop/.gradle/caches/transforms-4/39f09359524612efe0a2acf578071693/transformed/activity-1.9.2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.linkedin.android.litr:litr:1.4.16] /home/perdop/.gradle/caches/transforms-4/2a0082b144e33b7944981bf1eeb95767/transformed/litr-1.4.16/AndroidManifest.xml:7:1-16:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/perdop/.gradle/caches/transforms-4/4b50721eeb28ce44c5d32f37b1b897b4/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/perdop/.gradle/caches/transforms-4/4b4f08dda9260e2c90b22f86aef67a05/transformed/savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/perdop/.gradle/caches/transforms-4/db96c5f497e7f08a8f702a6cedaec444/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/perdop/.gradle/caches/transforms-4/19ecb139fe148e8b1c5f19d11c8d0ed2/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/perdop/.gradle/caches/transforms-4/402c3ebcea73ab95a27e32266e3265c2/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /home/perdop/.gradle/caches/transforms-4/6204b5d5b6a20256849d1b2bcfea8b13/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/perdop/.gradle/caches/transforms-4/f2f33ea7eb5f3bcd6676124cb49c5222/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/perdop/.gradle/caches/transforms-4/387b4e5b455434f6c494347fb952ec62/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/perdop/.gradle/caches/transforms-4/14388865dcbb0ea03ad99b4fddc5994f/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:17:1-145:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /home/perdop/.gradle/caches/transforms-4/a3270b352e6dccef876f7293edf3e165/transformed/lifecycle-service-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/perdop/.gradle/caches/transforms-4/2ae997d6290cdbe7ac6bf60052104d2b/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/perdop/.gradle/caches/transforms-4/d66b2fb10dc151d9f8d5ea7b22c70572/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/5cfdfc7807c259b3f7c1e5c290242770/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/perdop/.gradle/caches/transforms-4/9d6e206e07e9ab8b6a09bc4f85511841/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/3c82ea51836b5637915032e641d1b0de/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/a0ba88e61d5ce1b53ef957b25f015b85/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/perdop/.gradle/caches/transforms-4/4dee291f678cb6c2b7132104a4526016/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/perdop/.gradle/caches/transforms-4/934cf7b007ee3375832910ca8e05b008/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media3:media3-exoplayer-dash:1.1.1] /home/perdop/.gradle/caches/transforms-4/1e3682d8604e86afafe4c58d882098a3/transformed/media3-exoplayer-dash-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer-hls:1.1.1] /home/perdop/.gradle/caches/transforms-4/db80acca8b583a9a4d6329bd5452dd42/transformed/media3-exoplayer-hls-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-exoplayer:1.1.1] /home/perdop/.gradle/caches/transforms-4/0bccc78318419d42496cd3dd09ee2bf8/transformed/media3-exoplayer-1.1.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.media3:media3-extractor:1.1.1] /home/perdop/.gradle/caches/transforms-4/b0777021a43fba1b6a1bac1dffbb6be3/transformed/media3-extractor-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-container:1.1.1] /home/perdop/.gradle/caches/transforms-4/32212bce29451367e5186edfac58d942/transformed/media3-container-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-datasource:1.1.1] /home/perdop/.gradle/caches/transforms-4/e06dfc32c51e78948eb4ddd1bc7d7063/transformed/media3-datasource-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-decoder:1.1.1] /home/perdop/.gradle/caches/transforms-4/7bf707f40596e1fb18bfc84c6028145a/transformed/media3-decoder-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-database:1.1.1] /home/perdop/.gradle/caches/transforms-4/ea9c6372a4f4982bd2633a640cc058c8/transformed/media3-database-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media3:media3-common:1.1.1] /home/perdop/.gradle/caches/transforms-4/3f16d6c10f1ff3257c072a4c03f86791/transformed/media3-common-1.1.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.media3:media3-ui:1.1.1] /home/perdop/.gradle/caches/transforms-4/c309707dc042356f61103dc04056b21f/transformed/media3-ui-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /home/perdop/.gradle/caches/transforms-4/e10ca5fb46c028906390c57a34f87c85/transformed/recyclerview-1.3.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/perdop/.gradle/caches/transforms-4/af75115a8128a73b434654104c8e349e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.0] /home/perdop/.gradle/caches/transforms-4/22b67a44251c1fc0451cd39eca3c1aeb/transformed/core-ktx-1.13.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/perdop/.gradle/caches/transforms-4/014fb4c52d9815dc4fc1cf96f2927600/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/perdop/.gradle/caches/transforms-4/6d1d115d1eed75b166961d9b6d5dfb99/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/perdop/.gradle/caches/transforms-4/5a4f4a2bf815c1dee0ae830739287ac1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/perdop/.gradle/caches/transforms-4/c6b0b35ea2f644be5d24d9f8663e7f1c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/perdop/.gradle/caches/transforms-4/82dbe3a484e24930f2d9a699ea07f53c/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/perdop/.gradle/caches/transforms-4/7aa45570562d5afbdcf94fcb53ea8d8e/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.media:media:1.6.0] /home/perdop/.gradle/caches/transforms-4/5dbb039d9e19517981b629c738b4b859/transformed/media-1.6.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:fresco:3.2.0] /home/perdop/.gradle/caches/transforms-4/94d4e9b2800592fdabfa8df45a3bc05e/transformed/fresco-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:soloader:3.2.0] /home/perdop/.gradle/caches/transforms-4/2ad4d1b5d071dd541e5e7f851b09b492/transformed/soloader-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:drawee:3.2.0] /home/perdop/.gradle/caches/transforms-4/17d3346fb23c0074680d97794cc93481/transformed/drawee-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagefilters:3.2.0] /home/perdop/.gradle/caches/transforms-4/b8aa6f1e4b30a5567d96e499ee96bc98/transformed/nativeimagefilters-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-native:3.2.0] /home/perdop/.gradle/caches/transforms-4/9c4e9b9f87234b423d800aa4eac66c4c/transformed/memory-type-native-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-java:3.2.0] /home/perdop/.gradle/caches/transforms-4/0fd33dbd488a524bced77a113775e557/transformed/memory-type-java-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-native:3.2.0] /home/perdop/.gradle/caches/transforms-4/4c78991cac0ba8360a81fd2c2fe02d0a/transformed/imagepipeline-native-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.2.0] /home/perdop/.gradle/caches/transforms-4/0076ef474248a958f992181e18b4943f/transformed/memory-type-ashmem-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline:3.2.0] /home/perdop/.gradle/caches/transforms-4/66835f7bdd86d622cd9b90d56dfbdf74/transformed/imagepipeline-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.2.0] /home/perdop/.gradle/caches/transforms-4/7042c9be288d40f01fcc6b87466e53cd/transformed/nativeimagetranscoder-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:imagepipeline-base:3.2.0] /home/perdop/.gradle/caches/transforms-4/d414904d29ef6823db918041bee1b2c4/transformed/imagepipeline-base-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:middleware:3.2.0] /home/perdop/.gradle/caches/transforms-4/1b72985c5e6c8ed89b4470741f8fee74/transformed/middleware-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:ui-common:3.2.0] /home/perdop/.gradle/caches/transforms-4/17898ae964cfd51e1bb8baa4442692d5/transformed/ui-common-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.facebook.fresco:fbcore:3.2.0] /home/perdop/.gradle/caches/transforms-4/0c2eddd8d7a349d62637e5f1eeb121a9/transformed/fbcore-3.2.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/perdop/.gradle/caches/transforms-4/4101768bba7e971939b6eece1817cdf5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/perdop/.gradle/caches/transforms-4/363de020e74ac0bfa540284d76a33b8b/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/perdop/.gradle/caches/transforms-4/5b7f2d1cf82bf1b3f04220b72d9931e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/perdop/.gradle/caches/transforms-4/c20effe805a199dde8f1eda53d78a70e/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/perdop/.gradle/caches/transforms-4/3783b21466f6c246cbf0fc92dd9a588b/transformed/tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/perdop/.gradle/caches/transforms-4/0722faeed7bbdd05a6f13825178f358b/transformed/gifdecoder-4.16.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/perdop/.gradle/caches/transforms-4/40fe69bb66f0d9a0ff7ce3143f2db810/transformed/exifinterface-1.3.6/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/perdop/.gradle/caches/transforms-4/fc539df52e6ff9624d79cfc77218f26c/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:17:1-31:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/perdop/.gradle/caches/transforms-4/f38cdf0bf8e6bc9a3c1e6e478aa9bd2f/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/perdop/.gradle/caches/transforms-4/1f8926a42cabc93c19bc2b8041ca77f1/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/perdop/.gradle/caches/transforms-4/c03c7454545f213715ec26d8269e2143/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/perdop/.gradle/caches/transforms-4/11c4d4c8b79f75946231825794b8076e/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/perdop/.gradle/caches/transforms-4/c3f6ec3b6894d7da2f219f0ffcd884cf/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/perdop/.gradle/caches/transforms-4/70708ecfd667c2d2f17f42ff348dd9ad/transformed/sqlite-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/perdop/.gradle/caches/transforms-4/0065720dcecfbf4abea4474088b05eb3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/perdop/.gradle/caches/transforms-4/e80532abe6a25115dec021bbbf3b96a2/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/transforms-4/2e860b568e84a761e55ac43d6db340e1/transformed/soloader-0.10.5/AndroidManifest.xml:2:1-17:12
+	package
+		INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [com.cloudinary:cloudinary-android-core:3.0.2] /home/perdop/.gradle/caches/transforms-4/4646aab28a9e7eb3154a3ca098b1194f/transformed/cloudinary-android-core-3.0.2/AndroidManifest.xml:9:5-67
+MERGED from [com.cloudinary:cloudinary-android-core:3.0.2] /home/perdop/.gradle/caches/transforms-4/4646aab28a9e7eb3154a3ca098b1194f/transformed/cloudinary-android-core-3.0.2/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.CAMERA
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:6:22-62
+uses-feature#android.hardware.camera
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:8:5-60
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:8:19-57
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:10:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:11:5-80
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:11:22-77
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:12:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:13:22-78
+application
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:16:5-90:19
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:16:5-90:19
+MERGED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:9:5-14:19
+MERGED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:9:5-14:19
+MERGED from [com.cloudinary:cloudinary-android-core:3.0.2] /home/perdop/.gradle/caches/transforms-4/4646aab28a9e7eb3154a3ca098b1194f/transformed/cloudinary-android-core-3.0.2/AndroidManifest.xml:11:5-20
+MERGED from [com.cloudinary:cloudinary-android-core:3.0.2] /home/perdop/.gradle/caches/transforms-4/4646aab28a9e7eb3154a3ca098b1194f/transformed/cloudinary-android-core-3.0.2/AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/caches/transforms-4/7a9aae6d8e9d27cf6e88168f6c33d267/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/caches/transforms-4/7a9aae6d8e9d27cf6e88168f6c33d267/transformed/material-1.12.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:20:5-24:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.linkedin.android.litr:litr:1.4.16] /home/perdop/.gradle/caches/transforms-4/2a0082b144e33b7944981bf1eeb95767/transformed/litr-1.4.16/AndroidManifest.xml:14:5-20
+MERGED from [com.linkedin.android.litr:litr:1.4.16] /home/perdop/.gradle/caches/transforms-4/2a0082b144e33b7944981bf1eeb95767/transformed/litr-1.4.16/AndroidManifest.xml:14:5-20
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:30:5-143:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:24:5-29:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/transforms-4/2e860b568e84a761e55ac43d6db340e1/transformed/soloader-0.10.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/transforms-4/2e860b568e84a761e55ac43d6db340e1/transformed/soloader-0.10.5/AndroidManifest.xml:11:5-15:19
+	android:extractNativeLibs
+		INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:23:9-35
+	android:label
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:21:9-41
+	android:fullBackupContent
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:19:9-54
+	android:roundIcon
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:22:9-54
+	tools:targetApi
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:26:9-29
+	android:icon
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:17:9-35
+	android:theme
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:24:9-42
+	android:dataExtractionRules
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:18:9-65
+	tools:replace
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:25:9-50
+activity#com.example.home.PagAnimaisPhoto
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:29:13-44
+activity#com.example.home.Login
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:32:13-34
+activity#com.example.home.Peixes
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:35:13-35
+activity#com.example.home.Repteis
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:37:9-39:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:39:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:38:13-36
+activity#com.example.home.Aves
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:40:9-42:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:41:13-33
+activity#com.example.home.Plantas
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:43:9-45:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:45:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:44:13-36
+activity#com.example.home.Anfibios
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:46:9-48:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:48:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:47:13-37
+activity#com.example.home.Mamiferos
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:49:9-51:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:51:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:50:13-38
+activity#com.example.home.PagAnimais
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:52:9-54:39
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:54:13-36
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:53:13-39
+activity#com.example.home.Desenvolvedores
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:55:9-57:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:57:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:56:13-44
+activity#com.example.home.Cadastro
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:58:9-60:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:60:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:59:13-37
+activity#com.example.home.Infopage
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:61:9-63:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:63:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:62:13-37
+activity#com.example.home.Home
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:64:9-66:40
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:66:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:65:13-33
+activity#com.example.home.MainActivity
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:67:9-76:20
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:69:13-36
+	android:theme
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:70:13-46
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:68:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:71:13-75:29
+action#android.intent.action.MAIN
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:72:17-69
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:72:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:74:17-77
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:74:27-74
+meta-data#preloaded_fonts
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:78:9-80:57
+	android:resource
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:80:13-54
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:79:13-43
+provider#androidx.core.content.FileProvider
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:81:9-89:20
+	android:grantUriPermissions
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:85:13-47
+	android:authorities
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:83:13-64
+	android:exported
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:84:13-37
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:82:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:86:13-88:54
+	android:resource
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:88:17-51
+	android:name
+		ADDED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml:87:17-67
+uses-sdk
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
+INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.5.1] /home/perdop/.gradle/caches/transforms-4/470bbaa5cb0b31a924e207dbfb9c4ef3/transformed/viewbinding-8.5.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.5.1] /home/perdop/.gradle/caches/transforms-4/470bbaa5cb0b31a924e207dbfb9c4ef3/transformed/viewbinding-8.5.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/perdop/.gradle/caches/transforms-4/288a3758e62747404cc7e154db7fe798/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.7.7] /home/perdop/.gradle/caches/transforms-4/288a3758e62747404cc7e154db7fe798/transformed/navigation-common-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/perdop/.gradle/caches/transforms-4/98b737145d7c6472707de92e72d972d2/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.7.7] /home/perdop/.gradle/caches/transforms-4/98b737145d7c6472707de92e72d972d2/transformed/navigation-runtime-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /home/perdop/.gradle/caches/transforms-4/f88dfb43f778a7e1021ea82dde655e7b/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.7.7] /home/perdop/.gradle/caches/transforms-4/f88dfb43f778a7e1021ea82dde655e7b/transformed/navigation-fragment-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /home/perdop/.gradle/caches/transforms-4/0dd699eb65d9c2cf64de71021d7b8fe4/transformed/navigation-ui-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.7.7] /home/perdop/.gradle/caches/transforms-4/0dd699eb65d9c2cf64de71021d7b8fe4/transformed/navigation-ui-2.7.7/AndroidManifest.xml:20:5-44
+MERGED from [com.cloudinary:cloudinary-android:3.0.2] /home/perdop/.gradle/caches/transforms-4/ceba75a8a465a9975b24c45fb4cfde24/transformed/cloudinary-android-3.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.cloudinary:cloudinary-android:3.0.2] /home/perdop/.gradle/caches/transforms-4/ceba75a8a465a9975b24c45fb4cfde24/transformed/cloudinary-android-3.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.cloudinary:cloudinary-android-preprocess:3.0.2] /home/perdop/.gradle/caches/transforms-4/1baaadecbce8f4682709852590a6741a/transformed/cloudinary-android-preprocess-3.0.2/AndroidManifest.xml:6:5-9:61
+MERGED from [com.cloudinary:cloudinary-android-preprocess:3.0.2] /home/perdop/.gradle/caches/transforms-4/1baaadecbce8f4682709852590a6741a/transformed/cloudinary-android-preprocess-3.0.2/AndroidManifest.xml:6:5-9:61
+MERGED from [com.cloudinary:cloudinary-android-download:3.0.2] /home/perdop/.gradle/caches/transforms-4/44a83fde71a7ab56f7a41ca21ffcac84/transformed/cloudinary-android-download-3.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.cloudinary:cloudinary-android-download:3.0.2] /home/perdop/.gradle/caches/transforms-4/44a83fde71a7ab56f7a41ca21ffcac84/transformed/cloudinary-android-download-3.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.cloudinary:cloudinary-android-core:3.0.2] /home/perdop/.gradle/caches/transforms-4/4646aab28a9e7eb3154a3ca098b1194f/transformed/cloudinary-android-core-3.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.cloudinary:cloudinary-android-core:3.0.2] /home/perdop/.gradle/caches/transforms-4/4646aab28a9e7eb3154a3ca098b1194f/transformed/cloudinary-android-core-3.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/caches/transforms-4/7a9aae6d8e9d27cf6e88168f6c33d267/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.12.0] /home/perdop/.gradle/caches/transforms-4/7a9aae6d8e9d27cf6e88168f6c33d267/transformed/material-1.12.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /home/perdop/.gradle/caches/transforms-4/46094d77014813b13aed4c51924d9232/transformed/constraintlayout-2.1.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/perdop/.gradle/caches/transforms-4/b84ae970fce4774e3416c512c72b4d0a/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.0] /home/perdop/.gradle/caches/transforms-4/b84ae970fce4774e3416c512c72b4d0a/transformed/appcompat-resources-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/perdop/.gradle/caches/transforms-4/325410e8cc28ed840be8d7b8f17cbe27/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.0] /home/perdop/.gradle/caches/transforms-4/325410e8cc28ed840be8d7b8f17cbe27/transformed/appcompat-1.7.0/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /home/perdop/.gradle/caches/transforms-4/00e94685adf99553b5f539ace5f9a96a/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.16.0] /home/perdop/.gradle/caches/transforms-4/00e94685adf99553b5f539ace5f9a96a/transformed/glide-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/transforms-4/d575685bd2e90f8f33376196829bdc67/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/perdop/.gradle/caches/transforms-4/d575685bd2e90f8f33376196829bdc67/transformed/viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/perdop/.gradle/caches/transforms-4/4cb36ad1a38995925c7954775904e4ef/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.2] /home/perdop/.gradle/caches/transforms-4/4cb36ad1a38995925c7954775904e4ef/transformed/fragment-ktx-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:21.0.1] /home/perdop/.gradle/caches/transforms-4/b86cc613db60a4eecd51fc2a2a837360/transformed/play-services-location-21.0.1/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.2] /home/perdop/.gradle/caches/transforms-4/6dbe77637e61ac23166e0fa8d5ce63b4/transformed/play-services-tasks-18.0.2/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:18:5-43
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/perdop/.gradle/caches/transforms-4/13d1bd45674950262c10dd78aa675db8/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /home/perdop/.gradle/caches/transforms-4/13d1bd45674950262c10dd78aa675db8/transformed/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /home/perdop/.gradle/caches/transforms-4/f5fe29a18fc773a1071b337a97e102da/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.2] /home/perdop/.gradle/caches/transforms-4/f5fe29a18fc773a1071b337a97e102da/transformed/fragment-1.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/perdop/.gradle/caches/transforms-4/4d329a73412f15a7511a597273015185/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.2] /home/perdop/.gradle/caches/transforms-4/4d329a73412f15a7511a597273015185/transformed/activity-ktx-1.9.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.2] /home/perdop/.gradle/caches/transforms-4/39f09359524612efe0a2acf578071693/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.2] /home/perdop/.gradle/caches/transforms-4/39f09359524612efe0a2acf578071693/transformed/activity-1.9.2/AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.linkedin.android.litr:litr:1.4.16] /home/perdop/.gradle/caches/transforms-4/2a0082b144e33b7944981bf1eeb95767/transformed/litr-1.4.16/AndroidManifest.xml:10:5-12:41
+MERGED from [com.linkedin.android.litr:litr:1.4.16] /home/perdop/.gradle/caches/transforms-4/2a0082b144e33b7944981bf1eeb95767/transformed/litr-1.4.16/AndroidManifest.xml:10:5-12:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/perdop/.gradle/caches/transforms-4/4b50721eeb28ce44c5d32f37b1b897b4/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/perdop/.gradle/caches/transforms-4/4b50721eeb28ce44c5d32f37b1b897b4/transformed/savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/perdop/.gradle/caches/transforms-4/4b4f08dda9260e2c90b22f86aef67a05/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/perdop/.gradle/caches/transforms-4/4b4f08dda9260e2c90b22f86aef67a05/transformed/savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/perdop/.gradle/caches/transforms-4/db96c5f497e7f08a8f702a6cedaec444/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/perdop/.gradle/caches/transforms-4/db96c5f497e7f08a8f702a6cedaec444/transformed/emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/perdop/.gradle/caches/transforms-4/19ecb139fe148e8b1c5f19d11c8d0ed2/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/perdop/.gradle/caches/transforms-4/19ecb139fe148e8b1c5f19d11c8d0ed2/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/perdop/.gradle/caches/transforms-4/402c3ebcea73ab95a27e32266e3265c2/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] /home/perdop/.gradle/caches/transforms-4/402c3ebcea73ab95a27e32266e3265c2/transformed/slidingpanelayout-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /home/perdop/.gradle/caches/transforms-4/6204b5d5b6a20256849d1b2bcfea8b13/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/perdop/.gradle/caches/transforms-4/6204b5d5b6a20256849d1b2bcfea8b13/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/perdop/.gradle/caches/transforms-4/f2f33ea7eb5f3bcd6676124cb49c5222/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] /home/perdop/.gradle/caches/transforms-4/f2f33ea7eb5f3bcd6676124cb49c5222/transformed/dynamicanimation-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/perdop/.gradle/caches/transforms-4/387b4e5b455434f6c494347fb952ec62/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/perdop/.gradle/caches/transforms-4/387b4e5b455434f6c494347fb952ec62/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/perdop/.gradle/caches/transforms-4/14388865dcbb0ea03ad99b4fddc5994f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/perdop/.gradle/caches/transforms-4/14388865dcbb0ea03ad99b4fddc5994f/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /home/perdop/.gradle/caches/transforms-4/a3270b352e6dccef876f7293edf3e165/transformed/lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-service:2.6.2] /home/perdop/.gradle/caches/transforms-4/a3270b352e6dccef876f7293edf3e165/transformed/lifecycle-service-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/perdop/.gradle/caches/transforms-4/2ae997d6290cdbe7ac6bf60052104d2b/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] /home/perdop/.gradle/caches/transforms-4/2ae997d6290cdbe7ac6bf60052104d2b/transformed/lifecycle-livedata-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/perdop/.gradle/caches/transforms-4/d66b2fb10dc151d9f8d5ea7b22c70572/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] /home/perdop/.gradle/caches/transforms-4/d66b2fb10dc151d9f8d5ea7b22c70572/transformed/lifecycle-viewmodel-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/5cfdfc7807c259b3f7c1e5c290242770/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/5cfdfc7807c259b3f7c1e5c290242770/transformed/lifecycle-livedata-core-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/perdop/.gradle/caches/transforms-4/9d6e206e07e9ab8b6a09bc4f85511841/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] /home/perdop/.gradle/caches/transforms-4/9d6e206e07e9ab8b6a09bc4f85511841/transformed/lifecycle-livedata-core-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/3c82ea51836b5637915032e641d1b0de/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/3c82ea51836b5637915032e641d1b0de/transformed/lifecycle-runtime-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/a0ba88e61d5ce1b53ef957b25f015b85/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] /home/perdop/.gradle/caches/transforms-4/a0ba88e61d5ce1b53ef957b25f015b85/transformed/lifecycle-viewmodel-ktx-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/perdop/.gradle/caches/transforms-4/4dee291f678cb6c2b7132104a4526016/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] /home/perdop/.gradle/caches/transforms-4/4dee291f678cb6c2b7132104a4526016/transformed/lifecycle-runtime-2.6.2/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/perdop/.gradle/caches/transforms-4/934cf7b007ee3375832910ca8e05b008/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] /home/perdop/.gradle/caches/transforms-4/934cf7b007ee3375832910ca8e05b008/transformed/lifecycle-viewmodel-savedstate-2.6.2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media3:media3-exoplayer-dash:1.1.1] /home/perdop/.gradle/caches/transforms-4/1e3682d8604e86afafe4c58d882098a3/transformed/media3-exoplayer-dash-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-exoplayer-dash:1.1.1] /home/perdop/.gradle/caches/transforms-4/1e3682d8604e86afafe4c58d882098a3/transformed/media3-exoplayer-dash-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-exoplayer-hls:1.1.1] /home/perdop/.gradle/caches/transforms-4/db80acca8b583a9a4d6329bd5452dd42/transformed/media3-exoplayer-hls-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-exoplayer-hls:1.1.1] /home/perdop/.gradle/caches/transforms-4/db80acca8b583a9a4d6329bd5452dd42/transformed/media3-exoplayer-hls-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-exoplayer:1.1.1] /home/perdop/.gradle/caches/transforms-4/0bccc78318419d42496cd3dd09ee2bf8/transformed/media3-exoplayer-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-exoplayer:1.1.1] /home/perdop/.gradle/caches/transforms-4/0bccc78318419d42496cd3dd09ee2bf8/transformed/media3-exoplayer-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-extractor:1.1.1] /home/perdop/.gradle/caches/transforms-4/b0777021a43fba1b6a1bac1dffbb6be3/transformed/media3-extractor-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-extractor:1.1.1] /home/perdop/.gradle/caches/transforms-4/b0777021a43fba1b6a1bac1dffbb6be3/transformed/media3-extractor-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-container:1.1.1] /home/perdop/.gradle/caches/transforms-4/32212bce29451367e5186edfac58d942/transformed/media3-container-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-container:1.1.1] /home/perdop/.gradle/caches/transforms-4/32212bce29451367e5186edfac58d942/transformed/media3-container-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-datasource:1.1.1] /home/perdop/.gradle/caches/transforms-4/e06dfc32c51e78948eb4ddd1bc7d7063/transformed/media3-datasource-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-datasource:1.1.1] /home/perdop/.gradle/caches/transforms-4/e06dfc32c51e78948eb4ddd1bc7d7063/transformed/media3-datasource-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-decoder:1.1.1] /home/perdop/.gradle/caches/transforms-4/7bf707f40596e1fb18bfc84c6028145a/transformed/media3-decoder-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-decoder:1.1.1] /home/perdop/.gradle/caches/transforms-4/7bf707f40596e1fb18bfc84c6028145a/transformed/media3-decoder-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-database:1.1.1] /home/perdop/.gradle/caches/transforms-4/ea9c6372a4f4982bd2633a640cc058c8/transformed/media3-database-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-database:1.1.1] /home/perdop/.gradle/caches/transforms-4/ea9c6372a4f4982bd2633a640cc058c8/transformed/media3-database-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-common:1.1.1] /home/perdop/.gradle/caches/transforms-4/3f16d6c10f1ff3257c072a4c03f86791/transformed/media3-common-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-common:1.1.1] /home/perdop/.gradle/caches/transforms-4/3f16d6c10f1ff3257c072a4c03f86791/transformed/media3-common-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-ui:1.1.1] /home/perdop/.gradle/caches/transforms-4/c309707dc042356f61103dc04056b21f/transformed/media3-ui-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media3:media3-ui:1.1.1] /home/perdop/.gradle/caches/transforms-4/c309707dc042356f61103dc04056b21f/transformed/media3-ui-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /home/perdop/.gradle/caches/transforms-4/e10ca5fb46c028906390c57a34f87c85/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.3.0] /home/perdop/.gradle/caches/transforms-4/e10ca5fb46c028906390c57a34f87c85/transformed/recyclerview-1.3.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/perdop/.gradle/caches/transforms-4/af75115a8128a73b434654104c8e349e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/perdop/.gradle/caches/transforms-4/af75115a8128a73b434654104c8e349e/transformed/customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.0] /home/perdop/.gradle/caches/transforms-4/22b67a44251c1fc0451cd39eca3c1aeb/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] /home/perdop/.gradle/caches/transforms-4/22b67a44251c1fc0451cd39eca3c1aeb/transformed/core-ktx-1.13.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/perdop/.gradle/caches/transforms-4/014fb4c52d9815dc4fc1cf96f2927600/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/perdop/.gradle/caches/transforms-4/014fb4c52d9815dc4fc1cf96f2927600/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/perdop/.gradle/caches/transforms-4/6d1d115d1eed75b166961d9b6d5dfb99/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/perdop/.gradle/caches/transforms-4/6d1d115d1eed75b166961d9b6d5dfb99/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/perdop/.gradle/caches/transforms-4/5a4f4a2bf815c1dee0ae830739287ac1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/perdop/.gradle/caches/transforms-4/5a4f4a2bf815c1dee0ae830739287ac1/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/perdop/.gradle/caches/transforms-4/c6b0b35ea2f644be5d24d9f8663e7f1c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/perdop/.gradle/caches/transforms-4/c6b0b35ea2f644be5d24d9f8663e7f1c/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/perdop/.gradle/caches/transforms-4/82dbe3a484e24930f2d9a699ea07f53c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/perdop/.gradle/caches/transforms-4/82dbe3a484e24930f2d9a699ea07f53c/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/perdop/.gradle/caches/transforms-4/7aa45570562d5afbdcf94fcb53ea8d8e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/perdop/.gradle/caches/transforms-4/7aa45570562d5afbdcf94fcb53ea8d8e/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /home/perdop/.gradle/caches/transforms-4/5dbb039d9e19517981b629c738b4b859/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.6.0] /home/perdop/.gradle/caches/transforms-4/5dbb039d9e19517981b629c738b4b859/transformed/media-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:fresco:3.2.0] /home/perdop/.gradle/caches/transforms-4/94d4e9b2800592fdabfa8df45a3bc05e/transformed/fresco-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fresco:3.2.0] /home/perdop/.gradle/caches/transforms-4/94d4e9b2800592fdabfa8df45a3bc05e/transformed/fresco-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.2.0] /home/perdop/.gradle/caches/transforms-4/2ad4d1b5d071dd541e5e7f851b09b492/transformed/soloader-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:soloader:3.2.0] /home/perdop/.gradle/caches/transforms-4/2ad4d1b5d071dd541e5e7f851b09b492/transformed/soloader-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.2.0] /home/perdop/.gradle/caches/transforms-4/17d3346fb23c0074680d97794cc93481/transformed/drawee-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:drawee:3.2.0] /home/perdop/.gradle/caches/transforms-4/17d3346fb23c0074680d97794cc93481/transformed/drawee-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.2.0] /home/perdop/.gradle/caches/transforms-4/b8aa6f1e4b30a5567d96e499ee96bc98/transformed/nativeimagefilters-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagefilters:3.2.0] /home/perdop/.gradle/caches/transforms-4/b8aa6f1e4b30a5567d96e499ee96bc98/transformed/nativeimagefilters-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.2.0] /home/perdop/.gradle/caches/transforms-4/9c4e9b9f87234b423d800aa4eac66c4c/transformed/memory-type-native-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-native:3.2.0] /home/perdop/.gradle/caches/transforms-4/9c4e9b9f87234b423d800aa4eac66c4c/transformed/memory-type-native-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.2.0] /home/perdop/.gradle/caches/transforms-4/0fd33dbd488a524bced77a113775e557/transformed/memory-type-java-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-java:3.2.0] /home/perdop/.gradle/caches/transforms-4/0fd33dbd488a524bced77a113775e557/transformed/memory-type-java-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.2.0] /home/perdop/.gradle/caches/transforms-4/4c78991cac0ba8360a81fd2c2fe02d0a/transformed/imagepipeline-native-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-native:3.2.0] /home/perdop/.gradle/caches/transforms-4/4c78991cac0ba8360a81fd2c2fe02d0a/transformed/imagepipeline-native-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.2.0] /home/perdop/.gradle/caches/transforms-4/0076ef474248a958f992181e18b4943f/transformed/memory-type-ashmem-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:memory-type-ashmem:3.2.0] /home/perdop/.gradle/caches/transforms-4/0076ef474248a958f992181e18b4943f/transformed/memory-type-ashmem-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.2.0] /home/perdop/.gradle/caches/transforms-4/66835f7bdd86d622cd9b90d56dfbdf74/transformed/imagepipeline-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline:3.2.0] /home/perdop/.gradle/caches/transforms-4/66835f7bdd86d622cd9b90d56dfbdf74/transformed/imagepipeline-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.2.0] /home/perdop/.gradle/caches/transforms-4/7042c9be288d40f01fcc6b87466e53cd/transformed/nativeimagetranscoder-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:nativeimagetranscoder:3.2.0] /home/perdop/.gradle/caches/transforms-4/7042c9be288d40f01fcc6b87466e53cd/transformed/nativeimagetranscoder-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.2.0] /home/perdop/.gradle/caches/transforms-4/d414904d29ef6823db918041bee1b2c4/transformed/imagepipeline-base-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:imagepipeline-base:3.2.0] /home/perdop/.gradle/caches/transforms-4/d414904d29ef6823db918041bee1b2c4/transformed/imagepipeline-base-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.2.0] /home/perdop/.gradle/caches/transforms-4/1b72985c5e6c8ed89b4470741f8fee74/transformed/middleware-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:middleware:3.2.0] /home/perdop/.gradle/caches/transforms-4/1b72985c5e6c8ed89b4470741f8fee74/transformed/middleware-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.2.0] /home/perdop/.gradle/caches/transforms-4/17898ae964cfd51e1bb8baa4442692d5/transformed/ui-common-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:ui-common:3.2.0] /home/perdop/.gradle/caches/transforms-4/17898ae964cfd51e1bb8baa4442692d5/transformed/ui-common-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.2.0] /home/perdop/.gradle/caches/transforms-4/0c2eddd8d7a349d62637e5f1eeb121a9/transformed/fbcore-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [com.facebook.fresco:fbcore:3.2.0] /home/perdop/.gradle/caches/transforms-4/0c2eddd8d7a349d62637e5f1eeb121a9/transformed/fbcore-3.2.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/perdop/.gradle/caches/transforms-4/4101768bba7e971939b6eece1817cdf5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/perdop/.gradle/caches/transforms-4/4101768bba7e971939b6eece1817cdf5/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/perdop/.gradle/caches/transforms-4/363de020e74ac0bfa540284d76a33b8b/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/perdop/.gradle/caches/transforms-4/363de020e74ac0bfa540284d76a33b8b/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/perdop/.gradle/caches/transforms-4/5b7f2d1cf82bf1b3f04220b72d9931e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/perdop/.gradle/caches/transforms-4/5b7f2d1cf82bf1b3f04220b72d9931e5/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:21:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/perdop/.gradle/caches/transforms-4/c20effe805a199dde8f1eda53d78a70e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/perdop/.gradle/caches/transforms-4/c20effe805a199dde8f1eda53d78a70e/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/perdop/.gradle/caches/transforms-4/3783b21466f6c246cbf0fc92dd9a588b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/perdop/.gradle/caches/transforms-4/3783b21466f6c246cbf0fc92dd9a588b/transformed/tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/perdop/.gradle/caches/transforms-4/0722faeed7bbdd05a6f13825178f358b/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.16.0] /home/perdop/.gradle/caches/transforms-4/0722faeed7bbdd05a6f13825178f358b/transformed/gifdecoder-4.16.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/perdop/.gradle/caches/transforms-4/40fe69bb66f0d9a0ff7ce3143f2db810/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.6] /home/perdop/.gradle/caches/transforms-4/40fe69bb66f0d9a0ff7ce3143f2db810/transformed/exifinterface-1.3.6/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/perdop/.gradle/caches/transforms-4/fc539df52e6ff9624d79cfc77218f26c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/perdop/.gradle/caches/transforms-4/fc539df52e6ff9624d79cfc77218f26c/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/perdop/.gradle/caches/transforms-4/b4d4cfc6546e4756b5c02c478d8e8d13/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/perdop/.gradle/caches/transforms-4/f38cdf0bf8e6bc9a3c1e6e478aa9bd2f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/perdop/.gradle/caches/transforms-4/f38cdf0bf8e6bc9a3c1e6e478aa9bd2f/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/perdop/.gradle/caches/transforms-4/1f8926a42cabc93c19bc2b8041ca77f1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/perdop/.gradle/caches/transforms-4/1f8926a42cabc93c19bc2b8041ca77f1/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/perdop/.gradle/caches/transforms-4/c03c7454545f213715ec26d8269e2143/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/perdop/.gradle/caches/transforms-4/c03c7454545f213715ec26d8269e2143/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/perdop/.gradle/caches/transforms-4/11c4d4c8b79f75946231825794b8076e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/perdop/.gradle/caches/transforms-4/11c4d4c8b79f75946231825794b8076e/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/perdop/.gradle/caches/transforms-4/c3f6ec3b6894d7da2f219f0ffcd884cf/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite-framework:2.1.0] /home/perdop/.gradle/caches/transforms-4/c3f6ec3b6894d7da2f219f0ffcd884cf/transformed/sqlite-framework-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/perdop/.gradle/caches/transforms-4/70708ecfd667c2d2f17f42ff348dd9ad/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.sqlite:sqlite:2.1.0] /home/perdop/.gradle/caches/transforms-4/70708ecfd667c2d2f17f42ff348dd9ad/transformed/sqlite-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/perdop/.gradle/caches/transforms-4/0065720dcecfbf4abea4474088b05eb3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] /home/perdop/.gradle/caches/transforms-4/0065720dcecfbf4abea4474088b05eb3/transformed/annotation-experimental-1.4.0/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/perdop/.gradle/caches/transforms-4/e80532abe6a25115dec021bbbf3b96a2/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/perdop/.gradle/caches/transforms-4/e80532abe6a25115dec021bbbf3b96a2/transformed/exifinterface-27.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/transforms-4/2e860b568e84a761e55ac43d6db340e1/transformed/soloader-0.10.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/transforms-4/2e860b568e84a761e55ac43d6db340e1/transformed/soloader-0.10.5/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.cloudinary:cloudinary-android-preprocess:3.0.2] /home/perdop/.gradle/caches/transforms-4/1baaadecbce8f4682709852590a6741a/transformed/cloudinary-android-preprocess-3.0.2/AndroidManifest.xml:9:9-58
+	android:targetSdkVersion
+		INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/perdop/Desktop/Code/Github/EcoExplora/EcoExploraApp/app/src/main/AndroidManifest.xml
+activity#com.cloudinary.android.uploadwidget.ui.UploadWidgetActivity
+ADDED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:10:9-13:56
+	android:configChanges
+		ADDED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:12:13-48
+	android:theme
+		ADDED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:13:13-53
+	android:name
+		ADDED from [com.cloudinary:cloudinary-android-ui:3.0.2] /home/perdop/.gradle/caches/transforms-4/0d0d206f9a85d548c303ad838569c8c5/transformed/cloudinary-android-ui-3.0.2/AndroidManifest.xml:11:13-87
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] /home/perdop/.gradle/caches/transforms-4/47876fbe9eeb1827052291e09cac3d1b/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] /home/perdop/.gradle/caches/transforms-4/8a1adb17d2cd183e20e0fe260063b6b5/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/perdop/.gradle/caches/transforms-4/c2fcb242d66d273bf9a54c44d1139147/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/perdop/.gradle/caches/transforms-4/05f3c073c8205e01e7d82f7447f5856e/transformed/startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/perdop/.gradle/caches/transforms-4/146721ccadc9e0a72751cd7d6aae1082/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.1.1] /home/perdop/.gradle/caches/transforms-4/0bccc78318419d42496cd3dd09ee2bf8/transformed/media3-exoplayer-1.1.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.media3:media3-exoplayer:1.1.1] /home/perdop/.gradle/caches/transforms-4/0bccc78318419d42496cd3dd09ee2bf8/transformed/media3-exoplayer-1.1.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.media3:media3-common:1.1.1] /home/perdop/.gradle/caches/transforms-4/3f16d6c10f1ff3257c072a4c03f86791/transformed/media3-common-1.1.1/AndroidManifest.xml:24:5-79
+MERGED from [androidx.media3:media3-common:1.1.1] /home/perdop/.gradle/caches/transforms-4/3f16d6c10f1ff3257c072a4c03f86791/transformed/media3-common-1.1.1/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+meta-data#androidx.work.WorkManagerInitializer
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+	android:value
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+service#androidx.work.impl.background.systemalarm.SystemAlarmService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:46:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+service#androidx.work.impl.background.systemjob.SystemJobService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:53:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+service#androidx.work.impl.foreground.SystemForegroundService
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:59:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+receiver#androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:66:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:72:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+intent-filter#action:name:android.intent.action.ACTION_POWER_CONNECTED+action:name:android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+action#android.intent.action.ACTION_POWER_CONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+action#android.intent.action.ACTION_POWER_DISCONNECTED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:83:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+intent-filter#action:name:android.intent.action.BATTERY_LOW+action:name:android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+action#android.intent.action.BATTERY_OKAY
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+action#android.intent.action.BATTERY_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:94:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+intent-filter#action:name:android.intent.action.DEVICE_STORAGE_LOW+action:name:android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+action#android.intent.action.DEVICE_STORAGE_LOW
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+action#android.intent.action.DEVICE_STORAGE_OK
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:105:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+intent-filter#action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+receiver#androidx.work.impl.background.systemalarm.RescheduleReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:115:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.TIMEZONE_CHANGED+action:name:android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+action#android.intent.action.TIME_SET
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+action#android.intent.action.TIMEZONE_CHANGED
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+receiver#androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:127:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+intent-filter#action:name:androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+action#androidx.work.impl.background.systemalarm.UpdateProxies
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+receiver#androidx.work.impl.diagnostics.DiagnosticsReceiver
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+	android:enabled
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+	android:exported
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+	android:permission
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+	tools:targetApi
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:138:13-32
+	android:directBootAware
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+intent-filter#action:name:androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+action#androidx.work.diagnostics.REQUEST_DIAGNOSTICS
+ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+	android:name
+		ADDED from [androidx.work:work-runtime:2.7.1] /home/perdop/.gradle/caches/transforms-4/d1c71fee1443202a6cb05011480c38bd/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] /home/perdop/.gradle/caches/transforms-4/b202ac154fdbd6cc385890ed0d302cc2/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] /home/perdop/.gradle/caches/transforms-4/fd03ffbf28a8bbf1fe35a10213c161a4/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+permission#com.example.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+uses-permission#com.example.home.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] /home/perdop/.gradle/caches/transforms-4/5932728f22750a0b69dd67e5f5984a30/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] /home/perdop/.gradle/caches/transforms-4/e41567db16eba96eef9ceb56be71f752/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+service#androidx.room.MultiInstanceInvalidationService
+ADDED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+	android:exported
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+	android:directBootAware
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+	android:name
+		ADDED from [androidx.room:room-runtime:2.2.5] /home/perdop/.gradle/caches/transforms-4/f8b2060faae25c2ba0e94da32878af8c/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+meta-data#com.facebook.soloader.enabled
+ADDED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/transforms-4/2e860b568e84a761e55ac43d6db340e1/transformed/soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+	android:value
+		ADDED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/transforms-4/2e860b568e84a761e55ac43d6db340e1/transformed/soloader-0.10.5/AndroidManifest.xml:14:13-34
+	android:name
+		ADDED from [com.facebook.soloader:soloader:0.10.5] /home/perdop/.gradle/caches/transforms-4/2e860b568e84a761e55ac43d6db340e1/transformed/soloader-0.10.5/AndroidManifest.xml:13:13-57
