@@ -106,6 +106,8 @@ public class Mamiferos extends AppCompatActivity {
                     // Cria, configura e adiciona TextView ao constraintLayout
                     TextView textView = new TextView(Mamiferos.this);
                     textView.setId(View.generateViewId());
+                    textView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+                    textView.setPadding(dpToPx(15), 0, dpToPx(15), 0);
                     textView.setText(animal.getName());
                     textView.setTextSize(dpToPx(6));
                     Typeface typeface = ResourcesCompat.getFont(this, R.font.amaranth);

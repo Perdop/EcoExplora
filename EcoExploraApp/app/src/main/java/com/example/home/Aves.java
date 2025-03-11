@@ -108,6 +108,8 @@ public class Aves extends AppCompatActivity {
                     TextView textView = new TextView(Aves.this);
                     textView.setId(View.generateViewId());
                     textView.setText(animal.getName());
+                    textView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+                    textView.setPadding(dpToPx(15), 0, dpToPx(15), 0);
                     textView.setTextSize(dpToPx(6));
                     Typeface typeface = ResourcesCompat.getFont(this, R.font.amaranth);
                     textView.setTypeface(typeface);

@@ -110,6 +110,9 @@ public class Repteis extends AppCompatActivity {
                     textView.setId(View.generateViewId());
                     textView.setText(animal.getName());
                     textView.setTextSize(dpToPx(6));
+                    textView.setTextAlignment(View.TEXT_ALIGNMENT_CENTER);
+                    textView.setPadding(dpToPx(15), 0, dpToPx(15), 0);
+
                     Typeface typeface = ResourcesCompat.getFont(this, R.font.amaranth);
                     textView.setTypeface(typeface);
                     textView.setTextColor(Color.WHITE);
@@ -118,6 +121,7 @@ public class Repteis extends AppCompatActivity {
                             ConstraintLayout.LayoutParams.WRAP_CONTENT,
                             ConstraintLayout.LayoutParams.WRAP_CONTENT
                     );
+                    textLayoutParams.setMargins(dpToPx(10), 0, dpToPx(10), 0);
                     textView.setLayoutParams(textLayoutParams);
                     constraintLayout.addView(textView);
 
