@@ -15,7 +15,7 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOrigins("*") // Permite todas as origens
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS") // Métodos permitidos
                 .allowedHeaders("*") // Permite todos os cabeçalhos
-                .exposedHeaders("X-API-KEY"); // Garante que o navegador pode acessar esse cabeçalho
+                .exposedHeaders("X-API-KEY") // Garante que o navegador pode acessar esse cabeçalho
                 .allowCredentials(true); // Permite cookies e headers personalizados    
     }
 }
