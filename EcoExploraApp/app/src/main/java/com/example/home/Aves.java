@@ -3,6 +3,7 @@ package com.example.home;
 import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Typeface;
+import android.graphics.text.LineBreaker;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
