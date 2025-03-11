@@ -20,7 +20,6 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 @CrossOrigin(origins = "*") // Permite requisições de qualquer domínio
 @RestController
-@RestController
 
 public class ExtinctAnimalsController {
 	@Autowired
