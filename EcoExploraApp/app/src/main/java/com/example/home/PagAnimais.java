@@ -96,7 +96,9 @@ public class PagAnimais extends AppCompatActivity {
         nomeAnimal = getIntent().getStringExtra("NOME_ANIMAL");
         String descricaoAnimal = getIntent().getStringExtra("DESCRICAO_ANIMAL");
         String estadoAnimal = getIntent().getStringExtra("ESTADO_ANIMAL");
-        String existentesAnimal = String.valueOf(getIntent().getIntExtra("EXISTENTES_ANIMAL", 0));  // Converte o inteiro para string
+        Integer existentesAnimalInt = (Integer) getIntent().getSerializableExtra("EXISTENTES_ANIMAL");
+        String existentesAnimal = (existentesAnimalInt != null) ? String.valueOf(existentesAnimalInt) : "Não encontrado"; // Ou outro valor padrão
+        Log.d("animaisLivi", "onCreate: " + existentesAnimal);
         String imgAnimal = getIntent().getStringExtra("IMG_ANIMAL");
 
 
@@ -180,7 +182,6 @@ public class PagAnimais extends AppCompatActivity {
                     // Atualiza a UI no thread principal
                     runOnUiThread(() -> {
                         createAvistamentos(filtrados);
-                        Log.d("testeagr", "onCreate: " + avistamentosList);
                     });
 
                 } else {

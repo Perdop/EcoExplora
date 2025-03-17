@@ -6,7 +6,7 @@ public class AnimaisExtintosModel {
     private String name;
     private String about;
     private int animalType;
-    private int living;
+    private Integer living;
     private String state;
     private String animalPhoto;
 
@@ -53,7 +53,7 @@ public class AnimaisExtintosModel {
         this.animalType = animalType;
     }
 
-    public int getLiving() {
+    public Integer getLiving() {
         return living;
     }
 
