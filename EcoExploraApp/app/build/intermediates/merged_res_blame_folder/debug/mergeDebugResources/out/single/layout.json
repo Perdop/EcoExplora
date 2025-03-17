@@ -16,6 +16,10 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_home.xml"
     },
     {
+        "merged": "com.example.home.app-mergeDebugResources-54:/layout/activity_plantas.xml",
+        "source": "com.example.home.app-main-57:/layout/activity_plantas.xml"
+    },
+    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-mergeDebugResources-54:/layout/activity_desenvolvedores.xml",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_desenvolvedores.xml"
     },
@@ -36,6 +40,10 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_cadastro.xml"
     },
     {
+        "merged": "com.example.home.app-mergeDebugResources-54:/layout/activity_repteis.xml",
+        "source": "com.example.home.app-main-57:/layout/activity_repteis.xml"
+    },
+    {
         "merged": "com.example.home.app-mergeDebugResources-54:/layout/activity_pag_animais.xml",
         "source": "com.example.home.app-main-57:/layout/activity_pag_animais.xml"
     },
@@ -52,15 +60,23 @@
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_plantas.xml"
     },
     {
+        "merged": "com.example.home.app-mergeDebugResources-54:/layout/activity_peixes.xml",
+        "source": "com.example.home.app-main-57:/layout/activity_peixes.xml"
+    },
+    {
+        "merged": "com.example.home.app-mergeDebugResources-54:/layout/activity_mamiferos.xml",
+        "source": "com.example.home.app-main-57:/layout/activity_mamiferos.xml"
+    },
+    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-mergeDebugResources-54:/layout/activity_login.xml",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_login.xml"
     },
     {
-        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-mergeDebugResources-54:/layout/activity_mamiferos.xml",
-        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_mamiferos.xml"
-    },
-    {
         "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-mergeDebugResources-54:/layout/activity_anfibios.xml",
         "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_anfibios.xml"
+    },
+    {
+        "merged": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-mergeDebugResources-54:/layout/activity_mamiferos.xml",
+        "source": "/home/perdop/.gradle/daemon/8.7/com.example.home.app-main-57:/layout/activity_mamiferos.xml"
     }
 ]

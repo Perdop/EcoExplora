@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#8FBE9E"
-    android:paddingBottom="40dp"
+    android:paddingBottom="100dp"
     tools:context=".Repteis">
 
     <ScrollView
