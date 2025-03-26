@@ -18,5 +18,9 @@ Após o primeiro acesso o tempo de resposta fica rapido.
 - **Front-end:** HTML, CSS, JavaScript
 - **Mobile:** Android Studio (Java/Kotlin)
 
+## Como usar?
+- **Teste online** https://appetize.io/app/b_pq44jjzlwxh3ezqoe4bwygia4a?device=pixel7&osVersion=13.0&toolbar=true (Limitado)
+- **Download** https://appetize.io/app/b_pq44jjzlwxh3ezqoe4bwygia4a?device=pixel7&osVersion=13.0&toolbar=true
+
 ## Licença
 Este projeto está sob a licença MIT.
