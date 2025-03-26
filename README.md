@@ -23,7 +23,7 @@ Após o primeiro acesso o tempo de resposta fica rapido.
 
 ## Como usar?
 - **Teste online** https://appetize.io/app/b_pq44jjzlwxh3ezqoe4bwygia4a?device=pixel7&osVersion=13.0&toolbar=true (Limitado)
-- **Download** https://appetize.io/app/b_pq44jjzlwxh3ezqoe4bwygia4a?device=pixel7&osVersion=13.0&toolbar=true
+- **Download** https://www.mediafire.com/file/o0s9ok36k0sios7/app-debug.apk/file
 
 ## Licença
 Este projeto está sob a licença MIT.
