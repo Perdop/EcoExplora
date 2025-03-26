@@ -2,6 +2,9 @@
 
 Ecoexplora é um aplicativo para monitoramento e aprendizado sobre animais extintos no Rio Grande do Sul. Com ele, usuários podem acessar informações detalhadas sobre espécies, suas características e história, ajudando na conscientização ambiental.
 
+## Site
+https://perdop.github.io/Portfolio/projetos/ecoExplora/ecoExplora.html
+
 # Observações
 O servidor da API está num plano gratuito do render, isso pode gerar alguns atrasos nas respostas.
 Geralmente para iniciar o app a primeira vez, demora cerca de 1 minuto, esse tempo se repete em qualquer primeiro contato com a API.
